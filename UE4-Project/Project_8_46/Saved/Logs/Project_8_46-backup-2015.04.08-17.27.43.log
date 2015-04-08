@@ -1,0 +1,556 @@
+﻿Log file open, 04/08/15 17:15:33
+LogInit:Display: Running engine for game: Project_8_46
+LogInit: Version: 4.7.4-2497108+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar 31 2015 09:40:25
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.08-16.15.33:926][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.08-16.15.33:987][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.08-16.15.34:005][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.08-16.15.34:016][  0]LogInit: Object subsystem initialized
+[2015.04.08-16.15.34:020][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.08-16.15.34:020][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.08-16.15.34:020][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.08-16.15.34:020][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.08-16.15.34:020][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.08-16.15.34:020][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.08-16.15.34:021][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.08-16.15.34:021][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.08-16.15.34:028][  0]LogInit: Computer: AXEL
+[2015.04.08-16.15.34:028][  0]LogInit: User: Axel
+[2015.04.08-16.15.34:028][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.08-16.15.34:028][  0]LogInit: High frequency timer resolution =2.435776 MHz
+[2015.04.08-16.15.34:028][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.04.08-16.15.34:028][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.08-16.15.34:028][  0]LogMemory: Process Physical Memory: 46.17 MB used, 46.17 MB peak
+[2015.04.08-16.15.34:028][  0]LogMemory: Process Virtual Memory: 24.52 MB used, 24.53 MB peak
+[2015.04.08-16.15.34:028][  0]LogMemory: Physical Memory: 4715.41 MB used, 8111.20 MB total
+[2015.04.08-16.15.34:028][  0]LogMemory: Virtual Memory: 286.18 MB used, 134217728.00 MB total
+[2015.04.08-16.15.34:065][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 850M        (Feature Level 11_0)
+[2015.04.08-16.15.34:065][  0]LogD3D11RHI: Adapter has 1972MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.04.08-16.15.34:078][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.04.08-16.15.34:078][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 0 output[s]
+[2015.04.08-16.15.34:079][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.08-16.15.34:079][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.08-16.15.34:079][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.08-16.15.34:091][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.08-16.15.34:101][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.08-16.15.34:176][  0]LogTextLocalizationManager: The requested culture ('fr_FR') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.04.08-16.15.34:295][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.08-16.15.34:295][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.08-16.15.34:420][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.08-16.15.36:943][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.08-16.15.37:708][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.08-16.15.37:779][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.08-16.15.37:859][  0]LogDerivedDataCache: Loaded boot cache 0.08s 39MB C:/Users/Axel/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.08-16.15.37:859][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Axel/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.08-16.15.37:859][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.08-16.15.37:859][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.08-16.15.37:981][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.08-16.15.37:993][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Axel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.08-16.15.38:316][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.08-16.15.38:316][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.08-16.15.38:780][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.08-16.15.38:862][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.08-16.15.39:823][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.08-16.15.40:049][  0]SourceControl: Info Source control is disabled
+[2015.04.08-16.15.40:049][  0]SourceControl: Info Source control is disabled
+[2015.04.08-16.15.40:049][  0]SourceControl: Info Source control is disabled
+[2015.04.08-16.15.40:050][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.08-16.15.40:050][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.08-16.15.40:062][  0]SourceControl: Info Source control is disabled
+[2015.04.08-16.15.40:291][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.08-16.15.40:291][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.04.08-16.15.40:384][  0]LogEngine: Initializing Engine...
+[2015.04.08-16.15.42:578][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.08-16.15.42:590][  0]LogInit: FAudioDevice initialized.
+[2015.04.08-16.15.42:632][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.08-16.15.42:686][  0]LogDerivedDataCache: Saved boot cache 0.05s 39MB C:/Users/Axel/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.08-16.15.42:702][  0]LogInit: Texture streaming: Enabled
+[2015.04.08-16.15.42:816][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.08-16.15.42:816][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.4-2497108+++depot+UE4-Releases+4.7
+[2015.04.08-16.15.42:816][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.4-2497108+++depot+UE4-Releases+4.7
+[2015.04.08-16.15.42:817][  0]LogAnalytics: SetUserId e88c5383477aca45f485feae05ecce95|055f838899cf4f808bea9037a5bce58a|a41b6706-46c7-4e3e-8712-6c4db12eddd9
+[2015.04.08-16.15.42:817][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.08-16.15.42:851][  0]LogInit: Transaction tracking system initialized
+[2015.04.08-16.15.43:065][  0]BlueprintLog: New page: Editor Load
+[2015.04.08-16.15.43:120][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2015.04.08-16.15.43:120][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.08-16.15.43:883][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.08-16.15.44:399][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.08-16.15.44:676][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.04.08-16.15.44:676][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.04.08-16.15.44:676][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2015.04.08-16.15.44:712][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.08-16.15.44:713][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.08-16.15.44:719][  0]LogConsoleResponse:Display: 
+[2015.04.08-16.15.44:869][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.08-16.15.45:039][  0]SourceControl: Info Source control is disabled
+[2015.04.08-16.15.45:040][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.08-16.15.45:040][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.08-16.15.45:040][  0]Cmd: MAP CHECKDEP
+[2015.04.08-16.15.45:040][  0]MapCheck: New page: Untitled_0 - Apr 8, 2015, 6:15:45 PM
+[2015.04.08-16.15.45:106][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.311ms to complete.
+[2015.04.08-16.15.45:106][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.067
+[2015.04.08-16.15.45:271][  0]LogCollectionManager: Loaded 0 collections in 0.003996 seconds
+[2015.04.08-16.15.45:283][  0]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 1696 classes and 261 folders.
+[2015.04.08-16.15.45:327][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2015.04.08-16.15.45:390][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.08-16.15.45:391][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.08-16.15.45:396][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.08-16.15.45:424][  0]LogLoad: Full Startup: 12.32 seconds (BP compile: 0.00 seconds)
+[2015.04.08-16.15.45:774][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/Player'
+[2015.04.08-16.15.45:987][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x560 (Frame:2).
+[2015.04.08-16.15.47:221][  4]LogAssetRegistry: Asset discovery search completed in 4.1124 seconds
+[2015.04.08-16.16.29:640][211]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Level'
+[2015.04.08-16.16.31:232][237]Cmd: MAP LOAD FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/Main_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.08-16.16.31:232][237]LightingResults: New page: Lighting Build
+[2015.04.08-16.16.31:250][237]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0022 seconds. Added 5 classes and 0 folders.
+[2015.04.08-16.16.31:281][237]LoadErrors: New page: Loading map: Main_Level.umap
+[2015.04.08-16.16.31:281][237]MapCheck: New page: Map Check
+[2015.04.08-16.16.31:281][237]LightingResults: New page: Lighting Build
+[2015.04.08-16.16.31:295][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000497B52980
+[2015.04.08-16.16.31:300][237]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.08-16.16.31:306][237]LogAIModule: Creating AISystem for world Main_Level
+[2015.04.08-16.16.31:345][237]Cmd: MAP CHECKDEP
+[2015.04.08-16.16.31:345][237]MapCheck: New page: Main_Level - Apr 8, 2015, 6:16:31 PM
+[2015.04.08-16.16.31:426][237]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.287ms to complete.
+[2015.04.08-16.16.31:427][237]LogFileHelpers: Loading map 'Main_Level' took 0.197
+[2015.04.08-16.16.34:322][369]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/GameState'
+[2015.04.08-16.16.34:822][391]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/Player'
+[2015.04.08-16.16.42:840][794]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.16.42:840][794]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/ThirdPersonSkelMesh.uasset.
+[2015.04.08-16.16.42:840][794]LoadErrors:Error: Error /Game/Character/UE_Model/ThirdPersonSkelMesh : Can't find file for asset. /Game/ThirdPersonBP/Character/ThirdPersonSkeleton
+[2015.04.08-16.16.42:840][794]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.16.42:840][794]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/ThirdPersonSkelMesh.uasset.
+[2015.04.08-16.16.43:056][794]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.16.43:057][794]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Character/ThirdPersonSkeleton.ThirdPersonSkeleton Referenced by ThirdPersonSkelMesh
+[2015.04.08-16.16.43:057][794]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading NULL.
+[2015.04.08-16.16.43:375][794]LogMetaData: Removing '/Game/Scripts/Player/Player_BP.Player_BP_C' ref from Metadata '/Game/Scripts/Player/ThirdPersonCharacter.PackageMetaData'
+[2015.04.08-16.16.43:375][794]LogMetaData: Removing '/Game/Scripts/Player/Player_BP.SKEL_Player_BP_C' ref from Metadata '/Game/Scripts/Player/ThirdPersonCharacter.PackageMetaData'
+[2015.04.08-16.16.43:519][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripts/Player/Player_BP" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/Player_BP.uasset" SILENT=true
+[2015.04.08-16.16.43:922][794]LogSavePackage: Save=399.472290ms
+[2015.04.08-16.16.43:922][794]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Player_BP5724F38747537497AC2A399FA4834C0E.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/Player_BP.uasset'
+[2015.04.08-16.16.43:989][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.08-16.16.44:718][820]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.08-16.16.50:637][  8]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.04.08-16.16.53:909][171]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.04.08-16.16.54:892][221]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Level'
+[2015.04.08-16.16.55:525][254]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.04.08-16.16.56:427][302]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/UE_Model'
+[2015.04.08-16.17.09:595][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonJump_End'
+[2015.04.08-16.17.09:596][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonJump_End' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/ThirdPersonAnimBlueprint.uasset.
+[2015.04.08-16.17.09:596][934]LoadErrors:Error: Error /Game/Character/UE_Model/ThirdPersonAnimBlueprint : Can't find file for asset. /Game/ThirdPersonBP/Animations/ThirdPersonJump_End
+[2015.04.08-16.17.09:596][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Loop'
+[2015.04.08-16.17.09:597][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Loop' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/ThirdPersonAnimBlueprint.uasset.
+[2015.04.08-16.17.09:597][934]LoadErrors:Error: Error /Game/Character/UE_Model/ThirdPersonAnimBlueprint : Can't find file for asset. /Game/ThirdPersonBP/Animations/ThirdPersonJump_Loop
+[2015.04.08-16.17.09:597][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Start'
+[2015.04.08-16.17.09:597][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Start' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/ThirdPersonAnimBlueprint.uasset.
+[2015.04.08-16.17.09:598][934]LoadErrors:Error: Error /Game/Character/UE_Model/ThirdPersonAnimBlueprint : Can't find file for asset. /Game/ThirdPersonBP/Animations/ThirdPersonJump_Start
+[2015.04.08-16.17.09:598][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonIdleRun'
+[2015.04.08-16.17.09:598][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonIdleRun' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/ThirdPersonAnimBlueprint.uasset.
+[2015.04.08-16.17.09:599][934]LoadErrors:Error: Error /Game/Character/UE_Model/ThirdPersonAnimBlueprint : Can't find file for asset. /Game/ThirdPersonBP/Character/ThirdPersonIdleRun
+[2015.04.08-16.17.09:606][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonJump_End'
+[2015.04.08-16.17.09:607][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonJump_End' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/ThirdPersonAnimBlueprint.uasset.
+[2015.04.08-16.17.09:608][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Loop'
+[2015.04.08-16.17.09:608][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Loop' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/ThirdPersonAnimBlueprint.uasset.
+[2015.04.08-16.17.09:609][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Start'
+[2015.04.08-16.17.09:609][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Start' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/ThirdPersonAnimBlueprint.uasset.
+[2015.04.08-16.17.09:610][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonIdleRun'
+[2015.04.08-16.17.09:610][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonIdleRun' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/ThirdPersonAnimBlueprint.uasset.
+[2015.04.08-16.17.09:610][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.17.09:610][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/ThirdPersonAnimBlueprint.uasset.
+[2015.04.08-16.17.09:610][934]LoadErrors:Error: Error /Game/Character/UE_Model/ThirdPersonAnimBlueprint : Can't find file for asset. /Game/ThirdPersonBP/Character/ThirdPersonSkeleton
+[2015.04.08-16.17.09:612][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.17.09:612][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/ThirdPersonAnimBlueprint.uasset.
+[2015.04.08-16.17.09:615][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.17.09:615][934]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Character/ThirdPersonSkeleton.ThirdPersonSkeleton Referenced by ThirdPersonAnimBlueprint_C
+[2015.04.08-16.17.09:615][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading NULL.
+[2015.04.08-16.17.09:617][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonJump_End'
+[2015.04.08-16.17.09:617][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonJump_End' while loading NULL.
+[2015.04.08-16.17.09:618][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Loop'
+[2015.04.08-16.17.09:618][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Loop' while loading NULL.
+[2015.04.08-16.17.09:618][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Start'
+[2015.04.08-16.17.09:618][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Start' while loading NULL.
+[2015.04.08-16.17.09:619][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonIdleRun'
+[2015.04.08-16.17.09:619][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonIdleRun' while loading NULL.
+[2015.04.08-16.17.09:619][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonJump_End'
+[2015.04.08-16.17.09:619][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonJump_End' while loading NULL.
+[2015.04.08-16.17.09:619][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Loop'
+[2015.04.08-16.17.09:620][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Loop' while loading NULL.
+[2015.04.08-16.17.09:620][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Start'
+[2015.04.08-16.17.09:620][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Start' while loading NULL.
+[2015.04.08-16.17.09:620][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonIdleRun'
+[2015.04.08-16.17.09:620][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonIdleRun' while loading NULL.
+[2015.04.08-16.17.09:620][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.17.09:621][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading NULL.
+[2015.04.08-16.17.09:621][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.17.09:621][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading NULL.
+[2015.04.08-16.17.09:621][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonJump_End'
+[2015.04.08-16.17.09:621][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonJump_End' while loading NULL.
+[2015.04.08-16.17.09:621][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Loop'
+[2015.04.08-16.17.09:622][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Loop' while loading NULL.
+[2015.04.08-16.17.09:622][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Start'
+[2015.04.08-16.17.09:622][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Start' while loading NULL.
+[2015.04.08-16.17.09:622][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonIdleRun'
+[2015.04.08-16.17.09:623][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonIdleRun' while loading NULL.
+[2015.04.08-16.17.09:623][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.17.09:623][934]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Character/ThirdPersonSkeleton.ThirdPersonSkeleton Referenced by ThirdPersonAnimBlueprint
+[2015.04.08-16.17.09:623][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading NULL.
+[2015.04.08-16.17.09:634][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonIdleRun'
+[2015.04.08-16.17.09:634][934]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Character/ThirdPersonIdleRun.ThirdPersonIdleRun Referenced by AnimGraphNode_BlendSpacePlayer_9
+[2015.04.08-16.17.09:634][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonIdleRun' while loading NULL.
+[2015.04.08-16.17.09:636][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Start'
+[2015.04.08-16.17.09:636][934]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start Referenced by AnimGraphNode_SequencePlayer_34
+[2015.04.08-16.17.09:636][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Start' while loading NULL.
+[2015.04.08-16.17.09:637][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Loop'
+[2015.04.08-16.17.09:637][934]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Animations/ThirdPersonJump_Loop.ThirdPersonJump_Loop Referenced by AnimGraphNode_SequencePlayer_40
+[2015.04.08-16.17.09:637][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonJump_Loop' while loading NULL.
+[2015.04.08-16.17.09:639][934]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonJump_End'
+[2015.04.08-16.17.09:639][934]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Animations/ThirdPersonJump_End.ThirdPersonJump_End Referenced by AnimGraphNode_SequencePlayer_46
+[2015.04.08-16.17.09:640][934]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonJump_End' while loading NULL.
+[2015.04.08-16.17.09:768][934]LogBlueprint:Error: [compiler] Error  Blendspace Player '(None)'  references an unknown blend space
+[2015.04.08-16.17.09:768][934]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.04.08-16.17.09:769][934]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.04.08-16.17.09:769][934]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.04.08-16.17.09:773][934]LogBlueprint:Error: [compiler] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.04.08-16.17.09:782][934]LogBlueprint:Error: [compiler] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.04.08-16.17.09:833][934]LogBlueprint:Warning: [compiler] Warning [0096.73] Compile of ThirdPersonAnimBlueprint failed. 6 Fatal Issue(s) 0 Warning(s) [in 109 ms]
+[2015.04.08-16.17.09:833][934]LogBlueprint:Warning: [compiler] Warning [0096.73] Compile of ThirdPersonAnimBlueprint failed. 6 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.04.08-16.17.09:833][934]LogBlueprint:Warning: [compiler] Warning [0096.73] Compile of ThirdPersonAnimBlueprint failed. 6 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.04.08-16.17.09:833][934]LogBlueprint:Warning: [compiler] Warning [0096.73] Compile of ThirdPersonAnimBlueprint failed. 6 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.04.08-16.17.10:054][934]LogBlueprint:Error: [compiler] Error  Blendspace Player '(None)'  references an unknown blend space
+[2015.04.08-16.17.10:055][934]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.04.08-16.17.10:055][934]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.04.08-16.17.10:055][934]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.04.08-16.17.10:060][934]LogBlueprint:Error: [compiler] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.04.08-16.17.10:065][934]LogBlueprint:Error: [compiler] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.04.08-16.17.10:187][934]LogBlueprint:Warning: [compiler] Warning [0097.09] Compile of CharacterAnim_BP failed. 6 Fatal Issue(s) 0 Warning(s) [in 188 ms]
+[2015.04.08-16.17.10:187][934]LogBlueprint:Warning: [compiler] Warning [0097.09] Compile of CharacterAnim_BP failed. 6 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.04.08-16.17.10:187][934]LogBlueprint:Warning: [compiler] Warning [0097.09] Compile of CharacterAnim_BP failed. 6 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.04.08-16.17.10:187][934]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.08-16.17.10:223][934]LogBlueprint:Warning: [compiler] Warning [0097.12] Compile of CharacterAnim_BP failed. 6 Fatal Issue(s) 3 Warning(s) [in 35 ms]
+[2015.04.08-16.17.10:235][934]LogBlueprint:Warning: [compiler] Warning [0097.13] Compile of CharacterAnim_BP failed. 6 Fatal Issue(s) 4 Warning(s) [in 11 ms]
+[2015.04.08-16.17.10:235][934]LogBlueprint:Warning: [compiler] Warning [0097.13] Compile of CharacterAnim_BP failed. 6 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.04.08-16.17.10:235][934]LogBlueprint:Warning: [compiler] Warning [0097.13] Compile of CharacterAnim_BP failed. 6 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2015.04.08-16.17.10:235][934]LogMetaData: Removing '/Game/Character/UE_Model/CharacterAnim_BP.CharacterAnim_BP_C' ref from Metadata '/Game/Character/UE_Model/ThirdPersonAnimBlueprint.PackageMetaData'
+[2015.04.08-16.17.10:235][934]LogMetaData: Removing '/Game/Character/UE_Model/CharacterAnim_BP.SKEL_CharacterAnim_BP_C' ref from Metadata '/Game/Character/UE_Model/ThirdPersonAnimBlueprint.PackageMetaData'
+[2015.04.08-16.17.10:453][934]LogSavePackage: Save=85.892136ms
+[2015.04.08-16.17.10:453][934]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/CharacterAnim_BP3D0BD0C445B754634E7FCA83F68E2B85.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/CharacterAnim_BP.uasset'
+[2015.04.08-16.17.21:351][158]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonIdle'
+[2015.04.08-16.17.21:352][158]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonIdle' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/ThirdPersonIdleRun.uasset.
+[2015.04.08-16.17.21:352][158]LoadErrors:Error: Error /Game/Character/UE_Model/ThirdPersonIdleRun : Can't find file for asset. /Game/ThirdPersonBP/Animations/ThirdPersonIdle
+[2015.04.08-16.17.21:352][158]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonRun'
+[2015.04.08-16.17.21:352][158]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonRun' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/ThirdPersonIdleRun.uasset.
+[2015.04.08-16.17.21:352][158]LoadErrors:Error: Error /Game/Character/UE_Model/ThirdPersonIdleRun : Can't find file for asset. /Game/ThirdPersonBP/Animations/ThirdPersonRun
+[2015.04.08-16.17.21:353][158]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonWalk'
+[2015.04.08-16.17.21:353][158]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonWalk' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/ThirdPersonIdleRun.uasset.
+[2015.04.08-16.17.21:353][158]LoadErrors:Error: Error /Game/Character/UE_Model/ThirdPersonIdleRun : Can't find file for asset. /Game/ThirdPersonBP/Animations/ThirdPersonWalk
+[2015.04.08-16.17.21:353][158]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonIdle'
+[2015.04.08-16.17.21:354][158]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonIdle' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/ThirdPersonIdleRun.uasset.
+[2015.04.08-16.17.21:354][158]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonRun'
+[2015.04.08-16.17.21:354][158]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonRun' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/ThirdPersonIdleRun.uasset.
+[2015.04.08-16.17.21:354][158]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonWalk'
+[2015.04.08-16.17.21:354][158]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonWalk' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/ThirdPersonIdleRun.uasset.
+[2015.04.08-16.17.21:355][158]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.17.21:355][158]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/ThirdPersonIdleRun.uasset.
+[2015.04.08-16.17.21:355][158]LoadErrors:Error: Error /Game/Character/UE_Model/ThirdPersonIdleRun : Can't find file for asset. /Game/ThirdPersonBP/Character/ThirdPersonSkeleton
+[2015.04.08-16.17.21:356][158]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.17.21:356][158]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/ThirdPersonIdleRun.uasset.
+[2015.04.08-16.17.21:357][158]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonIdle'
+[2015.04.08-16.17.21:357][158]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Animations/ThirdPersonIdle.ThirdPersonIdle Referenced by ThirdPersonIdleRun
+[2015.04.08-16.17.21:357][158]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonIdle' while loading NULL.
+[2015.04.08-16.17.21:358][158]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonWalk'
+[2015.04.08-16.17.21:358][158]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Animations/ThirdPersonWalk.ThirdPersonWalk Referenced by ThirdPersonIdleRun
+[2015.04.08-16.17.21:358][158]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonWalk' while loading NULL.
+[2015.04.08-16.17.21:358][158]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Animations/ThirdPersonRun'
+[2015.04.08-16.17.21:358][158]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Animations/ThirdPersonRun.ThirdPersonRun Referenced by ThirdPersonIdleRun
+[2015.04.08-16.17.21:359][158]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Animations/ThirdPersonRun' while loading NULL.
+[2015.04.08-16.17.21:359][158]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.17.21:359][158]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Character/ThirdPersonSkeleton.ThirdPersonSkeleton Referenced by ThirdPersonIdleRun
+[2015.04.08-16.17.21:359][158]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading NULL.
+[2015.04.08-16.17.30:823][547]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.08-16.17.31:123][547]LogSavePackage: Save=8.352574ms
+[2015.04.08-16.17.31:123][547]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Character_Skeleton8C440A3642B16E54F02BF195020611C0.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Character_Skeleton.uasset'
+[2015.04.08-16.17.38:330][827]LogSavePackage: Save=368.453003ms
+[2015.04.08-16.17.38:330][827]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Character_MeshB98875F147C8301994E5228A8327E78D.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Character_Mesh.uasset'
+[2015.04.08-16.17.38:709][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripts/Player/Player_BP" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/Player_BP.uasset" SILENT=true
+[2015.04.08-16.17.38:811][827]LogSavePackage: Save=90.728378ms
+[2015.04.08-16.17.38:811][827]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Player_BP2E2169C949010CC192E2D28992FB567B.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/Player_BP.uasset'
+[2015.04.08-16.17.49:436][282]LogSavePackage: Save=14.568664ms
+[2015.04.08-16.17.49:436][282]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Character_IdleRun45F47F1E4085D10EB74F4C9C0FF7A1C3.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Character_IdleRun.uasset'
+[2015.04.08-16.17.57:626][603]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/UE_Model'
+[2015.04.08-16.18.04:194][877]LogSavePackage: Save=10.629056ms
+[2015.04.08-16.18.04:194][877]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Character_IdleRun912CC9D641015FB1D27F429DC4F181CD.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Bend/Character_IdleRun.uasset'
+[2015.04.08-16.18.14:918][311]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkelMesh'
+[2015.04.08-16.18.14:918][311]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkelMesh'
+[2015.04.08-16.18.14:919][311]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/ThirdPersonBP/Character/ThirdPersonSkelMesh.ThirdPersonSkelMesh'
+[2015.04.08-16.18.15:753][348]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkelMesh'
+[2015.04.08-16.18.15:754][348]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkelMesh'
+[2015.04.08-16.18.15:754][348]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/ThirdPersonBP/Character/ThirdPersonSkelMesh.ThirdPersonSkelMesh'
+[2015.04.08-16.18.32:541][894]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkelMesh'
+[2015.04.08-16.18.32:542][894]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkelMesh'
+[2015.04.08-16.18.32:542][894]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/ThirdPersonBP/Character/ThirdPersonSkelMesh.ThirdPersonSkelMesh'
+[2015.04.08-16.18.36:814][ 82]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkelMesh'
+[2015.04.08-16.18.36:815][ 82]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkelMesh'
+[2015.04.08-16.18.36:815][ 82]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/ThirdPersonBP/Character/ThirdPersonSkelMesh.ThirdPersonSkelMesh'
+[2015.04.08-16.18.51:922][666]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkelMesh'
+[2015.04.08-16.18.51:922][666]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkelMesh'
+[2015.04.08-16.18.51:922][666]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/ThirdPersonBP/Character/ThirdPersonSkelMesh.ThirdPersonSkelMesh'
+[2015.04.08-16.18.52:971][715]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkelMesh'
+[2015.04.08-16.18.52:972][715]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkelMesh'
+[2015.04.08-16.18.52:972][715]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/ThirdPersonBP/Character/ThirdPersonSkelMesh.ThirdPersonSkelMesh'
+[2015.04.08-16.19.06:275][274]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkelMesh'
+[2015.04.08-16.19.06:275][274]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkelMesh'
+[2015.04.08-16.19.06:275][274]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/ThirdPersonBP/Character/ThirdPersonSkelMesh.ThirdPersonSkelMesh'
+[2015.04.08-16.19.15:287][653]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2015.04.08-16.19.19:561][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000004A3F4DBC0
+[2015.04.08-16.19.19:563][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000004937A3560
+[2015.04.08-16.19.19:564][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000004937A0CC0
+[2015.04.08-16.19.19:564][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000049375B6A0
+[2015.04.08-16.19.19:564][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000049375B4C0
+[2015.04.08-16.19.19:564][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000049DE05B20
+[2015.04.08-16.19.19:564][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000049DE07E20
+[2015.04.08-16.19.19:565][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000004937A3240
+[2015.04.08-16.19.19:565][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000004937A1440
+[2015.04.08-16.19.19:565][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000004A3F4EF20
+[2015.04.08-16.19.19:565][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000049DE52B60
+[2015.04.08-16.19.19:566][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000049DE52480
+[2015.04.08-16.19.19:717][698]LogSavePackage: Save=17.296335ms
+[2015.04.08-16.19.19:717][698]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Character_MeshB51A4AAD486D28B1BE202BB1C136DFBF.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Character_Mesh.uasset'
+[2015.04.08-16.19.27:787][ 62]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkelMesh'
+[2015.04.08-16.19.27:788][ 62]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkelMesh'
+[2015.04.08-16.19.27:788][ 62]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/ThirdPersonBP/Character/ThirdPersonSkelMesh.ThirdPersonSkelMesh'
+[2015.04.08-16.19.28:527][ 93]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkelMesh'
+[2015.04.08-16.19.28:528][ 93]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkelMesh'
+[2015.04.08-16.19.28:528][ 93]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/ThirdPersonBP/Character/ThirdPersonSkelMesh.ThirdPersonSkelMesh'
+[2015.04.08-16.19.28:658][ 93]LogBlueprint:Error: [compiler] Error  Blendspace Player '(None)'  references an unknown blend space
+[2015.04.08-16.19.28:658][ 93]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.04.08-16.19.28:659][ 93]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.04.08-16.19.28:659][ 93]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.04.08-16.19.28:663][ 93]LogBlueprint:Error: [compiler] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.04.08-16.19.28:668][ 93]LogBlueprint:Error: [compiler] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.04.08-16.19.28:812][ 93]LogBlueprint:Warning: [compiler] Warning [0235.71] Compile of CharacterAnim_BP failed. 6 Fatal Issue(s) 0 Warning(s) [in 199 ms]
+[2015.04.08-16.19.28:812][ 93]LogBlueprint:Warning: [compiler] Warning [0235.71] Compile of CharacterAnim_BP failed. 6 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.04.08-16.19.28:812][ 93]LogBlueprint:Warning: [compiler] Warning [0235.71] Compile of CharacterAnim_BP failed. 6 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.04.08-16.19.28:822][ 93]LogBlueprint:Warning: [compiler] Warning [0235.72] Compile of CharacterAnim_BP failed. 6 Fatal Issue(s) 3 Warning(s) [in 8 ms]
+[2015.04.08-16.19.28:823][ 93]LogBlueprint:Warning: [compiler] Warning [0235.72] Compile of CharacterAnim_BP failed. 6 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.04.08-16.19.28:823][ 93]LogBlueprint:Warning: [compiler] Warning [0235.72] Compile of CharacterAnim_BP failed. 6 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.04.08-16.19.30:107][139]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000004A7EB4180
+[2015.04.08-16.19.30:116][139]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000004A7EB5D00
+[2015.04.08-16.19.30:692][139]LogSavePackage: Save=448.114288ms
+[2015.04.08-16.19.30:692][139]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/CharacterAnim_BPD1A80A96431C0A6ECBEF80BCDAE11B8A.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/CharacterAnim_BP.uasset'
+[2015.04.08-16.19.32:528][177]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.08-16.19.41:760][585]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/UE_Model/Animations'
+[2015.04.08-16.19.43:895][678]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/UE_Model'
+[2015.04.08-16.19.46:470][782]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/UE_Model/Animations'
+[2015.04.08-16.19.59:534][186]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.19.59:535][186]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Animations/ThirdPersonWalk.uasset.
+[2015.04.08-16.19.59:535][186]LoadErrors:Error: Error /Game/Character/UE_Model/Animations/ThirdPersonWalk : Can't find file for asset. /Game/ThirdPersonBP/Character/ThirdPersonSkeleton
+[2015.04.08-16.19.59:535][186]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.19.59:535][186]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Animations/ThirdPersonWalk.uasset.
+[2015.04.08-16.19.59:536][186]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.19.59:536][186]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Character/ThirdPersonSkeleton.ThirdPersonSkeleton Referenced by ThirdPersonWalk
+[2015.04.08-16.19.59:536][186]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading NULL.
+[2015.04.08-16.20.11:630][580]LogRenderer:Warning: Reallocating scene render targets to support 1208x920 (Frame:15159).
+[2015.04.08-16.20.38:423][833]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000004B0A7DE40
+[2015.04.08-16.20.38:424][833]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000004ADA82480
+[2015.04.08-16.20.38:625][833]LogSavePackage: Save=93.043449ms
+[2015.04.08-16.20.38:625][833]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/CharacterAnim_BP7AC28B0D47E7A1B3F9BE238EDAB5F948.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/CharacterAnim_BP.uasset'
+[2015.04.08-16.21.36:739][607]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.21.36:739][607]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Animations/ThirdPersonRun.uasset.
+[2015.04.08-16.21.36:739][607]LoadErrors:Error: Error /Game/Character/UE_Model/Animations/ThirdPersonRun : Can't find file for asset. /Game/ThirdPersonBP/Character/ThirdPersonSkeleton
+[2015.04.08-16.21.36:740][607]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.21.36:740][607]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Animations/ThirdPersonRun.uasset.
+[2015.04.08-16.21.36:741][607]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.21.36:741][607]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Character/ThirdPersonSkeleton.ThirdPersonSkeleton Referenced by ThirdPersonRun
+[2015.04.08-16.21.36:742][607]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading NULL.
+[2015.04.08-16.21.36:766][607]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.21.36:766][607]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Animations/ThirdPersonIdle.uasset.
+[2015.04.08-16.21.36:767][607]LoadErrors:Error: Error /Game/Character/UE_Model/Animations/ThirdPersonIdle : Can't find file for asset. /Game/ThirdPersonBP/Character/ThirdPersonSkeleton
+[2015.04.08-16.21.36:768][607]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.21.36:768][607]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Animations/ThirdPersonIdle.uasset.
+[2015.04.08-16.21.36:769][607]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.21.36:769][607]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Character/ThirdPersonSkeleton.ThirdPersonSkeleton Referenced by ThirdPersonIdle
+[2015.04.08-16.21.36:769][607]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading NULL.
+[2015.04.08-16.21.36:784][607]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.21.36:784][607]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Animations/ThirdPersonJump_End.uasset.
+[2015.04.08-16.21.36:784][607]LoadErrors:Error: Error /Game/Character/UE_Model/Animations/ThirdPersonJump_End : Can't find file for asset. /Game/ThirdPersonBP/Character/ThirdPersonSkeleton
+[2015.04.08-16.21.36:785][607]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.21.36:785][607]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Animations/ThirdPersonJump_End.uasset.
+[2015.04.08-16.21.36:785][607]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.21.36:786][607]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Character/ThirdPersonSkeleton.ThirdPersonSkeleton Referenced by ThirdPersonJump_End
+[2015.04.08-16.21.36:786][607]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading NULL.
+[2015.04.08-16.21.36:790][607]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.21.36:790][607]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Animations/ThirdPersonJump_Loop.uasset.
+[2015.04.08-16.21.36:790][607]LoadErrors:Error: Error /Game/Character/UE_Model/Animations/ThirdPersonJump_Loop : Can't find file for asset. /Game/ThirdPersonBP/Character/ThirdPersonSkeleton
+[2015.04.08-16.21.36:791][607]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.21.36:791][607]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Animations/ThirdPersonJump_Loop.uasset.
+[2015.04.08-16.21.36:792][607]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.21.36:792][607]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Character/ThirdPersonSkeleton.ThirdPersonSkeleton Referenced by ThirdPersonJump_Loop
+[2015.04.08-16.21.36:792][607]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading NULL.
+[2015.04.08-16.21.36:796][607]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.21.36:796][607]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Animations/ThirdPersonJump_Start.uasset.
+[2015.04.08-16.21.36:796][607]LoadErrors:Error: Error /Game/Character/UE_Model/Animations/ThirdPersonJump_Start : Can't find file for asset. /Game/ThirdPersonBP/Character/ThirdPersonSkeleton
+[2015.04.08-16.21.36:796][607]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.21.36:797][607]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Animations/ThirdPersonJump_Start.uasset.
+[2015.04.08-16.21.36:799][607]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton'
+[2015.04.08-16.21.36:799][607]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Character/ThirdPersonSkeleton.ThirdPersonSkeleton Referenced by ThirdPersonJump_Start
+[2015.04.08-16.21.36:799][607]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Character/ThirdPersonSkeleton' while loading NULL.
+[2015.04.08-16.21.43:919][854]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000004ADE7DE40
+[2015.04.08-16.21.43:920][854]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000004ADE7D620
+[2015.04.08-16.21.43:920][854]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000490D50CC0
+[2015.04.08-16.21.43:938][854]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000490D51940
+[2015.04.08-16.21.44:423][854]LogSavePackage: Save=354.134369ms
+[2015.04.08-16.21.44:423][854]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/ThirdPersonWalk1DF7827742B1E6F4334568836F998F8A.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Animations/ThirdPersonWalk.uasset'
+[2015.04.08-16.21.44:827][854]LogSavePackage: Save=346.873016ms
+[2015.04.08-16.21.44:827][854]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/ThirdPersonRunCAF7FC394FF146B8F7AB65B46794E171.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Animations/ThirdPersonRun.uasset'
+[2015.04.08-16.21.45:225][854]LogSavePackage: Save=345.170502ms
+[2015.04.08-16.21.45:225][854]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/ThirdPersonIdleBD68D2BF4F9526C20F20C9AD9924018B.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Animations/ThirdPersonIdle.uasset'
+[2015.04.08-16.21.45:663][854]LogSavePackage: Save=343.207245ms
+[2015.04.08-16.21.45:663][854]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/ThirdPersonJump_EndFD77972B43AF897F5C1F7FB266A6955B.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Animations/ThirdPersonJump_End.uasset'
+[2015.04.08-16.21.46:073][854]LogSavePackage: Save=354.640167ms
+[2015.04.08-16.21.46:073][854]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/ThirdPersonJump_Loop115C37404F325A96CD8A1A83F47CA733.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Animations/ThirdPersonJump_Loop.uasset'
+[2015.04.08-16.21.46:477][854]LogSavePackage: Save=353.529633ms
+[2015.04.08-16.21.46:477][854]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/ThirdPersonJump_Start68FA939B433714AB2AAB20A0162DA392.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Animations/ThirdPersonJump_Start.uasset'
+[2015.04.08-16.21.47:215][881]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/UE_Model'
+[2015.04.08-16.22.03:434][525]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/UE_Model/Animations'
+[2015.04.08-16.22.09:543][720]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/UE_Model'
+[2015.04.08-16.22.10:120][736]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/UE_Model/Bend'
+[2015.04.08-16.22.16:151][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000004B2699300
+[2015.04.08-16.22.16:153][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000004B269A160
+[2015.04.08-16.22.16:616][900]LogSavePackage: Save=324.527374ms
+[2015.04.08-16.22.16:616][900]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Character_IdleRunF49F56194B045E376B87D189352EF453.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/Bend/Character_IdleRun.uasset'
+[2015.04.08-16.22.27:057][246]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/UE_Model'
+[2015.04.08-16.23.10:837][747]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/UE_Model/Animations'
+[2015.04.08-16.23.46:334][828]LogSavePackage: Save=438.480804ms
+[2015.04.08-16.23.46:334][828]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/CharacterAnim_BP57CBA71A4C21C6AEB0FE3DBAC6E7DD53.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/CharacterAnim_BP.uasset'
+[2015.04.08-16.23.47:087][865]BlueprintLog: New page: Compile CharacterAnim_BP
+[2015.04.08-16.23.47:130][865]LogBlueprint:Error: [compiler] Error  Blendspace Player '(None)'  references an unknown blend space
+[2015.04.08-16.23.47:130][865]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.04.08-16.23.47:131][865]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.04.08-16.23.47:132][865]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.04.08-16.23.47:136][865]LogBlueprint:Error: [compiler] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.04.08-16.23.47:140][865]LogBlueprint:Error: [compiler] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.04.08-16.23.47:320][865]LogBlueprint:Warning: [compiler] Warning [0494.22] Compile of CharacterAnim_BP failed. 6 Fatal Issue(s) 0 Warning(s) [in 233 ms]
+[2015.04.08-16.23.47:320][865]BlueprintEditorCompileResults:Error: Error  Blendspace Player '(None)'  references an unknown blend space
+[2015.04.08-16.23.47:320][865]BlueprintEditorCompileResults:Error: Error  Play (None)  references an unknown sequence
+[2015.04.08-16.23.47:320][865]BlueprintEditorCompileResults:Error: Error  Play (None)  references an unknown sequence
+[2015.04.08-16.23.47:320][865]BlueprintEditorCompileResults:Error: Error  Play (None)  references an unknown sequence
+[2015.04.08-16.23.47:320][865]BlueprintEditorCompileResults:Error: Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.04.08-16.23.47:320][865]BlueprintEditorCompileResults:Error: Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.04.08-16.23.47:320][865]BlueprintEditorCompileResults:Warning: Warning [0494.22] Compile of CharacterAnim_BP failed. 6 Fatal Issue(s) 0 Warning(s) [in 233 ms]
+[2015.04.08-16.24.11:810][966]LogSavePackage: Save=480.343018ms
+[2015.04.08-16.24.11:810][966]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/CharacterAnim_BP245D090248DB4740D13B81B8E3A184FE.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/CharacterAnim_BP.uasset'
+[2015.04.08-16.24.43:405][134]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/UE_Model'
+[2015.04.08-16.24.45:116][188]BlueprintLog: New page: Compile CharacterAnim_BP
+[2015.04.08-16.24.45:186][188]LogBlueprint:Error: [compiler] Error  Blendspace Player '(None)'  references an unknown blend space
+[2015.04.08-16.24.45:187][188]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.04.08-16.24.45:187][188]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.04.08-16.24.45:191][188]LogBlueprint:Error: [compiler] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.04.08-16.24.45:202][188]LogBlueprint:Error: [compiler] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.04.08-16.24.45:422][188]LogBlueprint:Warning: [compiler] Warning [0552.32] Compile of CharacterAnim_BP failed. 5 Fatal Issue(s) 0 Warning(s) [in 305 ms]
+[2015.04.08-16.24.45:423][188]BlueprintEditorCompileResults:Error: Error  Blendspace Player '(None)'  references an unknown blend space
+[2015.04.08-16.24.45:423][188]BlueprintEditorCompileResults:Error: Error  Play (None)  references an unknown sequence
+[2015.04.08-16.24.45:423][188]BlueprintEditorCompileResults:Error: Error  Play (None)  references an unknown sequence
+[2015.04.08-16.24.45:423][188]BlueprintEditorCompileResults:Error: Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.04.08-16.24.45:423][188]BlueprintEditorCompileResults:Error: Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.04.08-16.24.45:423][188]BlueprintEditorCompileResults:Warning: Warning [0552.32] Compile of CharacterAnim_BP failed. 5 Fatal Issue(s) 0 Warning(s) [in 305 ms]
+[2015.04.08-16.24.47:391][245]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.08-16.24.47:391][245]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/UE_Model'
+[2015.04.08-16.25.01:630][678]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.04.08-16.26.54:188][193]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: TotalSum > ZERO_ANIMWEIGHT_THRESH [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.7\Engine\Source\Runtime\Engine\Private\Animation\BlendSpaceBase.cpp] [Line: 792]
+
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() (0x00007ffd58db9ed6) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:174]
+UE4Editor-Core.dll!FDebug::EnsureFailed() (0x00007ffd58c22ffd) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:279]
+UE4Editor-Engine.dll!UBlendSpaceBase::NormalizeSampleDataWeight() (0x00007ffd46e0913d) + 68 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\animation\blendspacebase.cpp:792]
+UE4Editor-Engine.dll!UBlendSpaceBase::TickAssetPlayerInstance() (0x00007ffd46e1a64a) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\animation\blendspacebase.cpp:172]
+UE4Editor-Engine.dll!UAnimInstance::UpdateAnimation() (0x00007ffd46d6813a) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\animation\animinstance.cpp:441]
+UE4Editor-Engine.dll!USkeletalMeshComponent::TickAnimation() (0x00007ffd469a132c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\skeletalmeshcomponent.cpp:459]
+UE4Editor-Engine.dll!USkeletalMeshComponent::TickPose() (0x00007ffd469a194e) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\skeletalmeshcomponent.cpp:559]
+UE4Editor-Engine.dll!USkinnedMeshComponent::TickComponent() (0x00007ffd46a8c200) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\skinnedmeshcomponent.cpp:279]
+UE4Editor-Engine.dll!USkeletalMeshComponent::TickComponent() (0x00007ffd469a191e) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\skeletalmeshcomponent.cpp:567]
+UE4Editor-Engine.dll!UActorComponent::ConditionalTickComponent() (0x00007ffd4634ae67) + 22 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\actorcomponent.cpp:1042]
+UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTick() (0x00007ffd46372179) + 20 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\actorcomponent.cpp:602]
+UE4Editor-Engine.dll!FTickTaskSequencer::FTickFunctionTask::DoTask() (0x00007ffd46b26cd6) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\ticktaskmanager.cpp:322]
+UE4Editor-Engine.dll!TGraphTask<FTickTaskSequencer::FTickFunctionTask>::ExecuteTask() (0x00007ffd46b32e7d) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\async\taskgraphinterfaces.h:671]
+UE4Editor-Core.dll!FTaskThread::ProcessTasks() (0x00007ffd58b54fa5) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\async\taskgraph.cpp:428]
+UE4Editor-Core.dll!FTaskThread::ProcessTasksUntilQuit() (0x00007ffd58b5518d) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\async\taskgraph.cpp:271]
+UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() (0x00007ffd58b764ff) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\async\taskgraph.cpp:984]
+UE4Editor-Engine.dll!FTaskGraphInterface::WaitUntilTaskCompletes() (0x00007ffd46b6a11f) + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\async\taskgraphinterfaces.h:188]
+UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() (0x00007ffd46b577d0) + 190 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\ticktaskmanager.cpp:187]
+UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() (0x00007ffd46b5a53e) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\ticktaskmanager.cpp:722]
+UE4Editor-Engine.dll!UWorld::RunTickGroup() (0x00007ffd467b4566) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\leveltick.cpp:696]
+UE4Editor-Engine.dll!UWorld::Tick() (0x00007ffd467bb58b) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\leveltick.cpp:1114]
+UE4Editor-Persona.dll!SAnimationSequenceBrowser::Tick() (0x00007ffd4988fc73) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\persona\private\sanimationsequencebrowser.cpp:953]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d483) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:638]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() (0x00007ffd5ba1c7d1) + 135 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:30]
+UE4Editor-Slate.dll!SBorder::OnPaint() (0x00007ffd715b2538) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\widgets\layout\sborder.cpp:101]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() (0x00007ffd5ba1c7d1) + 135 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:30]
+UE4Editor-Slate.dll!SBorder::OnPaint() (0x00007ffd715b2538) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\widgets\layout\sborder.cpp:101]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SOverlay::OnPaint() (0x00007ffd5ba1ca75) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:102]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() (0x00007ffd5ba1d9dc) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\spanel.cpp:45]
+UE4Editor-SlateCore.dll!SPanel::OnPaint() (0x00007ffd5ba1cbac) + 68 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\spanel.cpp:24]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() (0x00007ffd5ba1c7d1) + 135 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:30]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() (0x00007ffd5ba1d9dc) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\spanel.cpp:45]
+UE4Editor-Slate.dll!SSplitter::OnPaint() (0x00007ffd715b55f7) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:169]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() (0x00007ffd5ba1c7d1) + 135 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:30]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() (0x00007ffd5ba1d9dc) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\spanel.cpp:45]
+UE4Editor-Slate.dll!SSplitter::OnPaint() (0x00007ffd715b55f7) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:169]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() (0x00007ffd5ba1c7d1) + 135 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:30]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() (0x00007ffd5ba1d9dc) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\spanel.cpp:45]
+UE4Editor-Slate.dll!SSplitter::OnPaint() (0x00007ffd715b55f7) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:169]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() (0x00007ffd5ba1c7d1) + 135 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:30]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() (0x00007ffd5ba1d9dc) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\spanel.cpp:45]
+UE4Editor-Slate.dll!SSplitter::OnPaint() (0x00007ffd715b55f7) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:169]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SOverlay::OnPaint() (0x00007ffd5ba1ca75) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:102]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() (0x00007ffd5ba1c7d1) + 135 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:30]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() (0x00007ffd5ba1d9dc) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\spanel.cpp:45]
+UE4Editor-SlateCore.dll!SPanel::OnPaint() (0x00007ffd5ba1cbac) + 68 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\spanel.cpp:24]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() (0x00007ffd5ba1c7d1) + 135 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:30]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() (0x00007ffd5ba1c7d1) + 135 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:30]
+UE4Editor-Slate.dll!SBorder::OnPaint() (0x00007ffd715b2538) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\widgets\layout\sborder.cpp:101]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SOverlay::OnPaint() (0x00007ffd5ba1ca75) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:102]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() (0x00007ffd5ba1d9dc) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\spanel.cpp:45]
+UE4Editor-SlateCore.dll!SPanel::OnPaint() (0x00007ffd5ba1cbac) + 68 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\spanel.cpp:24]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() (0x00007ffd5ba1c7d1) + 135 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:30]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() (0x00007ffd5ba1d9dc) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\spanel.cpp:45]
+UE4Editor-Slate.dll!SSplitter::OnPaint() (0x00007ffd715b55f7) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:169]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SOverlay::OnPaint() (0x00007ffd5ba1ca75) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:102]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() (0x00007ffd5ba1c7d1) + 135 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:30]
+UE4Editor-SlateCore.dll!SWidget::Paint() (0x00007ffd5ba1d4dd) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swidget.cpp:639]
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() (0x00007ffd5ba1d9dc) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\sp
