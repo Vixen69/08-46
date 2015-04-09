@@ -1,0 +1,615 @@
+﻿Log file open, 04/08/15 19:41:58
+LogInit:Display: Running engine for game: Project_8_46
+LogInit: Version: 4.7.5-2503383+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr  6 2015 23:21:51
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.08-18.41.58:313][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.08-18.41.58:368][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.08-18.41.58:382][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.08-18.41.58:390][  0]LogInit: Object subsystem initialized
+[2015.04.08-18.41.58:392][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.08-18.41.58:392][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.08-18.41.58:392][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.08-18.41.58:392][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.08-18.41.58:392][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.08-18.41.58:392][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.08-18.41.58:393][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.08-18.41.58:393][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.08-18.41.58:401][  0]LogInit: Computer: AXEL
+[2015.04.08-18.41.58:401][  0]LogInit: User: Axel
+[2015.04.08-18.41.58:401][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.08-18.41.58:401][  0]LogInit: High frequency timer resolution =2.435776 MHz
+[2015.04.08-18.41.58:401][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.04.08-18.41.58:401][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.08-18.41.58:401][  0]LogMemory: Process Physical Memory: 46.23 MB used, 46.23 MB peak
+[2015.04.08-18.41.58:401][  0]LogMemory: Process Virtual Memory: 26.48 MB used, 26.48 MB peak
+[2015.04.08-18.41.58:401][  0]LogMemory: Physical Memory: 4400.96 MB used, 8111.20 MB total
+[2015.04.08-18.41.58:401][  0]LogMemory: Virtual Memory: 288.12 MB used, 134217728.00 MB total
+[2015.04.08-18.41.58:441][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 850M        (Feature Level 11_0)
+[2015.04.08-18.41.58:441][  0]LogD3D11RHI: Adapter has 1972MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.04.08-18.41.58:450][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.04.08-18.41.58:450][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 0 output[s]
+[2015.04.08-18.41.58:451][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.08-18.41.58:451][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.08-18.41.58:451][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.08-18.41.58:456][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.08-18.41.58:469][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.08-18.41.58:533][  0]LogTextLocalizationManager: The requested culture ('fr_FR') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.04.08-18.41.58:618][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.08-18.41.58:618][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.08-18.41.58:704][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.08-18.42.00:784][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.08-18.42.01:306][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.08-18.42.01:370][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.08-18.42.01:444][  0]LogDerivedDataCache: Loaded boot cache 0.07s 39MB C:/Users/Axel/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.08-18.42.01:444][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Axel/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.08-18.42.01:444][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.08-18.42.01:444][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.08-18.42.01:559][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.08-18.42.01:573][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Axel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.08-18.42.01:869][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.08-18.42.01:869][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.08-18.42.02:300][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.08-18.42.02:375][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.08-18.42.03:165][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.08-18.42.03:408][  0]SourceControl: Info Source control is disabled
+[2015.04.08-18.42.03:408][  0]SourceControl: Info Source control is disabled
+[2015.04.08-18.42.03:408][  0]SourceControl: Info Source control is disabled
+[2015.04.08-18.42.03:408][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.08-18.42.03:408][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.08-18.42.03:418][  0]SourceControl: Info Source control is disabled
+[2015.04.08-18.42.03:650][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.08-18.42.03:650][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.04.08-18.42.03:731][  0]LogEngine: Initializing Engine...
+[2015.04.08-18.42.05:883][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.08-18.42.05:890][  0]LogInit: FAudioDevice initialized.
+[2015.04.08-18.42.05:930][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.08-18.42.05:962][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Axel/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.08-18.42.05:969][  0]LogInit: Texture streaming: Enabled
+[2015.04.08-18.42.06:061][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.08-18.42.06:061][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.08-18.42.06:061][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.08-18.42.06:061][  0]LogAnalytics: SetUserId e88c5383477aca45f485feae05ecce95|055f838899cf4f808bea9037a5bce58a|a41b6706-46c7-4e3e-8712-6c4db12eddd9
+[2015.04.08-18.42.06:061][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.08-18.42.06:091][  0]LogInit: Transaction tracking system initialized
+[2015.04.08-18.42.06:263][  0]BlueprintLog: New page: Editor Load
+[2015.04.08-18.42.06:297][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2015.04.08-18.42.06:297][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.08-18.42.06:883][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.08-18.42.07:296][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.08-18.42.07:520][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.04.08-18.42.07:521][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.04.08-18.42.07:521][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2015.04.08-18.42.07:594][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.08-18.42.07:594][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.08-18.42.07:600][  0]LogConsoleResponse:Display: 
+[2015.04.08-18.42.07:779][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.08-18.42.07:922][  0]SourceControl: Info Source control is disabled
+[2015.04.08-18.42.07:922][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.08-18.42.07:922][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.08-18.42.07:922][  0]Cmd: MAP CHECKDEP
+[2015.04.08-18.42.07:922][  0]MapCheck: New page: Untitled_0 - Apr 8, 2015, 8:42:07 PM
+[2015.04.08-18.42.07:986][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.328ms to complete.
+[2015.04.08-18.42.07:986][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.064
+[2015.04.08-18.42.08:703][  0]LogCollectionManager: Loaded 0 collections in 0.002306 seconds
+[2015.04.08-18.42.08:713][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 1696 classes and 261 folders.
+[2015.04.08-18.42.08:868][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
+[2015.04.08-18.42.09:445][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.08-18.42.09:472][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.08-18.42.09:507][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.08-18.42.09:536][  0]LogLoad: Full Startup: 12.20 seconds (BP compile: 0.00 seconds)
+[2015.04.08-18.42.09:619][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/Player'
+[2015.04.08-18.42.10:302][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x560 (Frame:2).
+[2015.04.08-18.42.10:854][  4]LogAssetRegistry: Asset discovery search completed in 4.5668 seconds
+[2015.04.08-18.42.30:379][334]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.08-18.42.35:873][334]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Player_BP_C_0' or package '/Engine/Transient'.
+[2015.04.08-18.42.35:873][334]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Player_BP_C_1' or package '/Engine/Transient'.
+[2015.04.08-18.42.35:874][334]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Player_BP_C_22' or package '/Engine/Transient'.
+[2015.04.08-18.42.35:874][334]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Player_BP_C_21' or package '/Engine/Transient'.
+[2015.04.08-18.47.16:268][522]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts'
+[2015.04.08-18.47.17:382][588]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.04.08-18.47.18:915][680]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/UE_Model'
+[2015.04.08-18.47.22:495][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Character/FirstPerson_AnimBlueprint'
+[2015.04.08-18.47.22:495][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Character/FirstPerson_AnimBlueprint' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/FirstPersonCharacter.uasset.
+[2015.04.08-18.47.22:510][872]LoadErrors:Error: Error /Game/Character/UE_Model/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Character/FirstPerson_AnimBlueprint
+[2015.04.08-18.47.22:511][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/FirstPerson_Fire_Montage'
+[2015.04.08-18.47.22:511][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPerson_Fire_Montage' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/FirstPersonCharacter.uasset.
+[2015.04.08-18.47.22:511][872]LoadErrors:Error: Error /Game/Character/UE_Model/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Animations/FirstPerson_Fire_Montage
+[2015.04.08-18.47.22:511][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.04.08-18.47.22:512][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/FirstPersonCharacter.uasset.
+[2015.04.08-18.47.22:512][872]LoadErrors:Error: Error /Game/Character/UE_Model/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonProjectile
+[2015.04.08-18.47.22:517][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/FirstPerson_Fire_Montage'
+[2015.04.08-18.47.22:517][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPerson_Fire_Montage' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/FirstPersonCharacter.uasset.
+[2015.04.08-18.47.22:517][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/FirstPerson_WeaponFire'
+[2015.04.08-18.47.22:517][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/FirstPerson_WeaponFire' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/FirstPersonCharacter.uasset.
+[2015.04.08-18.47.22:517][872]LoadErrors:Error: Error /Game/Character/UE_Model/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Audio/FirstPerson_WeaponFire
+[2015.04.08-18.47.22:518][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.04.08-18.47.22:518][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/FirstPersonCharacter.uasset.
+[2015.04.08-18.47.22:518][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Character/FirstPerson_AnimBlueprint'
+[2015.04.08-18.47.22:518][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Character/FirstPerson_AnimBlueprint' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/FirstPersonCharacter.uasset.
+[2015.04.08-18.47.22:518][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Character/FirstPerson_SkelMesh'
+[2015.04.08-18.47.22:518][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Character/FirstPerson_SkelMesh' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/FirstPersonCharacter.uasset.
+[2015.04.08-18.47.22:519][872]LoadErrors:Error: Error /Game/Character/UE_Model/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Character/FirstPerson_SkelMesh
+[2015.04.08-18.47.22:519][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Character/FirstPerson_SkelMesh'
+[2015.04.08-18.47.22:519][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Character/FirstPerson_SkelMesh' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/FirstPersonCharacter.uasset.
+[2015.04.08-18.47.22:520][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/FirstPerson_WeaponFire'
+[2015.04.08-18.47.22:520][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/FirstPerson_WeaponFire' while loading ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Character/UE_Model/FirstPersonCharacter.uasset.
+[2015.04.08-18.47.22:521][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.04.08-18.47.22:521][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading NULL.
+[2015.04.08-18.47.22:522][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Character/FirstPerson_AnimBlueprint'
+[2015.04.08-18.47.22:522][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Character/FirstPerson_AnimBlueprint' while loading NULL.
+[2015.04.08-18.47.22:522][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/FirstPerson_Fire_Montage'
+[2015.04.08-18.47.22:522][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPerson_Fire_Montage' while loading NULL.
+[2015.04.08-18.47.22:522][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.04.08-18.47.22:522][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading NULL.
+[2015.04.08-18.47.22:523][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/FirstPerson_Fire_Montage'
+[2015.04.08-18.47.22:523][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPerson_Fire_Montage' while loading NULL.
+[2015.04.08-18.47.22:523][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/FirstPerson_WeaponFire'
+[2015.04.08-18.47.22:523][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/FirstPerson_WeaponFire' while loading NULL.
+[2015.04.08-18.47.22:523][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.04.08-18.47.22:523][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading NULL.
+[2015.04.08-18.47.22:524][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Character/FirstPerson_AnimBlueprint'
+[2015.04.08-18.47.22:524][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Character/FirstPerson_AnimBlueprint' while loading NULL.
+[2015.04.08-18.47.22:524][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Character/FirstPerson_SkelMesh'
+[2015.04.08-18.47.22:524][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Character/FirstPerson_SkelMesh' while loading NULL.
+[2015.04.08-18.47.22:524][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Character/FirstPerson_SkelMesh'
+[2015.04.08-18.47.22:524][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Character/FirstPerson_SkelMesh' while loading NULL.
+[2015.04.08-18.47.22:525][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/FirstPerson_WeaponFire'
+[2015.04.08-18.47.22:525][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/FirstPerson_WeaponFire' while loading NULL.
+[2015.04.08-18.47.22:534][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.04.08-18.47.22:534][872]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C Referenced by EdGraphPin_2037
+[2015.04.08-18.47.22:534][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading NULL.
+[2015.04.08-18.47.22:535][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.04.08-18.47.22:535][872]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C Referenced by EdGraphPin_2040
+[2015.04.08-18.47.22:535][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading NULL.
+[2015.04.08-18.47.22:537][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/FirstPerson_WeaponFire'
+[2015.04.08-18.47.22:537][872]LoadErrors: Info Failed to load /Game/FirstPersonBP/Audio/FirstPerson_WeaponFire.FirstPerson_WeaponFire Referenced by EdGraphPin_1643
+[2015.04.08-18.47.22:537][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/FirstPerson_WeaponFire' while loading NULL.
+[2015.04.08-18.47.22:540][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/FirstPerson_Fire_Montage'
+[2015.04.08-18.47.22:540][872]LoadErrors: Info Failed to load /Game/FirstPersonBP/Animations/FirstPerson_Fire_Montage.FirstPerson_Fire_Montage Referenced by EdGraphPin_1765
+[2015.04.08-18.47.22:540][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPerson_Fire_Montage' while loading NULL.
+[2015.04.08-18.47.22:542][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Character/FirstPerson_AnimBlueprint'
+[2015.04.08-18.47.22:542][872]LoadErrors: Info Failed to load /Game/FirstPersonBP/Character/FirstPerson_AnimBlueprint.FirstPerson_AnimBlueprint_C Referenced by SkeletalMeshComponent_8__FC42DFE8
+[2015.04.08-18.47.22:543][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Character/FirstPerson_AnimBlueprint' while loading NULL.
+[2015.04.08-18.47.22:543][872]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Character/FirstPerson_SkelMesh'
+[2015.04.08-18.47.22:543][872]LoadErrors: Info Failed to load /Game/FirstPersonBP/Character/FirstPerson_SkelMesh.FirstPerson_SkelMesh Referenced by SkeletalMeshComponent_8__FC42DFE8
+[2015.04.08-18.47.22:543][872]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Character/FirstPerson_SkelMesh' while loading NULL.
+[2015.04.08-18.47.22:668][872]LogBlueprint:Error: [compiler] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2015.04.08-18.47.22:691][872]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Fire' for  InputAction Fire 
+[2015.04.08-18.47.22:729][872]LogBlueprint:Warning: [compiler] Warning [0325.40] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 1 Warning(s) [in 100 ms]
+[2015.04.08-18.47.22:729][872]LogBlueprint:Warning: [compiler] Warning [0325.40] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.04.08-18.47.22:729][872]LogBlueprint:Warning: [compiler] Warning [0325.40] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.04.08-18.47.22:729][872]LogBlueprint:Warning: [compiler] Warning [0325.40] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.04.08-18.47.25:049][995]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/Player'
+[2015.04.08-18.47.26:582][ 87]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/GameState'
+[2015.04.08-18.47.26:885][102]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts'
+[2015.04.08-18.47.27:685][150]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.04.08-18.47.27:951][166]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/UE_Model'
+[2015.04.08-18.47.32:940][430]LogBlueprint:Error: [compiler] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2015.04.08-18.47.32:944][430]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Fire' for  InputAction Fire 
+[2015.04.08-18.47.33:054][430]LogBlueprint:Warning: [compiler] Warning [0335.72] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 1 Warning(s) [in 152 ms]
+[2015.04.08-18.47.33:055][430]LogBlueprint:Warning: [compiler] Warning [0335.72] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.04.08-18.47.33:055][430]LogBlueprint:Warning: [compiler] Warning [0335.72] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.04.08-18.47.33:101][430]LogBlueprint:Warning: [compiler] Warning [0335.77] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 4 Warning(s) [in 45 ms]
+[2015.04.08-18.47.33:102][430]LogBlueprint:Warning: [compiler] Warning [0335.77] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.04.08-18.47.33:102][430]LogBlueprint:Warning: [compiler] Warning [0335.77] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2015.04.08-18.47.33:102][430]LogBlueprint:Warning: [compiler] Warning [0335.77] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 7 Warning(s) [in 0 ms]
+[2015.04.08-18.47.33:103][430]LogMetaData: Removing '/Game/Scripts/Player/FirstPersonCharacter.FirstPersonCharacter_C' ref from Metadata '/Game/Character/UE_Model/FirstPersonCharacter.PackageMetaData'
+[2015.04.08-18.47.33:103][430]LogMetaData: Removing '/Game/Scripts/Player/FirstPersonCharacter.SKEL_FirstPersonCharacter_C' ref from Metadata '/Game/Character/UE_Model/FirstPersonCharacter.PackageMetaData'
+[2015.04.08-18.47.33:436][430]LogSavePackage: Save=157.025116ms
+[2015.04.08-18.47.33:437][430]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/FirstPersonCharacter5CDE2CEE4CB8A118F4073F90B0D50178.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/FirstPersonCharacter.uasset'
+[2015.04.08-18.47.34:179][462]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/Player'
+[2015.04.08-18.47.38:973][678]LogRenderer:Warning: Reallocating scene render targets to support 1208x904 (Frame:1844).
+[2015.04.08-18.48.13:464][484]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.08-18.48.13:469][484]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.04.08-18.48.13:513][484]LogBlueprint:Error: [compiler] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2015.04.08-18.48.13:519][484]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Fire' for  InputAction Fire 
+[2015.04.08-18.48.13:531][484]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a SkeletalMeshComponent, therefore ' Target ' must have a connection.
+[2015.04.08-18.48.13:609][484]LogBlueprint:Warning: [compiler] Warning [0376.28] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 1 Warning(s) [in 132 ms]
+[2015.04.08-18.48.13:609][484]LogBlueprint:Warning: [compiler] Warning [0376.28] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.04.08-18.48.13:610][484]LogBlueprint:Warning: [compiler] Warning [0376.28] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.04.08-18.48.13:614][484]LogBlueprint:Warning: [compiler] Warning [0376.28] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 4 Warning(s) [in 4 ms]
+[2015.04.08-18.48.13:614][484]LogBlueprint:Warning: [compiler] Warning [0376.28] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.04.08-18.48.13:614][484]LogBlueprint:Warning: [compiler] Warning [0376.28] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2015.04.08-18.48.13:633][484]LogPlayLevel: PIE:  Blueprint regeneration took 169 ms (1 blueprints)
+[2015.04.08-18.48.16:865][484]BlueprintLog: Info Blueprint FirstPersonCharacter failed to compile
+[2015.04.08-18.48.17:755][528]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.04.08-18.48.17:803][528]LogBlueprint:Error: [compiler] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2015.04.08-18.48.17:808][528]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Fire' for  InputAction Fire 
+[2015.04.08-18.48.17:820][528]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a SkeletalMeshComponent, therefore ' Target ' must have a connection.
+[2015.04.08-18.48.17:918][528]LogBlueprint:Warning: [compiler] Warning [0380.59] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 1 Warning(s) [in 162 ms]
+[2015.04.08-18.48.17:931][528]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2015.04.08-18.48.17:931][528]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Fire' for  InputAction Fire 
+[2015.04.08-18.48.17:931][528]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SkeletalMeshComponent, therefore ' Target ' must have a connection.
+[2015.04.08-18.48.17:931][528]BlueprintEditorCompileResults:Warning: Warning [0380.59] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 1 Warning(s) [in 162 ms]
+[2015.04.08-18.48.19:709][619]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.08-18.48.19:710][619]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/Player'
+[2015.04.08-18.48.21:849][736]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.08-18.48.22:532][736]LogSavePackage: Save=409.275330ms
+[2015.04.08-18.48.22:532][736]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/FirstPersonCharacter77F95485417C237EA52B809B7DE904B0.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/FirstPersonCharacter.uasset'
+[2015.04.08-18.48.37:326][557]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.04.08-18.48.37:400][557]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.08-18.48.37:424][557]BlueprintEditorCompileResults: Info [0400.09] Compile of FirstPersonCharacter successful! [in 98 ms]
+[2015.04.08-18.48.46:134][ 11]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.08-18.48.46:167][ 11]LogMetaData: Removing '/Game/Scripts/Player/Player_BP.Player_BP_C' ref from Metadata '/Game/Scripts/Player/FirstPersonCharacter.PackageMetaData'
+[2015.04.08-18.48.46:167][ 11]LogMetaData: Removing '/Game/Scripts/Player/Player_BP.SKEL_Player_BP_C' ref from Metadata '/Game/Scripts/Player/FirstPersonCharacter.PackageMetaData'
+[2015.04.08-18.48.46:282][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripts/Player/Player_BP" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/Player_BP.uasset" SILENT=true
+[2015.04.08-18.48.46:651][ 11]LogSavePackage: Save=367.723480ms
+[2015.04.08-18.48.46:651][ 11]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Player_BPA06B10AA4A8DFD9FEFDF4186C780FC17.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/Player_BP.uasset'
+[2015.04.08-18.48.46:709][ 11]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.08-18.48.51:862][296]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/GameState'
+[2015.04.08-18.48.57:497][607]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Level'
+[2015.04.08-18.48.58:883][641]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.08-18.48.58:907][641]Cmd: MAP LOAD FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/Main_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.08-18.48.58:908][641]LightingResults: New page: Lighting Build
+[2015.04.08-18.48.58:921][641]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0028 seconds. Added 5 classes and 0 folders.
+[2015.04.08-18.48.58:944][641]LoadErrors: New page: Loading map: Main_Level.umap
+[2015.04.08-18.48.58:944][641]MapCheck: New page: Map Check
+[2015.04.08-18.48.58:944][641]LightingResults: New page: Lighting Build
+[2015.04.08-18.48.58:958][641]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093ED19A980
+[2015.04.08-18.48.59:004][641]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.08-18.48.59:010][641]LogAIModule: Creating AISystem for world Main_Level
+[2015.04.08-18.48.59:062][641]Cmd: MAP CHECKDEP
+[2015.04.08-18.48.59:062][641]MapCheck: New page: Main_Level - Apr 8, 2015, 8:48:59 PM
+[2015.04.08-18.48.59:135][641]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.635ms to complete.
+[2015.04.08-18.48.59:136][641]LogFileHelpers: Loading map 'Main_Level' took 0.230
+[2015.04.08-18.48.59:589][662]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.08-18.48.59:590][662]PIE: New page: PIE session: Main_Level (Apr 8, 2015, 8:48:59 PM)
+[2015.04.08-18.48.59:593][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002857s)
+[2015.04.08-18.48.59:593][662]LogPlayLevel: PIE: World Init took: (0.000510s)
+[2015.04.08-18.48.59:593][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Main_Level.Main_Level to /Game/Level/UEDPIE_0_Main_Level.Main_Level (0.003521s)
+[2015.04.08-18.48.59:681][662]LogWorld: Game class is 'GameMode_BP_C'
+[2015.04.08-18.48.59:683][662]LogAIModule: Creating AISystem for world Main_Level
+[2015.04.08-18.48.59:685][662]LogWorld: Bringing World /Game/Level/UEDPIE_0_Main_Level.Main_Level up for play (max tick rate 60) at 2015.04.08-19.48.59
+[2015.04.08-18.48.59:686][662]LogWorld: Bringing up level for play took: 0.001893
+[2015.04.08-18.48.59:762][662]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_Main_Level -0.754
+[2015.04.08-18.49.06:276][ 40]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093F4B10A40
+[2015.04.08-18.49.07:619][118]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/Player'
+[2015.04.08-18.49.18:362][714]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.08-18.49.19:400][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripts/Player/Player_BP" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/Player_BP.uasset" SILENT=true
+[2015.04.08-18.49.19:775][764]LogSavePackage: Save=364.282257ms
+[2015.04.08-18.49.19:775][764]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Player_BPFED572E94EB3BDA5556346B810F2BF28.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/Player_BP.uasset'
+[2015.04.08-18.49.25:185][ 73]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.08-18.49.26:130][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripts/Player/Player_BP" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/Player_BP.uasset" SILENT=true
+[2015.04.08-18.49.26:499][123]LogSavePackage: Save=361.503265ms
+[2015.04.08-18.49.26:499][123]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Player_BPBBC1EF7F4025F34E9F6B0CAF1A842DEE.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/Player_BP.uasset'
+[2015.04.08-18.49.28:046][214]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.08-18.49.28:051][214]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.08-18.49.28:056][214]LogPlayLevel: [PIE] Compiling Player_BP before PIE...
+[2015.04.08-18.49.28:151][214]LogPlayLevel: PIE:  Blueprint regeneration took 105 ms (1 blueprints)
+[2015.04.08-18.49.28:151][214]PIE: New page: PIE session: Main_Level (Apr 8, 2015, 8:49:28 PM)
+[2015.04.08-18.49.28:155][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003185s)
+[2015.04.08-18.49.28:156][214]LogPlayLevel: PIE: World Init took: (0.000733s)
+[2015.04.08-18.49.28:156][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Main_Level.Main_Level to /Game/Level/UEDPIE_0_Main_Level.Main_Level (0.004075s)
+[2015.04.08-18.49.28:205][214]LogWorld: Game class is 'GameMode_BP_C'
+[2015.04.08-18.49.28:207][214]LogAIModule: Creating AISystem for world Main_Level
+[2015.04.08-18.49.28:209][214]LogWorld: Bringing World /Game/Level/UEDPIE_0_Main_Level.Main_Level up for play (max tick rate 60) at 2015.04.08-19.49.28
+[2015.04.08-18.49.28:210][214]LogWorld: Bringing up level for play took: 0.002078
+[2015.04.08-18.49.28:227][214]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_Main_Level -0.288
+[2015.04.08-18.49.28:268][214]LogRenderer:Warning: Reallocating scene render targets to support 1296x904 (Frame:7261).
+[2015.04.08-18.49.39:571][840]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000938EDC72E0
+[2015.04.08-18.49.44:324][ 88]LogEditorTransaction: Undo Modify Component(s)
+[2015.04.08-18.49.52:210][501]LogSavePackage: Save=9.798109ms
+[2015.04.08-18.49.52:210][501]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/GameMode_BPB7577B68487584A4387AB8BD4498D938.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/GameState/GameMode_BP.uasset'
+[2015.04.08-18.49.52:235][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripts/Player/Player_BP" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/Player_BP.uasset" SILENT=true
+[2015.04.08-18.49.52:612][501]LogSavePackage: Save=369.454742ms
+[2015.04.08-18.49.52:612][501]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Player_BP486603594D3FF195A71EC7915B71C8D8.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/Player_BP.uasset'
+[2015.04.08-18.49.52:954][520]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.08-18.49.52:959][520]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.08-18.49.52:960][520]LogPlayLevel: [PIE] Compiling Player_BP before PIE...
+[2015.04.08-18.49.53:055][520]LogPlayLevel: PIE:  Blueprint regeneration took 100 ms (1 blueprints)
+[2015.04.08-18.49.53:055][520]PIE: New page: PIE session: Main_Level (Apr 8, 2015, 8:49:53 PM)
+[2015.04.08-18.49.53:060][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004381s)
+[2015.04.08-18.49.53:060][520]LogPlayLevel: PIE: World Init took: (0.000766s)
+[2015.04.08-18.49.53:060][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Main_Level.Main_Level to /Game/Level/UEDPIE_0_Main_Level.Main_Level (0.005328s)
+[2015.04.08-18.49.53:104][520]LogWorld: Game class is 'GameMode_BP_C'
+[2015.04.08-18.49.53:106][520]LogAIModule: Creating AISystem for world Main_Level
+[2015.04.08-18.49.53:109][520]LogWorld: Bringing World /Game/Level/UEDPIE_0_Main_Level.Main_Level up for play (max tick rate 60) at 2015.04.08-19.49.53
+[2015.04.08-18.49.53:109][520]LogWorld: Bringing up level for play took: 0.002814
+[2015.04.08-18.49.53:127][520]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_Main_Level 0.612
+[2015.04.08-18.49.56:332][687]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009389EE0EA0
+[2015.04.08-18.49.59:306][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripts/Player/Player_BP" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/Player_BP.uasset" SILENT=true
+[2015.04.08-18.49.59:675][839]LogSavePackage: Save=361.943787ms
+[2015.04.08-18.49.59:675][839]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Player_BPCF4D99AC4FDB85F0E002328201662FFE.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/Player_BP.uasset'
+[2015.04.08-18.50.00:019][858]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.08-18.50.00:024][858]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.08-18.50.00:024][858]LogPlayLevel: [PIE] Compiling Player_BP before PIE...
+[2015.04.08-18.50.00:120][858]LogPlayLevel: PIE:  Blueprint regeneration took 100 ms (1 blueprints)
+[2015.04.08-18.50.00:120][858]PIE: New page: PIE session: Main_Level (Apr 8, 2015, 8:50:00 PM)
+[2015.04.08-18.50.00:123][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003072s)
+[2015.04.08-18.50.00:124][858]LogPlayLevel: PIE: World Init took: (0.001141s)
+[2015.04.08-18.50.00:124][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Main_Level.Main_Level to /Game/Level/UEDPIE_0_Main_Level.Main_Level (0.004387s)
+[2015.04.08-18.50.00:167][858]LogWorld: Game class is 'GameMode_BP_C'
+[2015.04.08-18.50.00:172][858]LogAIModule: Creating AISystem for world Main_Level
+[2015.04.08-18.50.00:176][858]LogWorld: Bringing World /Game/Level/UEDPIE_0_Main_Level.Main_Level up for play (max tick rate 60) at 2015.04.08-19.50.00
+[2015.04.08-18.50.00:177][858]LogWorld: Bringing up level for play took: 0.003994
+[2015.04.08-18.50.00:202][858]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_Main_Level -0.313
+[2015.04.08-18.50.02:415][969]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000938948CD60
+[2015.04.08-18.50.06:836][209]LogEditorTransaction: Undo Modify Component(s)
+[2015.04.08-18.50.11:839][452]LogSavePackage: Save=10.456627ms
+[2015.04.08-18.50.11:839][452]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/GameMode_BP5E76A0A242220D16AEEB298F33800246.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/GameState/GameMode_BP.uasset'
+[2015.04.08-18.50.11:863][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripts/Player/Player_BP" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/Player_BP.uasset" SILENT=true
+[2015.04.08-18.50.12:247][452]LogSavePackage: Save=376.585541ms
+[2015.04.08-18.50.12:247][452]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Player_BP7D47E1DB43E59756A8284BA07D6D4846.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/Player_BP.uasset'
+[2015.04.08-18.50.12:552][469]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.08-18.50.12:557][469]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.08-18.50.12:558][469]LogPlayLevel: [PIE] Compiling Player_BP before PIE...
+[2015.04.08-18.50.12:657][469]LogPlayLevel: PIE:  Blueprint regeneration took 105 ms (1 blueprints)
+[2015.04.08-18.50.12:657][469]PIE: New page: PIE session: Main_Level (Apr 8, 2015, 8:50:12 PM)
+[2015.04.08-18.50.12:661][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002845s)
+[2015.04.08-18.50.12:662][469]LogPlayLevel: PIE: World Init took: (0.001108s)
+[2015.04.08-18.50.12:662][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Main_Level.Main_Level to /Game/Level/UEDPIE_0_Main_Level.Main_Level (0.004130s)
+[2015.04.08-18.50.12:705][469]LogWorld: Game class is 'GameMode_BP_C'
+[2015.04.08-18.50.12:707][469]LogAIModule: Creating AISystem for world Main_Level
+[2015.04.08-18.50.12:709][469]LogWorld: Bringing World /Game/Level/UEDPIE_0_Main_Level.Main_Level up for play (max tick rate 60) at 2015.04.08-19.50.12
+[2015.04.08-18.50.12:710][469]LogWorld: Bringing up level for play took: 0.001710
+[2015.04.08-18.50.12:726][469]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_Main_Level 0.211
+[2015.04.08-18.50.19:721][848]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000938C1FF1A0
+[2015.04.08-18.50.26:889][224]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.08-18.50.30:756][454]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.04.08-18.50.31:624][494]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.04.08-18.50.39:507][931]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.08-18.50.39:507][931]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.08-18.50.42:564][107]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
+[2015.04.08-18.50.44:232][189]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
+[2015.04.08-18.50.44:384][197]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
+[2015.04.08-18.50.44:563][201]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
+[2015.04.08-18.50.46:993][299]SourceControl: Info Source control is disabled
+[2015.04.08-19.30.54:876][367]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2015.04.08-19.30.54:876][367]LogSynthBenchmark:Display: ===============
+[2015.04.08-19.30.54:876][367]LogSynthBenchmark:Display: Main Processor:
+[2015.04.08-19.30.54:919][367]LogSynthBenchmark:Display:          ... 0.019602 s/Run 'RayIntersect'
+[2015.04.08-19.30.54:919][367]LogSynthBenchmark:Display:          ... 0.022806 s/Run 'Fractal'
+[2015.04.08-19.30.54:919][367]LogSynthBenchmark:Display: 
+[2015.04.08-19.30.54:919][367]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2015.04.08-19.30.54:919][367]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2015.04.08-19.30.54:919][367]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2015.04.08-19.30.54:919][367]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2015.04.08-19.30.55:013][367]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 8
+[2015.04.08-19.30.55:013][367]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2015.04.08-19.30.55:013][367]LogSynthBenchmark:Display:   NumberOfCores (logical): 8
+[2015.04.08-19.30.55:013][367]LogSynthBenchmark:Display:   CPU Perf Index 0: 130.7
+[2015.04.08-19.30.55:013][367]LogSynthBenchmark:Display:   CPU Perf Index 1: 125.4
+[2015.04.08-19.30.55:013][367]LogSynthBenchmark:Display:  
+[2015.04.08-19.30.55:013][367]LogSynthBenchmark:Display: Graphics:
+[2015.04.08-19.30.55:013][367]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce GTX 850M       '
+[2015.04.08-19.30.55:013][367]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2015.04.08-19.30.55:013][367]LogSynthBenchmark:Display:   Vendor Id: 0x10de
+[2015.04.08-19.30.55:013][367]LogSynthBenchmark:Display:   GPU Memory: 1973/0/2049 MB
+[2015.04.08-19.30.55:157][367]LogSynthBenchmark:Display:   GPU first test: 0.03s
+[2015.04.08-19.30.55:157][367]LogSynthBenchmark:Display:          ... 0.306 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2015.04.08-19.30.55:157][367]LogSynthBenchmark:Display:          ... 0.244 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2015.04.08-19.30.55:157][367]LogSynthBenchmark:Display:          ... 0.195 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2015.04.08-19.30.55:157][367]LogSynthBenchmark:Display:          ... 0.772 GigaPix/s, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2015.04.08-19.30.55:157][367]LogSynthBenchmark:Display:          ... 0.052 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display:   GPU second test: 0.15s
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display:          ... 0.474 GigaPix/s, Confidence=60% 'ALUHeavyNoise' (likely to be inaccurate)
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display:          ... 0.366 GigaPix/s, Confidence=60% 'TexHeavy' (likely to be inaccurate)
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display:          ... 0.351 GigaPix/s, Confidence=60% 'DepTexHeavy' (likely to be inaccurate)
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display:          ... 1.937 GigaPix/s, Confidence=60% 'FillOnly' (likely to be inaccurate)
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display:          ... 0.063 GigaPix/s, Confidence=51% 'Bandwidth' (likely to be inaccurate)
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display:          ... 0.474 GigaPix/s, Confidence=60% 'ALUHeavyNoise'
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display:          ... 0.366 GigaPix/s, Confidence=60% 'TexHeavy'
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display:          ... 0.351 GigaPix/s, Confidence=60% 'DepTexHeavy'
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display:          ... 1.937 GigaPix/s, Confidence=60% 'FillOnly'
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display:          ... 0.063 GigaPix/s, Confidence=51% 'Bandwidth'
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display: 
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display:   GPU Perf Index 0: 10.3
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display:   GPU Perf Index 1: 4.9
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display:   GPU Perf Index 2: 9.1
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display:   GPU Perf Index 3: 7.6
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display:   GPU Perf Index 4: 5.9
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display:   CPUIndex: 130.7
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display:   GPUIndex: 10.3
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display: 
+[2015.04.08-19.30.55:307][367]LogSynthBenchmark:Display:          ... Total Time: 0.430620 sec
+[2015.04.08-19.30.55:308][367]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.08-19.30.55:308][367]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.08-19.30.55:313][367]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.08-19.30.55:313][367]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.08-19.30.56:183][369]LogRenderer:Warning: Reallocating scene render targets to support 1296x904 (Frame:89944).
+[2015.04.08-20.26.32:369][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.04.08-22.20.14:977][  2]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.08-22.20.16:209][  3]Cmd: QUIT_EDITOR
+[2015.04.08-22.20.16:828][  3]LogExit: Preparing to exit.
+[2015.04.08-22.20.18:696][  3]LogExit: Editor shut down
+[2015.04.08-22.20.18:698][  3]LogExit: Transaction tracking system shut down
+[2015.04.08-22.20.18:699][  3]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093F494E5C0
+[2015.04.08-22.20.18:700][  3]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000938458C400
+[2015.04.08-22.20.18:701][  3]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093FB6379C0
+[2015.04.08-22.20.18:702][  3]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093F37AA2A0
+[2015.04.08-22.20.18:703][  3]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093F37A9DA0
+[2015.04.08-22.20.18:708][  3]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009387532200
+[2015.04.08-22.20.18:709][  3]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000938BDE8720
+[2015.04.08-22.20.18:710][  3]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009388FA85E0
+[2015.04.08-22.20.18:710][  3]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009391FEDF80
+[2015.04.08-22.20.21:831][  3]LogExit: Object subsystem successfully closed.
+[2015.04.08-22.20.25:008][  3]LogModuleManager: Shutting down and abandoning module SynthBenchmark (178)
+[2015.04.08-22.20.25:008][  3]LogModuleManager: Shutting down and abandoning module StatsViewer (177)
+[2015.04.08-22.20.25:028][  3]LogModuleManager: Shutting down and abandoning module CrashTracker (176)
+[2015.04.08-22.20.25:043][  3]LogModuleManager: Shutting down and abandoning module SuperSearch (175)
+[2015.04.08-22.20.25:043][  3]LogModuleManager: Shutting down and abandoning module SceneOutliner (174)
+[2015.04.08-22.20.25:043][  3]LogModuleManager: Shutting down and abandoning module EditorWidgets (173)
+[2015.04.08-22.20.25:043][  3]LogModuleManager: Shutting down and abandoning module CollectionManager (172)
+[2015.04.08-22.20.25:100][  3]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.08-22.20.25:100][  3]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.08-22.20.25:169][  3]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.08-22.20.25:182][  3]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.08-22.20.25:182][  3]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.08-22.20.25:182][  3]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.08-22.20.25:182][  3]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.08-22.20.25:182][  3]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.08-22.20.25:182][  3]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.08-22.20.25:199][  3]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.08-22.20.25:199][  3]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.08-22.20.25:199][  3]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.08-22.20.25:199][  3]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.08-22.20.25:361][  3]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.08-22.20.25:372][  3]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.08-22.20.25:465][  3]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.08-22.20.25:499][  3]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.08-22.20.25:499][  3]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.08-22.20.25:579][  3]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.08-22.20.25:617][  3]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.08-22.20.25:617][  3]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.08-22.20.25:617][  3]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.08-22.20.25:662][  3]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.08-22.20.25:662][  3]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.08-22.20.25:692][  3]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.08-22.20.25:692][  3]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.08-22.20.26:686][  3]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.08-22.20.26:686][  3]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.08-22.20.26:686][  3]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.08-22.20.26:686][  3]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.08-22.20.26:686][  3]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.08-22.20.26:696][  3]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.08-22.20.26:697][  3]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.08-22.20.26:697][  3]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.08-22.20.26:697][  3]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.08-22.20.26:697][  3]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.08-22.20.26:697][  3]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.08-22.20.26:697][  3]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.08-22.20.26:697][  3]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.08-22.20.26:697][  3]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.08-22.20.26:697][  3]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.08-22.20.26:697][  3]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.08-22.20.26:697][  3]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.08-22.20.26:697][  3]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.08-22.20.26:711][  3]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.08-22.20.26:838][  3]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.08-22.20.26:921][  3]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.08-22.20.26:930][  3]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.08-22.20.26:991][  3]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.08-22.20.26:991][  3]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.08-22.20.26:991][  3]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.08-22.20.26:991][  3]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.08-22.20.26:991][  3]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.08-22.20.27:024][  3]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.08-22.20.27:145][  3]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.08-22.20.27:145][  3]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.08-22.20.27:178][  3]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.08-22.20.27:178][  3]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.08-22.20.27:194][  3]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.08-22.20.27:206][  3]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.08-22.20.27:206][  3]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.08-22.20.27:206][  3]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.08-22.20.27:220][  3]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.08-22.20.27:238][  3]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.08-22.20.27:249][  3]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.08-22.20.27:274][  3]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.08-22.20.27:483][  3]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.08-22.20.27:483][  3]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.08-22.20.27:483][  3]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.08-22.20.27:483][  3]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.08-22.20.27:483][  3]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.08-22.20.27:483][  3]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.08-22.20.27:483][  3]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.08-22.20.27:483][  3]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.08-22.20.27:483][  3]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.08-22.20.27:483][  3]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.08-22.20.27:483][  3]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.08-22.20.27:483][  3]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.08-22.20.27:483][  3]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.08-22.20.27:484][  3]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.08-22.20.27:484][  3]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.08-22.20.27:484][  3]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.08-22.20.27:484][  3]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.08-22.20.27:484][  3]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.08-22.20.27:484][  3]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.08-22.20.27:484][  3]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.08-22.20.27:484][  3]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.08-22.20.27:484][  3]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.08-22.20.27:484][  3]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.08-22.20.27:484][  3]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.08-22.20.27:485][  3]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.08-22.20.27:485][  3]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.08-22.20.27:485][  3]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.08-22.20.27:587][  3]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.08-22.20.27:587][  3]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.08-22.20.27:589][  3]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.08-22.20.27:589][  3]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.08-22.20.27:629][  3]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.08-22.20.27:629][  3]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.08-22.20.27:686][  3]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.08-22.20.27:705][  3]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.08-22.20.27:730][  3]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.08-22.20.27:743][  3]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.08-22.20.27:804][  3]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.08-22.20.27:804][  3]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.08-22.20.27:831][  3]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.08-22.20.27:855][  3]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.08-22.20.27:880][  3]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.08-22.20.27:929][  3]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.08-22.20.27:929][  3]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.08-22.20.28:012][  3]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.08-22.20.28:012][  3]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.08-22.20.28:012][  3]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.08-22.20.28:012][  3]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.08-22.20.28:012][  3]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.08-22.20.28:012][  3]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.08-22.20.28:012][  3]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.08-22.20.28:012][  3]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.08-22.20.28:012][  3]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.08-22.20.28:046][  3]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.08-22.20.28:271][  3]LogDerivedDataCache: Shutdown
+[2015.04.08-22.20.28:271][  3]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.08-22.20.28:304][  3]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.08-22.20.28:336][  3]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.08-22.20.28:347][  3]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.08-22.20.28:378][  3]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.08-22.20.28:378][  3]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.08-22.20.28:378][  3]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.08-22.20.28:387][  3]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.08-22.20.28:387][  3]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.08-22.20.28:387][  3]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.08-22.20.28:395][  3]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.08-22.20.28:395][  3]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.08-22.20.28:395][  3]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.08-22.20.28:395][  3]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.08-22.20.28:395][  3]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.08-22.20.28:395][  3]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.08-22.20.28:395][  3]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.08-22.20.28:395][  3]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.08-22.20.28:410][  3]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.08-22.20.28:410][  3]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.08-22.20.28:410][  3]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.08-22.20.28:410][  3]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.08-22.20.28:410][  3]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.08-22.20.28:410][  3]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.08-22.20.28:410][  3]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.08-22.20.28:410][  3]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.08-22.20.28:410][  3]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.08-22.20.28:410][  3]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.08-22.20.28:410][  3]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.08-22.20.28:410][  3]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.08-22.20.28:410][  3]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.08-22.20.28:441][  3]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.08-22.20.28:441][  3]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.08-22.20.28:441][  3]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.08-22.20.28:441][  3]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.08-22.20.28:441][  3]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.08-22.20.28:441][  3]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.08-22.20.28:472][  3]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.08-22.20.28:472][  3]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.08-22.20.28:482][  3]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.08-22.20.28:503][  3]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.08-22.20.28:515][  3]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.08-22.20.28:515][  3]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.08-22.20.28:515][  3]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.08-22.20.28:515][  3]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.08-22.20.28:515][  3]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.08-22.20.28:531][  3]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.08-22.20.28:543][  3]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.08-22.20.28:543][  3]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.08-22.20.28:600][  3]LogExit: Exiting.
+[2015.04.08-22.20.28:663][  3]Log file closed, 04/08/15 23:20:28
