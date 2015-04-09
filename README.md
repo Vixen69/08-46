@@ -27,7 +27,8 @@ Exemple : Character_BP, Character_Skeleton, CharacterAnim_BP...
 Les types :<br>
 BP = BluePrint<br>
 PP = PostProcess<br>
-MP = MaterialBluePrint<br>
+MB = MaterialBluePrint<br>
+EB = EnumerationBluePrint<br>
 Skeleton<br>
 Mesh<br>
 etc...<br>
