@@ -7803,4 +7803,1265 @@ ntdll.dll!UnknownFunction (0x00007ffd935ce954) + 0 bytes [UnknownFile:0]
 [2015.04.10-16.51.20:002][335]LogBlueprintUserMessages: Take Actor :  TakeableActor_BP
 [2015.04.10-16.51.23:512][510]LogBlueprintUserMessages: Release object
 [2015.04.10-16.51.23:829][521]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000BE3B374C0
-[2015.04.10-16.52.32:341][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripts/Player/Player_BP" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Proje
+[2015.04.10-16.52.32:341][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripts/Player/Player_BP" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/Player_BP.uasset" SILENT=true
+[2015.04.10-16.52.32:965][837]LogSavePackage: Save=603.207336ms
+[2015.04.10-16.52.32:965][837]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Player_BPC05636A9456A4F6E2065DB87EC858659.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/Player_BP.uasset'
+[2015.04.10-16.52.35:165][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.10-16.53.13:143][334]BlueprintLog: New page: Compile Player_BP
+[2015.04.10-16.53.13:326][334]BlueprintEditorCompileResults: Info [7487.41] Compile of Player_BP successful! [in 182 ms]
+[2015.04.10-16.53.17:988][574]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.04.10-16.53.18:904][618]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Level'
+[2015.04.10-16.57.19:211][556]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/Main_Level' took 0.024
+[2015.04.10-17.03.07:351][698]LightingResults: New page: Lighting Build
+[2015.04.10-17.03.07:514][698]MapCheck: New page: Map Check
+[2015.04.10-17.03.07:514][698]LightingResults: New page: Lighting Build
+[2015.04.10-17.03.07:829][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B388F6200
+[2015.04.10-17.03.08:100][698]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.10-17.03.08:128][698]LoadErrors: New page: New Map
+[2015.04.10-17.03.13:162][847]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.10-17.03.13:270][847]LightingResults: New page: Lighting Build
+[2015.04.10-17.03.13:488][847]LoadErrors: New page: Loading map: Template_Default.umap
+[2015.04.10-17.03.13:488][847]MapCheck: New page: Map Check
+[2015.04.10-17.03.13:488][847]LightingResults: New page: Lighting Build
+[2015.04.10-17.03.14:162][847]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000BDC1094E0
+[2015.04.10-17.03.14:989][847]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.10-17.03.15:001][847]LogAIModule: Creating AISystem for world Untitled_2
+[2015.04.10-17.03.15:033][847]Cmd: MAP CHECKDEP
+[2015.04.10-17.03.15:034][847]MapCheck: New page: Untitled_2 - Apr 10, 2015, 7:03:15 PM
+[2015.04.10-17.03.15:160][847]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 107.896ms to complete.
+[2015.04.10-17.03.15:180][847]LogFileHelpers: Loading map 'Template_Default' took 2.305
+[2015.04.10-17.03.27:341][957]LogSavePackage: Save=18.635950ms
+[2015.04.10-17.03.27:341][957]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Test_LevelA2CD10B3495938F7A0601A9A5C98C748.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/Test_Level.umap'
+[2015.04.10-17.03.27:384][957]LogFileHelpers: Saving map 'Test_Level' took 4.170
+[2015.04.10-17.04.42:801][478]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.04.10-17.04.47:307][679]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.04.10-17.04.51:409][916]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Test'
+[2015.04.10-17.09.30:594][927]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Axel\Downloads\wetransfer-d89fe5\wtcKeyboard.fbx)
+[2015.04.10-17.09.30:888][927]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.04.10-17.09.30:888][927]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.04.10-17.09.30:888][927]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.04.10-17.09.30:888][927]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.04.10-17.09.30:888][927]LogFbx: ItemName: Material, ItemCount : 2
+[2015.04.10-17.09.30:888][927]LogFbx: ItemName: Model, ItemCount : 1
+[2015.04.10-17.09.45:101][927]LogFbx: Loading FBX Scene from C:\Users\Axel\Downloads\wetransfer-d89fe5\wtcKeyboard.fbx
+[2015.04.10-17.09.45:164][927]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.10-17.09.45:220][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert3'
+[2015.04.10-17.09.45:236][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert3'
+[2015.04.10-17.09.45:236][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/lambert3.lambert3'
+[2015.04.10-17.09.46:044][927]LogMaterial: Missing cached shader map for material lambert3, compiling. 
+[2015.04.10-17.09.46:492][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert1'
+[2015.04.10-17.09.46:492][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert1'
+[2015.04.10-17.09.46:493][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/lambert1.lambert1'
+[2015.04.10-17.09.46:552][927]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2015.04.10-17.09.46:716][927]LogFbx: == Initial material list:
+[2015.04.10-17.09.46:716][927]LogFbx: 0: lambert3
+[2015.04.10-17.09.46:716][927]LogFbx: 1: lambert1
+[2015.04.10-17.09.46:716][927]LogFbx: == After sorting:
+[2015.04.10-17.09.46:716][927]LogFbx: 0: lambert3
+[2015.04.10-17.09.46:716][927]LogFbx: 1: lambert1
+[2015.04.10-17.09.46:716][927]LogFbx: == Mapping table:
+[2015.04.10-17.09.46:716][927]LogFbx:   sort 0 -> 0
+[2015.04.10-17.09.46:716][927]LogFbx:   sort 1 -> 1
+[2015.04.10-17.09.47:011][927]LogStaticMesh: Building static mesh wtcKeyboard...
+[2015.04.10-17.09.47:537][927]LogStaticMesh: Built static mesh [636.168091ms] /Game/Meshes/Test/wtcKeyboard.wtcKeyboard
+[2015.04.10-17.09.48:242][927]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.04.10-17.09.48:728][927]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Axel\Downloads\wetransfer-d89fe5\wtcPhone.fbx)
+[2015.04.10-17.09.48:782][927]LogFbx: Loading FBX Scene from C:\Users\Axel\Downloads\wetransfer-d89fe5\wtcPhone.fbx
+[2015.04.10-17.09.49:416][927]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.10-17.09.49:420][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert1'
+[2015.04.10-17.09.49:420][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert1'
+[2015.04.10-17.09.49:648][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert3'
+[2015.04.10-17.09.49:648][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert3'
+[2015.04.10-17.09.49:649][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert4'
+[2015.04.10-17.09.49:649][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert4'
+[2015.04.10-17.09.49:649][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/lambert4.lambert4'
+[2015.04.10-17.09.49:813][927]LogMaterial: Missing cached shader map for material lambert4, compiling. 
+[2015.04.10-17.09.49:827][927]LogFbx: == Initial material list:
+[2015.04.10-17.09.49:827][927]LogFbx: 0: lambert1
+[2015.04.10-17.09.49:827][927]LogFbx: 1: lambert3
+[2015.04.10-17.09.49:827][927]LogFbx: 2: lambert1
+[2015.04.10-17.09.49:827][927]LogFbx: 3: lambert4
+[2015.04.10-17.09.49:827][927]LogFbx:   remap 2 -> 0
+[2015.04.10-17.09.49:827][927]LogFbx: == After sorting:
+[2015.04.10-17.09.49:827][927]LogFbx: 0: lambert1
+[2015.04.10-17.09.49:827][927]LogFbx: 1: lambert3
+[2015.04.10-17.09.49:827][927]LogFbx: 2: lambert4
+[2015.04.10-17.09.49:827][927]LogFbx: == Mapping table:
+[2015.04.10-17.09.49:827][927]LogFbx:   sort 0 -> 0
+[2015.04.10-17.09.49:827][927]LogFbx:   sort 1 -> 1
+[2015.04.10-17.09.49:827][927]LogFbx:   sort 2 -> 0
+[2015.04.10-17.09.49:827][927]LogFbx:   sort 3 -> 2
+[2015.04.10-17.09.49:887][927]LogStaticMesh: Building static mesh wtcPhone...
+[2015.04.10-17.09.50:375][927]LogStaticMesh: Built static mesh [541.251770ms] /Game/Meshes/Test/wtcPhone.wtcPhone
+[2015.04.10-17.09.50:446][927]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.04.10-17.09.50:528][927]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Axel\Downloads\wetransfer-d89fe5\wtcPhonePlatform.fbx)
+[2015.04.10-17.09.50:563][927]LogFbx: Loading FBX Scene from C:\Users\Axel\Downloads\wetransfer-d89fe5\wtcPhonePlatform.fbx
+[2015.04.10-17.09.50:637][927]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.10-17.09.50:642][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert1'
+[2015.04.10-17.09.50:642][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert1'
+[2015.04.10-17.09.50:664][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert4'
+[2015.04.10-17.09.50:664][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert4'
+[2015.04.10-17.09.50:664][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert3'
+[2015.04.10-17.09.50:664][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert3'
+[2015.04.10-17.09.50:671][927]LogFbx: == Initial material list:
+[2015.04.10-17.09.50:671][927]LogFbx: 0: lambert1
+[2015.04.10-17.09.50:671][927]LogFbx: 1: lambert1
+[2015.04.10-17.09.50:671][927]LogFbx: 2: lambert4
+[2015.04.10-17.09.50:671][927]LogFbx: 3: lambert3
+[2015.04.10-17.09.50:671][927]LogFbx:   remap 1 -> 0
+[2015.04.10-17.09.50:671][927]LogFbx: == After sorting:
+[2015.04.10-17.09.50:671][927]LogFbx: 0: lambert1
+[2015.04.10-17.09.50:671][927]LogFbx: 1: lambert4
+[2015.04.10-17.09.50:671][927]LogFbx: 2: lambert3
+[2015.04.10-17.09.50:671][927]LogFbx: == Mapping table:
+[2015.04.10-17.09.50:671][927]LogFbx:   sort 0 -> 0
+[2015.04.10-17.09.50:671][927]LogFbx:   sort 1 -> 0
+[2015.04.10-17.09.50:671][927]LogFbx:   sort 2 -> 1
+[2015.04.10-17.09.50:671][927]LogFbx:   sort 3 -> 2
+[2015.04.10-17.09.50:733][927]LogStaticMesh: Building static mesh wtcPhonePlatform...
+[2015.04.10-17.09.51:227][927]LogStaticMesh: Built static mesh [552.265076ms] /Game/Meshes/Test/wtcPhonePlatform.wtcPhonePlatform
+[2015.04.10-17.09.51:298][927]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.04.10-17.09.51:387][927]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Axel\Downloads\wetransfer-d89fe5\wtcScreen.fbx)
+[2015.04.10-17.09.51:411][927]LogFbx: Loading FBX Scene from C:\Users\Axel\Downloads\wetransfer-d89fe5\wtcScreen.fbx
+[2015.04.10-17.09.51:462][927]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.10-17.09.51:464][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert4'
+[2015.04.10-17.09.51:464][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert4'
+[2015.04.10-17.09.51:465][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert3'
+[2015.04.10-17.09.51:465][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert3'
+[2015.04.10-17.09.51:470][927]LogFbx: == Initial material list:
+[2015.04.10-17.09.51:470][927]LogFbx: 0: lambert4
+[2015.04.10-17.09.51:470][927]LogFbx: 1: lambert3
+[2015.04.10-17.09.51:470][927]LogFbx: == After sorting:
+[2015.04.10-17.09.51:470][927]LogFbx: 0: lambert4
+[2015.04.10-17.09.51:470][927]LogFbx: 1: lambert3
+[2015.04.10-17.09.51:470][927]LogFbx: == Mapping table:
+[2015.04.10-17.09.51:470][927]LogFbx:   sort 0 -> 0
+[2015.04.10-17.09.51:470][927]LogFbx:   sort 1 -> 1
+[2015.04.10-17.09.51:533][927]LogStaticMesh: Building static mesh wtcScreen...
+[2015.04.10-17.09.51:633][927]LogStaticMesh: Built static mesh [161.696732ms] /Game/Meshes/Test/wtcScreen.wtcScreen
+[2015.04.10-17.09.51:710][927]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.04.10-17.09.51:793][927]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Axel\Downloads\wetransfer-d89fe5\Etage105.fbx)
+[2015.04.10-17.09.54:282][927]LogFbx: Loading FBX Scene from C:\Users\Axel\Downloads\wetransfer-d89fe5\Etage105.fbx
+[2015.04.10-17.10.00:116][927]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.10-17.10.00:316][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert7'
+[2015.04.10-17.10.00:316][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert7'
+[2015.04.10-17.10.00:316][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/lambert7.lambert7'
+[2015.04.10-17.10.02:176][927]LogMaterial: Missing cached shader map for material lambert7, compiling. 
+[2015.04.10-17.10.02:209][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert8'
+[2015.04.10-17.10.02:210][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert8'
+[2015.04.10-17.10.02:210][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/lambert8.lambert8'
+[2015.04.10-17.10.02:733][927]LogMaterial: Missing cached shader map for material lambert8, compiling. 
+[2015.04.10-17.10.02:743][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert9'
+[2015.04.10-17.10.02:743][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert9'
+[2015.04.10-17.10.02:743][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/lambert9.lambert9'
+[2015.04.10-17.10.04:667][927]LogMaterial: Missing cached shader map for material lambert9, compiling. 
+[2015.04.10-17.10.05:183][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/moquette'
+[2015.04.10-17.10.05:183][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/moquette'
+[2015.04.10-17.10.05:183][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/moquette.moquette'
+[2015.04.10-17.10.05:294][927]LogMaterial: Missing cached shader map for material moquette, compiling. 
+[2015.04.10-17.10.05:313][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert6'
+[2015.04.10-17.10.05:314][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert6'
+[2015.04.10-17.10.05:314][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/lambert6.lambert6'
+[2015.04.10-17.10.05:380][927]LogMaterial: Missing cached shader map for material lambert6, compiling. 
+[2015.04.10-17.10.05:389][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert20'
+[2015.04.10-17.10.05:389][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert20'
+[2015.04.10-17.10.05:389][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/lambert20.lambert20'
+[2015.04.10-17.10.05:578][927]LogMaterial: Missing cached shader map for material lambert20, compiling. 
+[2015.04.10-17.10.05:591][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert5'
+[2015.04.10-17.10.05:591][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert5'
+[2015.04.10-17.10.05:591][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/lambert5.lambert5'
+[2015.04.10-17.10.05:878][927]LogMaterial: Missing cached shader map for material lambert5, compiling. 
+[2015.04.10-17.10.05:893][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/moquette3'
+[2015.04.10-17.10.05:894][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/moquette3'
+[2015.04.10-17.10.05:894][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/moquette3.moquette3'
+[2015.04.10-17.10.06:029][927]LogMaterial: Missing cached shader map for material moquette3, compiling. 
+[2015.04.10-17.10.06:039][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/Default_Material1'
+[2015.04.10-17.10.06:039][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/Default_Material1'
+[2015.04.10-17.10.06:039][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/Default_Material1.Default_Material1'
+[2015.04.10-17.10.06:286][927]LogMaterial: Missing cached shader map for material Default_Material1, compiling. 
+[2015.04.10-17.10.06:301][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert19'
+[2015.04.10-17.10.06:304][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert19'
+[2015.04.10-17.10.06:304][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/lambert19.lambert19'
+[2015.04.10-17.10.08:197][927]LogMaterial: Missing cached shader map for material lambert19, compiling. 
+[2015.04.10-17.10.08:214][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/moquette1'
+[2015.04.10-17.10.08:214][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/moquette1'
+[2015.04.10-17.10.08:214][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/moquette1.moquette1'
+[2015.04.10-17.10.08:564][927]LogMaterial: Missing cached shader map for material moquette1, compiling. 
+[2015.04.10-17.10.08:579][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert10'
+[2015.04.10-17.10.08:579][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert10'
+[2015.04.10-17.10.08:580][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/lambert10.lambert10'
+[2015.04.10-17.10.09:455][927]LogMaterial: Missing cached shader map for material lambert10, compiling. 
+[2015.04.10-17.10.09:588][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert11'
+[2015.04.10-17.10.09:588][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert11'
+[2015.04.10-17.10.09:588][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/lambert11.lambert11'
+[2015.04.10-17.10.09:816][927]LogMaterial: Missing cached shader map for material lambert11, compiling. 
+[2015.04.10-17.10.09:834][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert12'
+[2015.04.10-17.10.09:835][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert12'
+[2015.04.10-17.10.09:835][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/lambert12.lambert12'
+[2015.04.10-17.10.10:634][927]LogMaterial: Missing cached shader map for material lambert12, compiling. 
+[2015.04.10-17.10.10:644][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert13'
+[2015.04.10-17.10.10:645][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert13'
+[2015.04.10-17.10.10:646][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/lambert13.lambert13'
+[2015.04.10-17.10.10:765][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/corps-humain-virtuel-vueanterieure'
+[2015.04.10-17.10.10:765][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/corps-humain-virtuel-vueanterieure'
+[2015.04.10-17.10.10:765][927]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Meshes/Test/corps-humain-virtuel-vueanterieure.corps-humain-virtuel-vueanterieure'
+[2015.04.10-17.10.10:765][927]LogStreaming:Warning: Failed to read file 'C:/Users/TOSHIBA/Documents/work/concept_artBlog/846/ref photo/corps-humain-virtuel-vueanterieure.jpg' error.
+[2015.04.10-17.10.10:765][927]LogStreaming:Warning: Failed to read file 'C:\Users\Axel\Downloads\wetransfer-d89fe5/..\work\concept_artBlog\846\ref photo\corps-humain-virtuel-vueanterieure.jpg' error.
+[2015.04.10-17.10.10:765][927]LogStreaming:Warning: Failed to read file 'C:\Users\Axel\Downloads\wetransfer-d89fe5/corps-humain-virtuel-vueanterieure.jpg' error.
+[2015.04.10-17.10.10:765][927]LogFbxMaterialImport:Warning: Unable to find TEXTure file corps-humain-virtuel-vueanterieure.jpg. Tried:
+ - C:/Users/TOSHIBA/Documents/work/concept_artBlog/846/ref photo/corps-humain-virtuel-vueanterieure.jpg
+ - C:\Users\Axel\Downloads\wetransfer-d89fe5/..\work\concept_artBlog\846\ref photo\corps-humain-virtuel-vueanterieure.jpg
+ - C:\Users\Axel\Downloads\wetransfer-d89fe5/corps-humain-virtuel-vueanterieure.jpg
+[2015.04.10-17.10.11:330][927]LogMaterial: Missing cached shader map for material lambert13, compiling. 
+[2015.04.10-17.10.11:346][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert4'
+[2015.04.10-17.10.11:346][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert4'
+[2015.04.10-17.10.11:346][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert16'
+[2015.04.10-17.10.11:347][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert16'
+[2015.04.10-17.10.11:347][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/lambert16.lambert16'
+[2015.04.10-17.10.11:878][927]LogMaterial: Missing cached shader map for material lambert16, compiling. 
+[2015.04.10-17.10.11:889][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert17'
+[2015.04.10-17.10.11:890][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert17'
+[2015.04.10-17.10.11:890][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/lambert17.lambert17'
+[2015.04.10-17.10.12:061][927]LogMaterial: Missing cached shader map for material lambert17, compiling. 
+[2015.04.10-17.10.12:071][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert18'
+[2015.04.10-17.10.12:072][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert18'
+[2015.04.10-17.10.12:072][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/lambert18.lambert18'
+[2015.04.10-17.10.12:712][927]LogMaterial: Missing cached shader map for material lambert18, compiling. 
+[2015.04.10-17.10.12:727][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/moquette4'
+[2015.04.10-17.10.12:728][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/moquette4'
+[2015.04.10-17.10.12:728][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/moquette4.moquette4'
+[2015.04.10-17.10.14:940][927]LogMaterial: Missing cached shader map for material moquette4, compiling. 
+[2015.04.10-17.10.14:952][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/Default_Material2'
+[2015.04.10-17.10.14:952][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/Default_Material2'
+[2015.04.10-17.10.14:952][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/Default_Material2.Default_Material2'
+[2015.04.10-17.10.15:088][927]LogMaterial: Missing cached shader map for material Default_Material2, compiling. 
+[2015.04.10-17.10.15:098][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert21'
+[2015.04.10-17.10.15:098][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert21'
+[2015.04.10-17.10.15:098][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/lambert21.lambert21'
+[2015.04.10-17.10.15:170][927]LogMaterial: Missing cached shader map for material lambert21, compiling. 
+[2015.04.10-17.10.15:197][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert22'
+[2015.04.10-17.10.15:197][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert22'
+[2015.04.10-17.10.15:197][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/lambert22.lambert22'
+[2015.04.10-17.10.15:258][927]LogMaterial: Missing cached shader map for material lambert22, compiling. 
+[2015.04.10-17.10.15:267][927]LogFbx:Warning: Triangulating static mesh wallglass2
+[2015.04.10-17.10.19:239][927]LogFbx: == Initial material list:
+[2015.04.10-17.10.19:239][927]LogFbx: 0: lambert7
+[2015.04.10-17.10.19:239][927]LogFbx: 1: lambert8
+[2015.04.10-17.10.19:239][927]LogFbx: 2: lambert9
+[2015.04.10-17.10.19:239][927]LogFbx: 3: moquette
+[2015.04.10-17.10.19:239][927]LogFbx: 4: lambert6
+[2015.04.10-17.10.19:239][927]LogFbx: 5: lambert20
+[2015.04.10-17.10.19:239][927]LogFbx: 6: lambert5
+[2015.04.10-17.10.19:239][927]LogFbx: 7: moquette3
+[2015.04.10-17.10.19:239][927]LogFbx: 8: Default_Material1
+[2015.04.10-17.10.19:239][927]LogFbx: 9: lambert19
+[2015.04.10-17.10.19:239][927]LogFbx: 10: moquette1
+[2015.04.10-17.10.19:239][927]LogFbx: 11: lambert10
+[2015.04.10-17.10.19:239][927]LogFbx: 12: lambert11
+[2015.04.10-17.10.19:239][927]LogFbx: 13: lambert12
+[2015.04.10-17.10.19:239][927]LogFbx: 14: lambert13
+[2015.04.10-17.10.19:239][927]LogFbx: 15: deskWtc02:lambert4
+[2015.04.10-17.10.19:239][927]LogFbx: 16: lambert16
+[2015.04.10-17.10.19:239][927]LogFbx: 17: lambert17
+[2015.04.10-17.10.19:239][927]LogFbx: 18: lambert18
+[2015.04.10-17.10.19:239][927]LogFbx: 19: moquette4
+[2015.04.10-17.10.19:239][927]LogFbx: 20: Default_Material2
+[2015.04.10-17.10.19:239][927]LogFbx: 21: lambert21
+[2015.04.10-17.10.19:239][927]LogFbx: 22: lambert22
+[2015.04.10-17.10.19:239][927]LogFbx: == After sorting:
+[2015.04.10-17.10.19:239][927]LogFbx: 0: lambert7
+[2015.04.10-17.10.19:239][927]LogFbx: 1: lambert8
+[2015.04.10-17.10.19:239][927]LogFbx: 2: lambert9
+[2015.04.10-17.10.19:239][927]LogFbx: 3: moquette
+[2015.04.10-17.10.19:239][927]LogFbx: 4: lambert6
+[2015.04.10-17.10.19:239][927]LogFbx: 5: lambert20
+[2015.04.10-17.10.19:239][927]LogFbx: 6: lambert5
+[2015.04.10-17.10.19:239][927]LogFbx: 7: moquette3
+[2015.04.10-17.10.19:239][927]LogFbx: 8: Default_Material1
+[2015.04.10-17.10.19:239][927]LogFbx: 9: lambert19
+[2015.04.10-17.10.19:239][927]LogFbx: 10: moquette1
+[2015.04.10-17.10.19:239][927]LogFbx: 11: lambert10
+[2015.04.10-17.10.19:239][927]LogFbx: 12: lambert11
+[2015.04.10-17.10.19:239][927]LogFbx: 13: lambert12
+[2015.04.10-17.10.19:239][927]LogFbx: 14: lambert13
+[2015.04.10-17.10.19:239][927]LogFbx: 15: deskWtc02:lambert4
+[2015.04.10-17.10.19:239][927]LogFbx: 16: lambert16
+[2015.04.10-17.10.19:239][927]LogFbx: 17: lambert17
+[2015.04.10-17.10.19:239][927]LogFbx: 18: lambert18
+[2015.04.10-17.10.19:239][927]LogFbx: 19: moquette4
+[2015.04.10-17.10.19:239][927]LogFbx: 20: Default_Material2
+[2015.04.10-17.10.19:239][927]LogFbx: 21: lambert21
+[2015.04.10-17.10.19:239][927]LogFbx: 22: lambert22
+[2015.04.10-17.10.19:239][927]LogFbx: == Mapping table:
+[2015.04.10-17.10.19:239][927]LogFbx:   sort 0 -> 0
+[2015.04.10-17.10.19:239][927]LogFbx:   sort 1 -> 1
+[2015.04.10-17.10.19:239][927]LogFbx:   sort 2 -> 2
+[2015.04.10-17.10.19:239][927]LogFbx:   sort 3 -> 3
+[2015.04.10-17.10.19:239][927]LogFbx:   sort 4 -> 4
+[2015.04.10-17.10.19:239][927]LogFbx:   sort 5 -> 5
+[2015.04.10-17.10.19:239][927]LogFbx:   sort 6 -> 6
+[2015.04.10-17.10.19:239][927]LogFbx:   sort 7 -> 7
+[2015.04.10-17.10.19:239][927]LogFbx:   sort 8 -> 8
+[2015.04.10-17.10.19:239][927]LogFbx:   sort 9 -> 9
+[2015.04.10-17.10.19:239][927]LogFbx:   sort 10 -> 10
+[2015.04.10-17.10.19:239][927]LogFbx:   sort 11 -> 11
+[2015.04.10-17.10.19:240][927]LogFbx:   sort 12 -> 12
+[2015.04.10-17.10.19:240][927]LogFbx:   sort 13 -> 13
+[2015.04.10-17.10.19:240][927]LogFbx:   sort 14 -> 14
+[2015.04.10-17.10.19:240][927]LogFbx:   sort 15 -> 15
+[2015.04.10-17.10.19:240][927]LogFbx:   sort 16 -> 16
+[2015.04.10-17.10.19:240][927]LogFbx:   sort 17 -> 17
+[2015.04.10-17.10.19:240][927]LogFbx:   sort 18 -> 18
+[2015.04.10-17.10.19:240][927]LogFbx:   sort 19 -> 19
+[2015.04.10-17.10.19:240][927]LogFbx:   sort 20 -> 20
+[2015.04.10-17.10.19:240][927]LogFbx:   sort 21 -> 21
+[2015.04.10-17.10.19:240][927]LogFbx:   sort 22 -> 22
+[2015.04.10-17.10.19:795][927]LogStaticMesh: Building static mesh Etage105...
+[2015.04.10-17.12.31:788][927]LogStaticMesh: Built static mesh [132024.203125ms] /Game/Meshes/Test/Etage105.Etage105
+[2015.04.10-17.12.34:308][927]LogStaticMesh:Warning: Etage105 has degenerate tangent bases which will result in incorrect shading. 
+[2015.04.10-17.13.16:098][927]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.04.10-17.13.18:657][927]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Axel\Downloads\wetransfer-d89fe5\wtcCardCoffeeCup.fbx)
+[2015.04.10-17.13.18:698][927]LogFbx: Loading FBX Scene from C:\Users\Axel\Downloads\wetransfer-d89fe5\wtcCardCoffeeCup.fbx
+[2015.04.10-17.13.18:712][927]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.10-17.13.18:714][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert1'
+[2015.04.10-17.13.18:714][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert1'
+[2015.04.10-17.13.18:715][927]LogFbx:Warning: Triangulating static mesh cardCoffeeCup
+[2015.04.10-17.13.18:826][927]LogFbx: == Initial material list:
+[2015.04.10-17.13.18:826][927]LogFbx: 0: lambert1
+[2015.04.10-17.13.18:826][927]LogFbx: == After sorting:
+[2015.04.10-17.13.18:826][927]LogFbx: 0: lambert1
+[2015.04.10-17.13.18:826][927]LogFbx: == Mapping table:
+[2015.04.10-17.13.18:826][927]LogFbx:   sort 0 -> 0
+[2015.04.10-17.13.18:849][927]LogStaticMesh: Building static mesh wtcCardCoffeeCup...
+[2015.04.10-17.13.18:861][927]LogStaticMesh: Built static mesh [33.777737ms] /Game/Meshes/Test/wtcCardCoffeeCup.wtcCardCoffeeCup
+[2015.04.10-17.13.18:906][927]LogStaticMesh:Warning: wtcCardCoffeeCup has degenerate tangent bases which will result in incorrect shading. 
+[2015.04.10-17.13.20:263][927]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Axel\Downloads\wetransfer-d89fe5\wtcChair.fbx)
+[2015.04.10-17.13.20:293][927]LogFbx: Loading FBX Scene from C:\Users\Axel\Downloads\wetransfer-d89fe5\wtcChair.fbx
+[2015.04.10-17.13.20:356][927]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.10-17.13.20:359][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert2'
+[2015.04.10-17.13.20:359][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert2'
+[2015.04.10-17.13.20:359][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/lambert2.lambert2'
+[2015.04.10-17.13.20:408][927]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2015.04.10-17.13.20:415][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert1'
+[2015.04.10-17.13.20:415][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert1'
+[2015.04.10-17.13.20:436][927]LogFbx: == Initial material list:
+[2015.04.10-17.13.20:436][927]LogFbx: 0: lambert2
+[2015.04.10-17.13.20:436][927]LogFbx: 1: lambert1
+[2015.04.10-17.13.20:436][927]LogFbx: == After sorting:
+[2015.04.10-17.13.20:436][927]LogFbx: 0: lambert2
+[2015.04.10-17.13.20:436][927]LogFbx: 1: lambert1
+[2015.04.10-17.13.20:436][927]LogFbx: == Mapping table:
+[2015.04.10-17.13.20:436][927]LogFbx:   sort 0 -> 0
+[2015.04.10-17.13.20:436][927]LogFbx:   sort 1 -> 1
+[2015.04.10-17.13.20:485][927]LogStaticMesh: Building static mesh wtcChair...
+[2015.04.10-17.13.20:647][927]LogStaticMesh: Built static mesh [205.158035ms] /Game/Meshes/Test/wtcChair.wtcChair
+[2015.04.10-17.13.20:682][927]LogStaticMesh:Warning: wtcChair has degenerate tangent bases which will result in incorrect shading. 
+[2015.04.10-17.13.21:475][927]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Axel\Downloads\wetransfer-d89fe5\wtcDesk.fbx)
+[2015.04.10-17.13.21:504][927]LogFbx: Loading FBX Scene from C:\Users\Axel\Downloads\wetransfer-d89fe5\wtcDesk.fbx
+[2015.04.10-17.13.21:541][927]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.10-17.13.21:545][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert3'
+[2015.04.10-17.13.21:546][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert3'
+[2015.04.10-17.13.21:546][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert1'
+[2015.04.10-17.13.21:546][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert1'
+[2015.04.10-17.13.21:546][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert2'
+[2015.04.10-17.13.21:546][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert2'
+[2015.04.10-17.13.21:550][927]LogFbx: == Initial material list:
+[2015.04.10-17.13.21:550][927]LogFbx: 0: lambert3
+[2015.04.10-17.13.21:550][927]LogFbx: 1: lambert1
+[2015.04.10-17.13.21:550][927]LogFbx: 2: lambert2
+[2015.04.10-17.13.21:550][927]LogFbx: == After sorting:
+[2015.04.10-17.13.21:550][927]LogFbx: 0: lambert3
+[2015.04.10-17.13.21:550][927]LogFbx: 1: lambert1
+[2015.04.10-17.13.21:550][927]LogFbx: 2: lambert2
+[2015.04.10-17.13.21:550][927]LogFbx: == Mapping table:
+[2015.04.10-17.13.21:550][927]LogFbx:   sort 0 -> 0
+[2015.04.10-17.13.21:550][927]LogFbx:   sort 1 -> 1
+[2015.04.10-17.13.21:550][927]LogFbx:   sort 2 -> 2
+[2015.04.10-17.13.21:594][927]LogStaticMesh: Building static mesh wtcDesk...
+[2015.04.10-17.13.21:664][927]LogStaticMesh: Built static mesh [113.220589ms] /Game/Meshes/Test/wtcDesk.wtcDesk
+[2015.04.10-17.13.21:756][927]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Axel\Downloads\wetransfer-d89fe5\wtcDustbin.fbx)
+[2015.04.10-17.13.21:767][927]LogFbx: Loading FBX Scene from C:\Users\Axel\Downloads\wetransfer-d89fe5\wtcDustbin.fbx
+[2015.04.10-17.13.21:783][927]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.10-17.13.21:786][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert1'
+[2015.04.10-17.13.21:786][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/lambert1'
+[2015.04.10-17.13.21:787][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/blinn1'
+[2015.04.10-17.13.21:787][927]LogLinker:Warning: Can't find file '/Game/Meshes/Test/blinn1'
+[2015.04.10-17.13.21:787][927]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/Test/blinn1.blinn1'
+[2015.04.10-17.13.21:818][927]LogMaterial: Missing cached shader map for material blinn1, compiling. 
+[2015.04.10-17.13.21:825][927]LogFbx:Warning: Triangulating static mesh pCube1
+[2015.04.10-17.13.21:949][927]LogFbx: == Initial material list:
+[2015.04.10-17.13.21:949][927]LogFbx: 0: lambert1
+[2015.04.10-17.13.21:949][927]LogFbx: 1: blinn1
+[2015.04.10-17.13.21:949][927]LogFbx: == After sorting:
+[2015.04.10-17.13.21:949][927]LogFbx: 0: lambert1
+[2015.04.10-17.13.21:949][927]LogFbx: 1: blinn1
+[2015.04.10-17.13.21:949][927]LogFbx: == Mapping table:
+[2015.04.10-17.13.21:949][927]LogFbx:   sort 0 -> 0
+[2015.04.10-17.13.21:949][927]LogFbx:   sort 1 -> 1
+[2015.04.10-17.13.21:999][927]LogStaticMesh: Building static mesh wtcDustbin...
+[2015.04.10-17.13.22:012][927]LogStaticMesh: Built static mesh [62.316895ms] /Game/Meshes/Test/wtcDustbin.wtcDustbin
+[2015.04.10-17.13.22:052][927]LogStaticMesh:Warning: wtcDustbin has degenerate tangent bases which will result in incorrect shading. 
+[2015.04.10-17.13.22:813][927]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.10-17.13.22:814][927]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Test'
+[2015.04.10-17.13.22:824][927]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Test'
+[2015.04.10-17.13.22:825][927]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Test'
+[2015.04.10-17.13.22:825][927]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Test'
+[2015.04.10-17.13.22:843][927]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Test'
+[2015.04.10-17.13.22:843][927]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Test'
+[2015.04.10-17.13.22:843][927]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Test'
+[2015.04.10-17.13.22:844][927]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Test'
+[2015.04.10-17.13.22:844][927]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Test'
+[2015.04.10-17.13.28:746][117]LogActorFactory: Actor Factory created wtcCardCoffeeCup
+[2015.04.10-17.13.29:061][130]LogActorFactory: Actor Factory created wtcCardCoffeeCup
+[2015.04.10-17.13.33:696][304]LogSavePackage: Save=22.283247ms
+[2015.04.10-17.13.33:696][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Test_Level_Auto4347C66254583CE5B49DAF193189D49C0.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Level/Test_Level_Auto4.umap'
+[2015.04.10-17.13.33:705][304]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/Test_Level' took 0.251
+[2015.04.10-17.13.33:705][304]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.251
+[2015.04.10-17.13.33:744][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/wtcKeyboard] ([1] browsable assets)...
+[2015.04.10-17.13.33:811][304]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Test/wtcKeyboard.wtcKeyboard]
+[2015.04.10-17.13.33:811][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/wtcKeyboard]
+[2015.04.10-17.13.34:249][304]LogSavePackage: Save=428.607544ms
+[2015.04.10-17.13.34:250][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/wtcKeyboard_Auto4385D3BFB4E27EC52C4B22792258ED550.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/wtcKeyboard_Auto4.uasset'
+[2015.04.10-17.13.34:303][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/lambert3] ([1] browsable assets)...
+[2015.04.10-17.13.34:373][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/lambert3.lambert3]
+[2015.04.10-17.13.34:373][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert3]
+[2015.04.10-17.13.34:966][304]LogSavePackage: Save=587.586487ms
+[2015.04.10-17.13.34:967][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert3_Auto4C896FA6B4DCE07BD78D46A8B97DACAE1.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert3_Auto4.uasset'
+[2015.04.10-17.13.35:093][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/lambert1] ([1] browsable assets)...
+[2015.04.10-17.13.35:177][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/lambert1.lambert1]
+[2015.04.10-17.13.35:177][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert1]
+[2015.04.10-17.13.35:716][304]LogSavePackage: Save=535.145691ms
+[2015.04.10-17.13.35:717][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert1_Auto438DF6D284DD27A85417F5EB315899C68.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert1_Auto4.uasset'
+[2015.04.10-17.13.35:828][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/wtcPhone] ([1] browsable assets)...
+[2015.04.10-17.13.35:885][304]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Test/wtcPhone.wtcPhone]
+[2015.04.10-17.13.35:885][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/wtcPhone]
+[2015.04.10-17.13.36:422][304]LogSavePackage: Save=531.316528ms
+[2015.04.10-17.13.36:422][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/wtcPhone_Auto4A4C8A920468A80116D1F81BD8BAABA9D.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/wtcPhone_Auto4.uasset'
+[2015.04.10-17.13.36:559][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/lambert4] ([1] browsable assets)...
+[2015.04.10-17.13.36:619][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/lambert4.lambert4]
+[2015.04.10-17.13.36:619][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert4]
+[2015.04.10-17.13.37:199][304]LogSavePackage: Save=572.074768ms
+[2015.04.10-17.13.37:199][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert4_Auto4D6824C2B40C667CD33EE0B932758BBA8.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert4_Auto4.uasset'
+[2015.04.10-17.13.37:315][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/wtcPhonePlatform] ([1] browsable assets)...
+[2015.04.10-17.13.37:388][304]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Test/wtcPhonePlatform.wtcPhonePlatform]
+[2015.04.10-17.13.37:388][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/wtcPhonePlatform]
+[2015.04.10-17.13.38:008][304]LogSavePackage: Save=570.819702ms
+[2015.04.10-17.13.38:009][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/wtcPhonePlatform_Auto4C77865AC4B3122DECC92308EEE070F6B.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/wtcPhonePlatform_Auto4.uasset'
+[2015.04.10-17.13.38:149][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/wtcScreen] ([1] browsable assets)...
+[2015.04.10-17.13.38:218][304]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Test/wtcScreen.wtcScreen]
+[2015.04.10-17.13.38:219][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/wtcScreen]
+[2015.04.10-17.13.38:752][304]LogSavePackage: Save=528.746460ms
+[2015.04.10-17.13.38:753][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/wtcScreen_Auto48639367446E047215CFF5DA2234D7416.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/wtcScreen_Auto4.uasset'
+[2015.04.10-17.13.38:794][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/Etage105] ([1] browsable assets)...
+[2015.04.10-17.13.38:863][304]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Test/Etage105.Etage105]
+[2015.04.10-17.13.38:863][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/Etage105]
+[2015.04.10-17.13.39:325][304]LogSavePackage: Save=456.881927ms
+[2015.04.10-17.13.39:325][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Etage105_Auto42972CF9148701FCB88898486A5A72E58.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/Etage105_Auto4.uasset'
+[2015.04.10-17.13.39:370][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/lambert7] ([1] browsable assets)...
+[2015.04.10-17.13.39:441][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/lambert7.lambert7]
+[2015.04.10-17.13.39:441][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert7]
+[2015.04.10-17.13.40:021][304]LogSavePackage: Save=572.546509ms
+[2015.04.10-17.13.40:022][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert7_Auto4B458FBAF46868C068D2DB38A728A064D.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert7_Auto4.uasset'
+[2015.04.10-17.13.40:146][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/lambert8] ([1] browsable assets)...
+[2015.04.10-17.13.40:202][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/lambert8.lambert8]
+[2015.04.10-17.13.40:202][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert8]
+[2015.04.10-17.13.40:813][304]LogSavePackage: Save=593.379700ms
+[2015.04.10-17.13.40:814][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert8_Auto43BCBFEEE4FB3CA8DBB699184307AB360.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert8_Auto4.uasset'
+[2015.04.10-17.13.40:941][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/lambert9] ([1] browsable assets)...
+[2015.04.10-17.13.41:001][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/lambert9.lambert9]
+[2015.04.10-17.13.41:001][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert9]
+[2015.04.10-17.13.41:569][304]LogSavePackage: Save=563.309204ms
+[2015.04.10-17.13.41:570][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert9_Auto488138B7F4E1A726EAD2277AAF2BD4B0C.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert9_Auto4.uasset'
+[2015.04.10-17.13.41:696][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/moquette] ([1] browsable assets)...
+[2015.04.10-17.13.41:767][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/moquette.moquette]
+[2015.04.10-17.13.41:767][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/moquette]
+[2015.04.10-17.13.42:293][304]LogSavePackage: Save=521.750366ms
+[2015.04.10-17.13.42:294][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/moquette_Auto47010168A4F3F0A1E14F2AEB4FEDC16DA.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/moquette_Auto4.uasset'
+[2015.04.10-17.13.42:336][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/lambert6] ([1] browsable assets)...
+[2015.04.10-17.13.42:393][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/lambert6.lambert6]
+[2015.04.10-17.13.42:393][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert6]
+[2015.04.10-17.13.42:951][304]LogSavePackage: Save=551.861938ms
+[2015.04.10-17.13.42:952][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert6_Auto499774D9745AD72E8FA3B6094D5590D07.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert6_Auto4.uasset'
+[2015.04.10-17.13.43:112][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/lambert20] ([1] browsable assets)...
+[2015.04.10-17.13.43:189][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/lambert20.lambert20]
+[2015.04.10-17.13.43:189][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert20]
+[2015.04.10-17.13.43:744][304]LogSavePackage: Save=549.653992ms
+[2015.04.10-17.13.43:744][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert20_Auto48A4EFB5049C06AF49D570EB9F729081A.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert20_Auto4.uasset'
+[2015.04.10-17.13.43:880][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/lambert5] ([1] browsable assets)...
+[2015.04.10-17.13.43:957][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/lambert5.lambert5]
+[2015.04.10-17.13.43:957][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert5]
+[2015.04.10-17.13.44:477][304]LogSavePackage: Save=513.821472ms
+[2015.04.10-17.13.44:478][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert5_Auto4B7C3825F4CCABA051DC1809B3F417686.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert5_Auto4.uasset'
+[2015.04.10-17.13.44:520][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/moquette3] ([1] browsable assets)...
+[2015.04.10-17.13.44:566][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/moquette3.moquette3]
+[2015.04.10-17.13.44:566][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/moquette3]
+[2015.04.10-17.13.45:067][304]LogSavePackage: Save=495.206451ms
+[2015.04.10-17.13.45:068][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/moquette3_Auto4DF64556F421930511469778D2D912474.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/moquette3_Auto4.uasset'
+[2015.04.10-17.13.45:108][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/Default_Material1] ([1] browsable assets)...
+[2015.04.10-17.13.45:184][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/Default_Material1.Default_Material1]
+[2015.04.10-17.13.45:184][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/Default_Material1]
+[2015.04.10-17.13.45:721][304]LogSavePackage: Save=530.412048ms
+[2015.04.10-17.13.45:722][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Default_Material1_Auto48734890349F7EC86BFDA18984BFDB04F.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/Default_Material1_Auto4.uasset'
+[2015.04.10-17.13.45:771][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/lambert19] ([1] browsable assets)...
+[2015.04.10-17.13.45:833][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/lambert19.lambert19]
+[2015.04.10-17.13.45:833][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert19]
+[2015.04.10-17.13.46:346][304]LogSavePackage: Save=505.234467ms
+[2015.04.10-17.13.46:346][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert19_Auto43EAA61134E0C39FCE8799E8956085B8B.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert19_Auto4.uasset'
+[2015.04.10-17.13.46:391][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/moquette1] ([1] browsable assets)...
+[2015.04.10-17.13.46:449][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/moquette1.moquette1]
+[2015.04.10-17.13.46:449][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/moquette1]
+[2015.04.10-17.13.46:964][304]LogSavePackage: Save=502.250610ms
+[2015.04.10-17.13.46:965][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/moquette1_Auto49737F29545E53F1A400C4EA8708B3385.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/moquette1_Auto4.uasset'
+[2015.04.10-17.13.47:008][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/lambert10] ([1] browsable assets)...
+[2015.04.10-17.13.47:080][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/lambert10.lambert10]
+[2015.04.10-17.13.47:080][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert10]
+[2015.04.10-17.13.47:615][304]LogSavePackage: Save=529.081482ms
+[2015.04.10-17.13.47:616][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert10_Auto4973D5D834B3290D0B474D9BE0212DC70.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert10_Auto4.uasset'
+[2015.04.10-17.13.47:668][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/lambert11] ([1] browsable assets)...
+[2015.04.10-17.13.47:763][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/lambert11.lambert11]
+[2015.04.10-17.13.47:763][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert11]
+[2015.04.10-17.13.48:361][304]LogSavePackage: Save=593.130493ms
+[2015.04.10-17.13.48:362][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert11_Auto4978CB8FC4C70667FB5D177B39EE26AD3.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert11_Auto4.uasset'
+[2015.04.10-17.13.48:495][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/lambert12] ([1] browsable assets)...
+[2015.04.10-17.13.48:574][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/lambert12.lambert12]
+[2015.04.10-17.13.48:574][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert12]
+[2015.04.10-17.13.49:116][304]LogSavePackage: Save=536.687683ms
+[2015.04.10-17.13.49:116][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert12_Auto4D4E3D7A84A9A6693B45B4A8D8E358FD2.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert12_Auto4.uasset'
+[2015.04.10-17.13.49:221][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/lambert13] ([1] browsable assets)...
+[2015.04.10-17.13.49:283][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/lambert13.lambert13]
+[2015.04.10-17.13.49:283][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert13]
+[2015.04.10-17.13.49:838][304]LogSavePackage: Save=546.474304ms
+[2015.04.10-17.13.49:839][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert13_Auto488E2EC66461753FCDA81A09757BC9EDB.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert13_Auto4.uasset'
+[2015.04.10-17.13.49:940][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/lambert16] ([1] browsable assets)...
+[2015.04.10-17.13.49:999][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/lambert16.lambert16]
+[2015.04.10-17.13.49:999][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert16]
+[2015.04.10-17.13.50:576][304]LogSavePackage: Save=571.084534ms
+[2015.04.10-17.13.50:577][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert16_Auto4244452CA4878D47F15E3BF8B2D0AE8ED.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert16_Auto4.uasset'
+[2015.04.10-17.13.50:704][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/lambert17] ([1] browsable assets)...
+[2015.04.10-17.13.50:801][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/lambert17.lambert17]
+[2015.04.10-17.13.50:801][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert17]
+[2015.04.10-17.13.51:348][304]LogSavePackage: Save=539.580811ms
+[2015.04.10-17.13.51:349][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert17_Auto43F14DAF244A4B4D7F64F4E80DBE48975.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert17_Auto4.uasset'
+[2015.04.10-17.13.51:467][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/lambert18] ([1] browsable assets)...
+[2015.04.10-17.13.51:547][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/lambert18.lambert18]
+[2015.04.10-17.13.51:548][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert18]
+[2015.04.10-17.13.52:079][304]LogSavePackage: Save=525.239624ms
+[2015.04.10-17.13.52:080][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert18_Auto49FEBFB7544DC203F5C32CCAE8E3D8FF6.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert18_Auto4.uasset'
+[2015.04.10-17.13.52:133][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/moquette4] ([1] browsable assets)...
+[2015.04.10-17.13.52:199][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/moquette4.moquette4]
+[2015.04.10-17.13.52:199][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/moquette4]
+[2015.04.10-17.13.53:094][304]LogSavePackage: Save=887.777832ms
+[2015.04.10-17.13.53:096][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/moquette4_Auto4EDC91E0747C7528894C156AA92BD153D.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/moquette4_Auto4.uasset'
+[2015.04.10-17.13.53:182][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/Default_Material2] ([1] browsable assets)...
+[2015.04.10-17.13.53:248][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/Default_Material2.Default_Material2]
+[2015.04.10-17.13.53:248][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/Default_Material2]
+[2015.04.10-17.13.54:255][304]LogSavePackage: Save=992.285400ms
+[2015.04.10-17.13.54:260][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Default_Material2_Auto4467377DC4E1570589DC885AE9447242D.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/Default_Material2_Auto4.uasset'
+[2015.04.10-17.13.54:350][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/lambert21] ([1] browsable assets)...
+[2015.04.10-17.13.54:437][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/lambert21.lambert21]
+[2015.04.10-17.13.54:437][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert21]
+[2015.04.10-17.13.55:416][304]LogSavePackage: Save=970.810120ms
+[2015.04.10-17.13.55:417][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert21_Auto4AB7ED6834DE459BC3C22BC839D9CA8D2.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert21_Auto4.uasset'
+[2015.04.10-17.13.55:528][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/lambert22] ([1] browsable assets)...
+[2015.04.10-17.13.55:601][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/lambert22.lambert22]
+[2015.04.10-17.13.55:601][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert22]
+[2015.04.10-17.13.56:514][304]LogSavePackage: Save=889.608093ms
+[2015.04.10-17.13.56:518][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert22_Auto463171A24418DA56024A8978CECAEC72E.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert22_Auto4.uasset'
+[2015.04.10-17.13.56:596][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/wtcCardCoffeeCup] ([1] browsable assets)...
+[2015.04.10-17.13.56:677][304]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Test/wtcCardCoffeeCup.wtcCardCoffeeCup]
+[2015.04.10-17.13.56:677][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/wtcCardCoffeeCup]
+[2015.04.10-17.13.57:262][304]LogSavePackage: Save=577.075256ms
+[2015.04.10-17.13.57:263][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/wtcCardCoffeeCup_Auto4C8EA77ED4BEAB50AEB763CA479853D29.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/wtcCardCoffeeCup_Auto4.uasset'
+[2015.04.10-17.13.57:392][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/wtcChair] ([1] browsable assets)...
+[2015.04.10-17.13.57:462][304]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Test/wtcChair.wtcChair]
+[2015.04.10-17.13.57:462][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/wtcChair]
+[2015.04.10-17.13.58:073][304]LogSavePackage: Save=607.075928ms
+[2015.04.10-17.13.58:102][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/wtcChair_Auto429A9E3354C8FF4B7525A46B1CD7B4E76.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/wtcChair_Auto4.uasset'
+[2015.04.10-17.13.58:213][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/lambert2] ([1] browsable assets)...
+[2015.04.10-17.13.58:277][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/lambert2.lambert2]
+[2015.04.10-17.13.58:277][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert2]
+[2015.04.10-17.13.58:994][304]LogSavePackage: Save=700.917053ms
+[2015.04.10-17.13.59:007][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert2_Auto46E2321FE4C663D9E82C312A05FBAE840.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert2_Auto4.uasset'
+[2015.04.10-17.13.59:054][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/wtcDesk] ([1] browsable assets)...
+[2015.04.10-17.13.59:128][304]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Test/wtcDesk.wtcDesk]
+[2015.04.10-17.13.59:128][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/wtcDesk]
+[2015.04.10-17.13.59:730][304]LogSavePackage: Save=597.350098ms
+[2015.04.10-17.13.59:734][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/wtcDesk_Auto4073D3C704EDC35E1F8552F9F0A4E9A00.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/wtcDesk_Auto4.uasset'
+[2015.04.10-17.13.59:869][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/wtcDustbin] ([1] browsable assets)...
+[2015.04.10-17.13.59:935][304]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Test/wtcDustbin.wtcDustbin]
+[2015.04.10-17.13.59:935][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/wtcDustbin]
+[2015.04.10-17.14.00:425][304]LogSavePackage: Save=486.626862ms
+[2015.04.10-17.14.00:426][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/wtcDustbin_Auto444A799ED4CADC7C02052A4872EC6EEBC.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/wtcDustbin_Auto4.uasset'
+[2015.04.10-17.14.00:471][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Test/blinn1] ([1] browsable assets)...
+[2015.04.10-17.14.00:536][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Test/blinn1.blinn1]
+[2015.04.10-17.14.00:536][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/blinn1]
+[2015.04.10-17.14.00:941][304]LogSavePackage: Save=397.900696ms
+[2015.04.10-17.14.00:942][304]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/blinn1_Auto45209CF0E4ED71C45720F19BCBAC7C25A.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/blinn1_Auto4.uasset'
+[2015.04.10-17.14.00:948][304]LogFileHelpers: Auto-saving content packages took 27.243
+[2015.04.10-17.14.46:452][611]LogActorFactory: Actor Factory created Etage105
+[2015.04.10-17.14.47:702][671]LogActorFactory: Actor Factory created Etage105
+[2015.04.10-17.14.49:925][782]Cmd: TRANSACTION UNDO
+[2015.04.10-17.14.49:925][782]LogEditorTransaction: Undo Create Actors
+[2015.04.10-17.14.50:653][792]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.04.10-17.14.51:146][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.04.10-17.14.52:227][871]Cmd: DELETE
+[2015.04.10-17.14.52:227][871]Cmd: ACTOR DELETE
+[2015.04.10-17.14.52:413][871]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.10-17.14.52:448][871]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2015.04.10-17.14.53:536][936]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wtcCardCoffeeCup)
+[2015.04.10-17.14.54:463][987]Cmd: DELETE
+[2015.04.10-17.14.54:463][987]Cmd: ACTOR DELETE
+[2015.04.10-17.14.54:463][987]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.10-17.14.54:490][987]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2015.04.10-17.14.57:652][156]LogActorFactory: Actor Factory created Etage105
+[2015.04.10-17.14.58:075][180]LogActorFactory: Actor Factory created Etage105
+[2015.04.10-17.15.00:503][303]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.10-17.15.00:509][303]LogPlayLevel: [PIE] Compiling FocusableActor_BP before PIE...
+[2015.04.10-17.15.00:728][303]LogPlayLevel: [PIE] Compiling Player_BP before PIE...
+[2015.04.10-17.15.00:875][303]LogPlayLevel: [PIE] Compiling UsableActor_BP before PIE...
+[2015.04.10-17.15.00:928][303]LogPlayLevel: [PIE] Compiling TakeableActor_BP before PIE...
+[2015.04.10-17.15.01:001][303]LogPlayLevel: PIE:  Blueprint regeneration took 497 ms (4 blueprints)
+[2015.04.10-17.15.01:001][303]PIE: New page: PIE session: Test_Level (Apr 10, 2015, 7:15:01 PM)
+[2015.04.10-17.15.01:003][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001564s)
+[2015.04.10-17.15.01:004][303]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2015.04.10-17.15.01:004][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test_Level.Test_Level to /Game/Level/UEDPIE_0_Test_Level.Test_Level (0.002834s)
+[2015.04.10-17.15.01:188][303]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.10-17.15.01:352][303]LogWorld: Game class is 'GameMode_BP_C'
+[2015.04.10-17.15.01:355][303]LogAIModule: Creating AISystem for world Test_Level
+[2015.04.10-17.15.01:357][303]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test_Level.Test_Level up for play (max tick rate 60) at 2015.04.10-18.15.01
+[2015.04.10-17.15.01:357][303]LogWorld: Bringing up level for play took: 0.001854
+[2015.04.10-17.15.01:360][303]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_Test_Level 0.786
+[2015.04.10-17.15.09:613][781]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B4C963D80
+[2015.04.10-17.15.10:989][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Etage105)
+[2015.04.10-17.15.22:529][325]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.10-17.15.22:543][325]LogPlayLevel: [PIE] Compiling Player_BP before PIE...
+[2015.04.10-17.15.22:714][325]LogPlayLevel: PIE:  Blueprint regeneration took 185 ms (1 blueprints)
+[2015.04.10-17.15.22:714][325]PIE: New page: PIE session: Test_Level (Apr 10, 2015, 7:15:22 PM)
+[2015.04.10-17.15.22:716][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001301s)
+[2015.04.10-17.15.22:716][325]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2015.04.10-17.15.22:716][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test_Level.Test_Level to /Game/Level/UEDPIE_0_Test_Level.Test_Level (0.002035s)
+[2015.04.10-17.15.22:754][325]LogWorld: Game class is 'GameMode_BP_C'
+[2015.04.10-17.15.22:756][325]LogAIModule: Creating AISystem for world Test_Level
+[2015.04.10-17.15.22:758][325]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test_Level.Test_Level up for play (max tick rate 60) at 2015.04.10-18.15.22
+[2015.04.10-17.15.22:758][325]LogWorld: Bringing up level for play took: 0.001827
+[2015.04.10-17.15.22:761][325]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_Test_Level 0.187
+[2015.04.10-17.15.25:080][457]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B61640900
+[2015.04.10-17.15.25:522][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Etage105)
+[2015.04.10-17.15.32:031][816]Cmd: TRANSACTION UNDO
+[2015.04.10-17.15.32:031][816]LogEditorTransaction: Undo Scale Actors
+[2015.04.10-17.15.32:549][823]Cmd: TRANSACTION UNDO
+[2015.04.10-17.15.32:549][823]LogEditorTransaction: Undo Scale Actors
+[2015.04.10-17.15.41:341][275]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.10-17.15.41:348][275]LogPlayLevel: [PIE] Compiling FocusableActor_BP before PIE...
+[2015.04.10-17.15.41:609][275]LogPlayLevel: [PIE] Compiling Player_BP before PIE...
+[2015.04.10-17.15.41:755][275]LogPlayLevel: [PIE] Compiling UsableActor_BP before PIE...
+[2015.04.10-17.15.41:809][275]LogPlayLevel: [PIE] Compiling TakeableActor_BP before PIE...
+[2015.04.10-17.15.41:881][275]LogPlayLevel: PIE:  Blueprint regeneration took 539 ms (4 blueprints)
+[2015.04.10-17.15.41:882][275]PIE: New page: PIE session: Test_Level (Apr 10, 2015, 7:15:41 PM)
+[2015.04.10-17.15.41:883][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001318s)
+[2015.04.10-17.15.41:884][275]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2015.04.10-17.15.41:885][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test_Level.Test_Level to /Game/Level/UEDPIE_0_Test_Level.Test_Level (0.002566s)
+[2015.04.10-17.15.41:919][275]LogWorld: Game class is 'GameMode_BP_C'
+[2015.04.10-17.15.41:921][275]LogAIModule: Creating AISystem for world Test_Level
+[2015.04.10-17.15.41:923][275]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test_Level.Test_Level up for play (max tick rate 60) at 2015.04.10-18.15.41
+[2015.04.10-17.15.41:923][275]LogWorld: Bringing up level for play took: 0.001670
+[2015.04.10-17.15.41:985][275]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_Test_Level 1.411
+[2015.04.10-17.15.46:626][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B5F85EDE0
+[2015.04.10-17.15.47:093][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Etage105)
+[2015.04.10-17.16.25:265][480]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.10-17.16.25:275][480]LogPlayLevel: [PIE] Compiling Player_BP before PIE...
+[2015.04.10-17.16.25:460][480]LogPlayLevel: PIE:  Blueprint regeneration took 194 ms (1 blueprints)
+[2015.04.10-17.16.25:460][480]PIE: New page: PIE session: Test_Level (Apr 10, 2015, 7:16:25 PM)
+[2015.04.10-17.16.25:462][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001997s)
+[2015.04.10-17.16.25:463][480]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2015.04.10-17.16.25:463][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test_Level.Test_Level to /Game/Level/UEDPIE_0_Test_Level.Test_Level (0.002928s)
+[2015.04.10-17.16.25:510][480]LogWorld: Game class is 'GameMode_BP_C'
+[2015.04.10-17.16.25:515][480]LogAIModule: Creating AISystem for world Test_Level
+[2015.04.10-17.16.25:517][480]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test_Level.Test_Level up for play (max tick rate 60) at 2015.04.10-18.16.25
+[2015.04.10-17.16.25:518][480]LogWorld: Bringing up level for play took: 0.002407
+[2015.04.10-17.16.25:521][480]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_Test_Level 0.947
+[2015.04.10-17.16.27:002][561]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000BE3AFF100
+[2015.04.10-17.16.41:955][395]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.04.10-17.16.45:397][564]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Level'
+[2015.04.10-17.16.45:995][598]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.04.10-17.16.54:111][ 12]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.04.10-17.17.00:244][317]Cmd: TRANSACTION UNDO
+[2015.04.10-17.17.00:244][317]LogEditorTransaction: Undo Scale Actors
+[2015.04.10-17.17.41:356][527]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.10-17.17.41:362][527]LogPlayLevel: [PIE] Compiling FocusableActor_BP before PIE...
+[2015.04.10-17.17.41:615][527]LogPlayLevel: [PIE] Compiling Player_BP before PIE...
+[2015.04.10-17.17.41:768][527]LogPlayLevel: [PIE] Compiling UsableActor_BP before PIE...
+[2015.04.10-17.17.41:829][527]LogPlayLevel: [PIE] Compiling TakeableActor_BP before PIE...
+[2015.04.10-17.17.41:909][527]LogPlayLevel: PIE:  Blueprint regeneration took 552 ms (4 blueprints)
+[2015.04.10-17.17.41:909][527]PIE: New page: PIE session: Test_Level (Apr 10, 2015, 7:17:41 PM)
+[2015.04.10-17.17.41:928][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018013s)
+[2015.04.10-17.17.41:928][527]LogPlayLevel: PIE: World Init took: (0.000576s)
+[2015.04.10-17.17.41:928][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test_Level.Test_Level to /Game/Level/UEDPIE_0_Test_Level.Test_Level (0.018793s)
+[2015.04.10-17.17.41:960][527]LogWorld: Game class is 'GameMode_BP_C'
+[2015.04.10-17.17.41:962][527]LogAIModule: Creating AISystem for world Test_Level
+[2015.04.10-17.17.41:964][527]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test_Level.Test_Level up for play (max tick rate 60) at 2015.04.10-18.17.41
+[2015.04.10-17.17.41:965][527]LogWorld: Bringing up level for play took: 0.002292
+[2015.04.10-17.17.41:968][527]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_Test_Level 1.393
+[2015.04.10-17.18.00:232][611]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B5A728180
+[2015.04.10-17.18.04:981][866]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.04.10-17.18.06:241][918]LogSavePackage: Save=21.004805ms
+[2015.04.10-17.18.06:241][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Test_LevelB56710D44297DF45F3123F924D64BEAC.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/Test_Level.umap'
+[2015.04.10-17.18.06:290][918]LogFileHelpers: Saving map 'Test_Level' took 0.205
+[2015.04.10-17.18.06:335][918]LogSavePackage: Save=19.203735ms
+[2015.04.10-17.18.06:336][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/UsableActor_BPD2B1CBC84FB9079513FA03ACB82395C6.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Props/UsableActor_BP.uasset'
+[2015.04.10-17.18.06:402][918]LogSavePackage: Save=31.010241ms
+[2015.04.10-17.18.06:402][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/FocusableActor_BP125262BE49F3B1224AD9BE8CA6AAD2A8.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Props/FocusableActor_BP.uasset'
+[2015.04.10-17.18.06:432][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripts/Player/Player_BP" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/Player_BP.uasset" SILENT=true
+[2015.04.10-17.18.07:038][918]LogSavePackage: Save=582.892700ms
+[2015.04.10-17.18.07:038][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Player_BP7E474F0749573177E119AEB180B72768.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Player/Player_BP.uasset'
+[2015.04.10-17.18.07:120][918]LogSavePackage: Save=47.637794ms
+[2015.04.10-17.18.07:120][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/TakeableActor_BPB6EA702F4FCF639EA2214FB5FD289C3E.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Props/TakeableActor_BP.uasset'
+[2015.04.10-17.18.07:177][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/wtcKeyboard" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/wtcKeyboard.uasset" SILENT=true
+[2015.04.10-17.18.07:505][918]LogSavePackage: Save=322.103912ms
+[2015.04.10-17.18.07:505][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/wtcKeyboardFB2C25C443FD779C1AF253A6CD38B018.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/wtcKeyboard.uasset'
+[2015.04.10-17.18.07:531][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert3" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert3.uasset" SILENT=true
+[2015.04.10-17.18.07:966][918]LogSavePackage: Save=431.956787ms
+[2015.04.10-17.18.07:966][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert315A31AC140ABC35F98ED0CA02803E65F.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert3.uasset'
+[2015.04.10-17.18.07:992][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert1" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert1.uasset" SILENT=true
+[2015.04.10-17.18.08:413][918]LogSavePackage: Save=412.101532ms
+[2015.04.10-17.18.08:413][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert16E4B8E624161D2D5BE3AB788C98EB41A.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert1.uasset'
+[2015.04.10-17.18.08:438][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/wtcPhone" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/wtcPhone.uasset" SILENT=true
+[2015.04.10-17.18.08:741][918]LogSavePackage: Save=301.623383ms
+[2015.04.10-17.18.08:741][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/wtcPhoneE62EC55147103864B3A94498AF4AD858.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/wtcPhone.uasset'
+[2015.04.10-17.18.08:771][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert4" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert4.uasset" SILENT=true
+[2015.04.10-17.18.09:223][918]LogSavePackage: Save=449.526978ms
+[2015.04.10-17.18.09:223][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert47A50CAF84EA24ECE9D7CFABACDC20711.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert4.uasset'
+[2015.04.10-17.18.09:652][918]LogSavePackage: Save=391.656708ms
+[2015.04.10-17.18.09:652][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/wtcPhonePlatformFC335F17416D1EAB7831538A16FD80C7.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/wtcPhonePlatform.uasset'
+[2015.04.10-17.18.09:677][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/wtcScreen" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/wtcScreen.uasset" SILENT=true
+[2015.04.10-17.18.10:075][918]LogSavePackage: Save=396.046265ms
+[2015.04.10-17.18.10:075][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/wtcScreen2FDE3DA7413927BC52EAA7AF3827F67A.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/wtcScreen.uasset'
+[2015.04.10-17.18.10:104][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/Etage105" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/Etage105.uasset" SILENT=true
+[2015.04.10-17.18.10:351][918]LogSavePackage: Save=244.604187ms
+[2015.04.10-17.18.10:351][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Etage1054F2C5378465DCFB6D4731DAA8CA6EAD0.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/Etage105.uasset'
+[2015.04.10-17.18.10:379][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert7" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert7.uasset" SILENT=true
+[2015.04.10-17.18.10:784][918]LogSavePackage: Save=402.867920ms
+[2015.04.10-17.18.10:784][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert7236CB5CB479F1A3DC5B4CE858290568E.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert7.uasset'
+[2015.04.10-17.18.10:811][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert8" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert8.uasset" SILENT=true
+[2015.04.10-17.18.11:287][918]LogSavePackage: Save=473.357971ms
+[2015.04.10-17.18.11:287][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert81EE77C37466A91D7B799328AD8541873.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert8.uasset'
+[2015.04.10-17.18.11:322][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert9" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert9.uasset" SILENT=true
+[2015.04.10-17.18.11:748][918]LogSavePackage: Save=422.842651ms
+[2015.04.10-17.18.11:748][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert909DDB4F944213AD46E00C692134E8F95.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert9.uasset'
+[2015.04.10-17.18.11:781][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/moquette" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/moquette.uasset" SILENT=true
+[2015.04.10-17.18.12:197][918]LogSavePackage: Save=414.255249ms
+[2015.04.10-17.18.12:197][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/moquette65AC637045F5C4B8BD9B809E600C7AA9.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/moquette.uasset'
+[2015.04.10-17.18.12:313][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert6" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert6.uasset" SILENT=true
+[2015.04.10-17.18.12:776][918]LogSavePackage: Save=449.065094ms
+[2015.04.10-17.18.12:776][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert6EFF541BF46225E1BEC52AF83610117ED.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert6.uasset'
+[2015.04.10-17.18.12:809][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert20" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert20.uasset" SILENT=true
+[2015.04.10-17.18.13:227][918]LogSavePackage: Save=414.389923ms
+[2015.04.10-17.18.13:227][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert2026FF33C6419B390982481384C71229F9.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert20.uasset'
+[2015.04.10-17.18.13:274][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert5" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert5.uasset" SILENT=true
+[2015.04.10-17.18.13:716][918]LogSavePackage: Save=439.587219ms
+[2015.04.10-17.18.13:716][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert5B447F670477392D14E25038B1ABDDE94.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert5.uasset'
+[2015.04.10-17.18.13:774][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/moquette3" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/moquette3.uasset" SILENT=true
+[2015.04.10-17.18.14:236][918]LogSavePackage: Save=455.380951ms
+[2015.04.10-17.18.14:236][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/moquette3DF2B617747DA996FF6FDA3AE2100C644.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/moquette3.uasset'
+[2015.04.10-17.18.14:755][918]LogSavePackage: Save=456.062469ms
+[2015.04.10-17.18.14:755][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Default_Material1288AA31644C8DD94B1EFEFBF42C221BF.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/Default_Material1.uasset'
+[2015.04.10-17.18.14:796][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert19" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert19.uasset" SILENT=true
+[2015.04.10-17.18.15:227][918]LogSavePackage: Save=429.035339ms
+[2015.04.10-17.18.15:227][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert1996135E3D4BB3E8FD0B0DE6BF0BDF00FC.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert19.uasset'
+[2015.04.10-17.18.15:267][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/moquette1" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/moquette1.uasset" SILENT=true
+[2015.04.10-17.18.15:689][918]LogSavePackage: Save=419.086975ms
+[2015.04.10-17.18.15:689][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/moquette18856C66848F04C2EB81939816BDA55A4.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/moquette1.uasset'
+[2015.04.10-17.18.15:731][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert10" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert10.uasset" SILENT=true
+[2015.04.10-17.18.16:170][918]LogSavePackage: Save=437.373138ms
+[2015.04.10-17.18.16:170][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert104CB19B5A4393ACE3C4B4989E2B796FAA.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert10.uasset'
+[2015.04.10-17.18.16:214][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert11" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert11.uasset" SILENT=true
+[2015.04.10-17.18.16:649][918]LogSavePackage: Save=432.828796ms
+[2015.04.10-17.18.16:649][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert11365086A44FD71E291043329182DB4D91.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert11.uasset'
+[2015.04.10-17.18.16:697][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert12" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert12.uasset" SILENT=true
+[2015.04.10-17.18.17:131][918]LogSavePackage: Save=431.750305ms
+[2015.04.10-17.18.17:131][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert12C06D4FA349AC4A89B5088C8D5B58832F.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert12.uasset'
+[2015.04.10-17.18.17:179][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert13" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert13.uasset" SILENT=true
+[2015.04.10-17.18.17:612][918]LogSavePackage: Save=430.592560ms
+[2015.04.10-17.18.17:612][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert138819DE97423EB8F0A4B95A87FA39C07E.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert13.uasset'
+[2015.04.10-17.18.17:665][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert16" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert16.uasset" SILENT=true
+[2015.04.10-17.18.18:099][918]LogSavePackage: Save=431.025269ms
+[2015.04.10-17.18.18:099][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert16B1A079A146C0AEE13CF2AB866F056F93.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert16.uasset'
+[2015.04.10-17.18.18:156][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert17" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert17.uasset" SILENT=true
+[2015.04.10-17.18.18:600][918]LogSavePackage: Save=437.623566ms
+[2015.04.10-17.18.18:600][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert176D2E4CA549D1FA944CAC78B5081A92AA.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert17.uasset'
+[2015.04.10-17.18.18:648][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert18" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert18.uasset" SILENT=true
+[2015.04.10-17.18.19:057][918]LogSavePackage: Save=406.664246ms
+[2015.04.10-17.18.19:057][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert18106905954D4383EE24FA57A50F8AD147.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert18.uasset'
+[2015.04.10-17.18.19:115][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/moquette4" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/moquette4.uasset" SILENT=true
+[2015.04.10-17.18.19:543][918]LogSavePackage: Save=424.407257ms
+[2015.04.10-17.18.19:543][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/moquette426E8873347A42523A5268AB0D16120EF.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/moquette4.uasset'
+[2015.04.10-17.18.20:044][918]LogSavePackage: Save=442.921692ms
+[2015.04.10-17.18.20:044][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Default_Material2395A553D4DA9FDDBA11F8B95D231840B.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/Default_Material2.uasset'
+[2015.04.10-17.18.20:091][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert21" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert21.uasset" SILENT=true
+[2015.04.10-17.18.20:530][918]LogSavePackage: Save=436.829987ms
+[2015.04.10-17.18.20:530][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert217BA6C9B740376BAC5E82A7AAC475D8D1.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert21.uasset'
+[2015.04.10-17.18.20:586][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert22" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert22.uasset" SILENT=true
+[2015.04.10-17.18.20:996][918]LogSavePackage: Save=408.069122ms
+[2015.04.10-17.18.20:996][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert22851094B64A0E748D720EC9BF130AA21F.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert22.uasset'
+[2015.04.10-17.18.21:404][918]LogSavePackage: Save=358.987854ms
+[2015.04.10-17.18.21:404][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/wtcCardCoffeeCupE4FA46724CC4DAEE7F35DEA23C508448.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/wtcCardCoffeeCup.uasset'
+[2015.04.10-17.18.21:458][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/wtcChair" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/wtcChair.uasset" SILENT=true
+[2015.04.10-17.18.21:867][918]LogSavePackage: Save=405.553314ms
+[2015.04.10-17.18.21:867][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/wtcChair051E7C504C1085870DD77EB7431E9381.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/wtcChair.uasset'
+[2015.04.10-17.18.21:915][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert2" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert2.uasset" SILENT=true
+[2015.04.10-17.18.22:378][918]LogSavePackage: Save=449.625092ms
+[2015.04.10-17.18.22:378][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert24700D7C0435835B28F463FA82D2CC89C.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert2.uasset'
+[2015.04.10-17.18.22:423][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/wtcDesk" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/wtcDesk.uasset" SILENT=true
+[2015.04.10-17.18.22:863][918]LogSavePackage: Save=437.508209ms
+[2015.04.10-17.18.22:863][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/wtcDeskD2AB439548B52E6A72E9668359DC2FE3.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/wtcDesk.uasset'
+[2015.04.10-17.18.22:907][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/wtcDustbin" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/wtcDustbin.uasset" SILENT=true
+[2015.04.10-17.18.23:254][918]LogSavePackage: Save=343.710175ms
+[2015.04.10-17.18.23:254][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/wtcDustbin9FC8B2144905E5079E273093D4BDABEC.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/wtcDustbin.uasset'
+[2015.04.10-17.18.23:304][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/blinn1" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/blinn1.uasset" SILENT=true
+[2015.04.10-17.18.23:617][918]LogSavePackage: Save=310.583984ms
+[2015.04.10-17.18.23:617][918]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/blinn178DC6EF24578254BB35AA3AE6CD687D6.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/blinn1.uasset'
+[2015.04.10-17.20.26:297][480]MapCheck: New page: Map Check
+[2015.04.10-17.20.26:474][480]Cmd: MAP REBUILD ALLVISIBLE
+[2015.04.10-17.20.26:480][480]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.04.10-17.20.26:891][480]LightingResults: New page: Lighting Build - Apr 10, 2015, 7:20:26 PM
+[2015.04.10-17.20.50:449][480]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.04.10-17.20.50:469][480]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.04.10-17.20.50:469][480]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.04.10-17.20.50:469][480]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.04.10-17.20.50:469][480]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.04.10-17.20.50:469][480]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.04.10-17.20.54:546][480]LogEditorBuildUtils: Build time 0:00:28
+[2015.04.10-17.20.55:151][481]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert7, compiling. 
+[2015.04.10-17.20.55:160][481]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert7, compiling. 
+[2015.04.10-17.20.55:214][482]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert8, compiling. 
+[2015.04.10-17.20.55:260][482]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert8, compiling. 
+[2015.04.10-17.20.55:335][483]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert9, compiling. 
+[2015.04.10-17.20.55:376][483]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert9, compiling. 
+[2015.04.10-17.20.55:435][484]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer moquette, compiling. 
+[2015.04.10-17.20.55:439][484]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer moquette, compiling. 
+[2015.04.10-17.20.55:478][485]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert6, compiling. 
+[2015.04.10-17.20.55:500][485]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert6, compiling. 
+[2015.04.10-17.20.55:556][486]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert20, compiling. 
+[2015.04.10-17.20.55:564][486]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert20, compiling. 
+[2015.04.10-17.20.55:628][487]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert5, compiling. 
+[2015.04.10-17.20.55:691][487]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert5, compiling. 
+[2015.04.10-17.20.55:733][488]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer moquette3, compiling. 
+[2015.04.10-17.20.55:760][488]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer moquette3, compiling. 
+[2015.04.10-17.20.55:853][489]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Default_Material1, compiling. 
+[2015.04.10-17.20.55:908][489]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Default_Material1, compiling. 
+[2015.04.10-17.20.56:075][490]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert19, compiling. 
+[2015.04.10-17.20.56:081][490]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert19, compiling. 
+[2015.04.10-17.20.56:186][491]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer moquette1, compiling. 
+[2015.04.10-17.20.56:222][491]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer moquette1, compiling. 
+[2015.04.10-17.20.56:291][492]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert10, compiling. 
+[2015.04.10-17.20.56:322][492]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert10, compiling. 
+[2015.04.10-17.20.56:377][493]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert11, compiling. 
+[2015.04.10-17.20.56:427][493]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert11, compiling. 
+[2015.04.10-17.20.56:487][494]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert12, compiling. 
+[2015.04.10-17.20.56:522][494]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert12, compiling. 
+[2015.04.10-17.20.56:561][495]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert13, compiling. 
+[2015.04.10-17.20.56:587][495]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert13, compiling. 
+[2015.04.10-17.20.56:629][496]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert4, compiling. 
+[2015.04.10-17.20.56:670][496]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert4, compiling. 
+[2015.04.10-17.20.56:743][497]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert16, compiling. 
+[2015.04.10-17.20.56:764][497]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert16, compiling. 
+[2015.04.10-17.20.56:932][498]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert17, compiling. 
+[2015.04.10-17.20.57:054][498]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert17, compiling. 
+[2015.04.10-17.20.57:171][499]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert18, compiling. 
+[2015.04.10-17.20.57:359][499]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert18, compiling. 
+[2015.04.10-17.20.57:471][500]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer moquette4, compiling. 
+[2015.04.10-17.20.57:522][500]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer moquette4, compiling. 
+[2015.04.10-17.20.57:629][501]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Default_Material2, compiling. 
+[2015.04.10-17.20.57:719][501]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Default_Material2, compiling. 
+[2015.04.10-17.20.57:930][502]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert21, compiling. 
+[2015.04.10-17.20.57:992][502]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert21, compiling. 
+[2015.04.10-17.20.58:182][503]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert22, compiling. 
+[2015.04.10-17.20.58:188][503]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert22, compiling. 
+[2015.04.10-17.21.02:677][541]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.10-17.21.14:118][571]Job is a success!
+[2015.04.10-17.21.14:118][571]LightingResults:Error: Error Etage105 Object has overlapping UVs.
+[2015.04.10-17.21.14:118][571]LightingResults: Info Etage105 Lightmap UV are overlapping by 90.0%. Please adjust content - Enable Error Coloring to visualize.
+[2015.04.10-17.21.15:157][572]LogMaterial:Warning: Material /Game/Meshes/Test/lambert7.lambert7 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.15:324][572]LogMaterial: Missing cached shader map for material lambert7, compiling. 
+[2015.04.10-17.21.15:400][572]LogMaterial: 0.013893 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.15:400][572]LogMaterial:Warning: Material /Game/Meshes/Test/lambert8.lambert8 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.15:467][572]LogMaterial: Missing cached shader map for material lambert8, compiling. 
+[2015.04.10-17.21.15:475][572]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.15:475][572]LogMaterial:Warning: Material /Game/Meshes/Test/lambert9.lambert9 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.15:510][572]LogMaterial: Missing cached shader map for material lambert9, compiling. 
+[2015.04.10-17.21.15:520][572]LogMaterial: 0.000117 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.15:520][572]LogMaterial:Warning: Material /Game/Meshes/Test/moquette.moquette needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.15:588][572]LogMaterial: Missing cached shader map for material moquette, compiling. 
+[2015.04.10-17.21.15:599][572]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.15:599][572]LogMaterial:Warning: Material /Game/Meshes/Test/lambert6.lambert6 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.15:652][572]LogMaterial: Missing cached shader map for material lambert6, compiling. 
+[2015.04.10-17.21.15:666][572]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.15:666][572]LogMaterial:Warning: Material /Game/Meshes/Test/lambert20.lambert20 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.15:729][572]LogMaterial: Missing cached shader map for material lambert20, compiling. 
+[2015.04.10-17.21.15:746][572]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.15:746][572]LogMaterial:Warning: Material /Game/Meshes/Test/lambert5.lambert5 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.15:758][572]LogMaterial: Missing cached shader map for material lambert5, compiling. 
+[2015.04.10-17.21.15:769][572]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.15:769][572]LogMaterial:Warning: Material /Game/Meshes/Test/moquette3.moquette3 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.15:801][572]LogMaterial: Missing cached shader map for material moquette3, compiling. 
+[2015.04.10-17.21.15:812][572]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.15:813][572]LogMaterial:Warning: Material /Game/Meshes/Test/Default_Material1.Default_Material1 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.15:831][572]LogMaterial: Missing cached shader map for material Default_Material1, compiling. 
+[2015.04.10-17.21.15:845][572]LogMaterial: 0.000186 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.15:845][572]LogMaterial:Warning: Material /Game/Meshes/Test/lambert19.lambert19 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.15:922][572]LogMaterial: Missing cached shader map for material lambert19, compiling. 
+[2015.04.10-17.21.15:940][572]LogMaterial: 0.000786 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.15:940][572]LogMaterial:Warning: Material /Game/Meshes/Test/moquette1.moquette1 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.16:017][572]LogMaterial: Missing cached shader map for material moquette1, compiling. 
+[2015.04.10-17.21.16:030][572]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.16:030][572]LogMaterial:Warning: Material /Game/Meshes/Test/lambert10.lambert10 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.16:067][572]LogMaterial: Missing cached shader map for material lambert10, compiling. 
+[2015.04.10-17.21.16:077][572]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.16:077][572]LogMaterial:Warning: Material /Game/Meshes/Test/lambert11.lambert11 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.16:144][572]LogMaterial: Missing cached shader map for material lambert11, compiling. 
+[2015.04.10-17.21.16:155][572]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.16:155][572]LogMaterial:Warning: Material /Game/Meshes/Test/lambert12.lambert12 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.16:215][572]LogMaterial: Missing cached shader map for material lambert12, compiling. 
+[2015.04.10-17.21.16:230][572]LogMaterial: 0.000461 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.16:230][572]LogMaterial:Warning: Material /Game/Meshes/Test/lambert13.lambert13 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.16:281][572]LogMaterial: Missing cached shader map for material lambert13, compiling. 
+[2015.04.10-17.21.16:293][572]LogMaterial: 0.000168 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.16:293][572]LogMaterial:Warning: Material /Game/Meshes/Test/lambert4.lambert4 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.16:598][572]LogMaterial: Missing cached shader map for material lambert4, compiling. 
+[2015.04.10-17.21.16:612][572]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.16:612][572]LogMaterial:Warning: Material /Game/Meshes/Test/lambert16.lambert16 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.16:670][572]LogMaterial: Missing cached shader map for material lambert16, compiling. 
+[2015.04.10-17.21.16:681][572]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.16:681][572]LogMaterial:Warning: Material /Game/Meshes/Test/lambert17.lambert17 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.16:780][572]LogMaterial: Missing cached shader map for material lambert17, compiling. 
+[2015.04.10-17.21.16:790][572]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.16:790][572]LogMaterial:Warning: Material /Game/Meshes/Test/lambert18.lambert18 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.16:850][572]LogMaterial: Missing cached shader map for material lambert18, compiling. 
+[2015.04.10-17.21.16:940][572]LogMaterial: 0.000554 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.16:940][572]LogMaterial:Warning: Material /Game/Meshes/Test/moquette4.moquette4 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.17:120][572]LogMaterial: Missing cached shader map for material moquette4, compiling. 
+[2015.04.10-17.21.17:663][572]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.17:663][572]LogMaterial:Warning: Material /Game/Meshes/Test/Default_Material2.Default_Material2 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.17:744][572]LogMaterial: Missing cached shader map for material Default_Material2, compiling. 
+[2015.04.10-17.21.18:414][572]LogMaterial: 0.000275 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.18:414][572]LogMaterial:Warning: Material /Game/Meshes/Test/lambert21.lambert21 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.18:620][572]LogMaterial: Missing cached shader map for material lambert21, compiling. 
+[2015.04.10-17.21.19:305][572]LogMaterial: 0.000190 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.19:305][572]LogMaterial:Warning: Material /Game/Meshes/Test/lambert22.lambert22 needed to have new flag set bUsedWithStaticLighting !
+[2015.04.10-17.21.19:393][572]LogMaterial: Missing cached shader map for material lambert22, compiling. 
+[2015.04.10-17.21.19:411][572]LogMaterial: 0.000479 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-17.21.19:714][572]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.04.10-17.21.19:913][572]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.04.10-17.21.19:913][572]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.04.10-17.21.19:914][572]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.04.10-17.21.19:916][572]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.04.10-17.21.19:922][572]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.04.10-17.21.20:381][572]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.04.10-17.21.20:579][572]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.04.10-17.21.20:676][572]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.04.10-17.21.21:290][572]Lightmass on AXEL: 16.2 sec total, 621 ms importing, 507 ms setup, 1.08 sec photons, 13.9 sec processing, 0 ms extra exporting [8/8 mappings]. Threads: 1:37 min total, 12.8 sec processing.
+[2015.04.10-17.21.21:502][572]LogStaticLightingSystem: Illumination: 54.3 sec (1.27 sec encoding lightmaps)
+[2015.04.10-17.21.21:502][572]LogStaticLightingSystem: Lightmap texture memory:  1.4 MB (0.0 MB streaming, 1.3 MB non-streaming), 6 textures
+[2015.04.10-17.21.21:502][572]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (0.1 MB streaming, 2.7 MB non-streaming), 3 textures
+[2015.04.10-17.21.22:533][573]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.04.10-17.21.22:533][573]MapCheck: New page: Test_Level - Apr 10, 2015, 7:21:22 PM
+[2015.04.10-17.21.22:852][573]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 319.19ms to complete.
+[2015.04.10-17.28.15:220][809]LogSavePackage: Save=66.660889ms
+[2015.04.10-17.28.15:220][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Test_Level_Auto5D6C45075428C2E55D38470BD46559E08.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Level/Test_Level_Auto5.umap'
+[2015.04.10-17.28.15:235][809]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/Test_Level' took 0.216
+[2015.04.10-17.28.15:235][809]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.216
+[2015.04.10-17.28.15:277][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/lambert4] ([1] browsable assets)...
+[2015.04.10-17.28.15:277][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert4]
+[2015.04.10-17.28.15:514][809]LogSavePackage: Save=134.512375ms
+[2015.04.10-17.28.15:515][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert4_Auto537956184444522A7CCD504BF404E113B.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert4_Auto5.uasset'
+[2015.04.10-17.28.15:566][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/lambert7] ([1] browsable assets)...
+[2015.04.10-17.28.15:566][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert7]
+[2015.04.10-17.28.15:762][809]LogSavePackage: Save=131.292862ms
+[2015.04.10-17.28.15:763][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert7_Auto58A5EBD8441CC6C5F147DFE9BF294A553.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert7_Auto5.uasset'
+[2015.04.10-17.28.15:809][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/lambert8] ([1] browsable assets)...
+[2015.04.10-17.28.15:809][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert8]
+[2015.04.10-17.28.16:013][809]LogSavePackage: Save=131.726807ms
+[2015.04.10-17.28.16:014][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert8_Auto50293AF20483371D924A387B9DFDF23C8.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert8_Auto5.uasset'
+[2015.04.10-17.28.16:060][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/lambert9] ([1] browsable assets)...
+[2015.04.10-17.28.16:060][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert9]
+[2015.04.10-17.28.16:257][809]LogSavePackage: Save=123.350830ms
+[2015.04.10-17.28.16:258][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert9_Auto58F8EE6E948EA41952701FEB4DFFE5AAD.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert9_Auto5.uasset'
+[2015.04.10-17.28.16:307][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/moquette] ([1] browsable assets)...
+[2015.04.10-17.28.16:307][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/moquette]
+[2015.04.10-17.28.16:583][809]LogSavePackage: Save=162.367966ms
+[2015.04.10-17.28.16:584][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/moquette_Auto5544F363449D0D3A34B8381A7A93B97F6.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/moquette_Auto5.uasset'
+[2015.04.10-17.28.16:626][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/lambert6] ([1] browsable assets)...
+[2015.04.10-17.28.16:626][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert6]
+[2015.04.10-17.28.16:828][809]LogSavePackage: Save=130.084625ms
+[2015.04.10-17.28.16:829][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert6_Auto543AFA98845511D020C4F3DAC91A9CB9A.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert6_Auto5.uasset'
+[2015.04.10-17.28.16:877][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/lambert20] ([1] browsable assets)...
+[2015.04.10-17.28.16:877][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert20]
+[2015.04.10-17.28.17:063][809]LogSavePackage: Save=115.255669ms
+[2015.04.10-17.28.17:064][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert20_Auto5B524F6234FB03DFD035C258B9B596484.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert20_Auto5.uasset'
+[2015.04.10-17.28.17:109][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/lambert5] ([1] browsable assets)...
+[2015.04.10-17.28.17:109][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert5]
+[2015.04.10-17.28.17:325][809]LogSavePackage: Save=144.959137ms
+[2015.04.10-17.28.17:327][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert5_Auto58E931C734E40BBB65CC4F3B5BD19CB5B.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert5_Auto5.uasset'
+[2015.04.10-17.28.17:378][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/moquette3] ([1] browsable assets)...
+[2015.04.10-17.28.17:378][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/moquette3]
+[2015.04.10-17.28.17:606][809]LogSavePackage: Save=155.088562ms
+[2015.04.10-17.28.17:608][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/moquette3_Auto5BB20BD9D4E5094DBE464FF8E09C4F0BF.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/moquette3_Auto5.uasset'
+[2015.04.10-17.28.17:657][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/Default_Material1] ([1] browsable assets)...
+[2015.04.10-17.28.17:657][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/Default_Material1]
+[2015.04.10-17.28.17:860][809]LogSavePackage: Save=120.001183ms
+[2015.04.10-17.28.17:861][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Default_Material1_Auto5B2D7AFC04DB6A06C5CD2949B65A9F390.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/Default_Material1_Auto5.uasset'
+[2015.04.10-17.28.17:900][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/lambert19] ([1] browsable assets)...
+[2015.04.10-17.28.17:900][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert19]
+[2015.04.10-17.28.18:082][809]LogSavePackage: Save=118.388145ms
+[2015.04.10-17.28.18:082][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert19_Auto59B9AD2A24EC582FC941A92A35DA15A00.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert19_Auto5.uasset'
+[2015.04.10-17.28.18:135][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/moquette1] ([1] browsable assets)...
+[2015.04.10-17.28.18:135][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/moquette1]
+[2015.04.10-17.28.18:318][809]LogSavePackage: Save=101.732674ms
+[2015.04.10-17.28.18:318][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/moquette1_Auto5E10C295B49869E072F986E8BDB906206.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/moquette1_Auto5.uasset'
+[2015.04.10-17.28.18:371][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/lambert10] ([1] browsable assets)...
+[2015.04.10-17.28.18:371][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert10]
+[2015.04.10-17.28.18:576][809]LogSavePackage: Save=117.373276ms
+[2015.04.10-17.28.18:576][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert10_Auto54C1C02A44CA713E535952FA96A33C428.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert10_Auto5.uasset'
+[2015.04.10-17.28.18:641][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/lambert11] ([1] browsable assets)...
+[2015.04.10-17.28.18:641][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert11]
+[2015.04.10-17.28.18:823][809]LogSavePackage: Save=105.036751ms
+[2015.04.10-17.28.18:824][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert11_Auto50E3B26FA4D916DA6B01BD695DE53749C.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert11_Auto5.uasset'
+[2015.04.10-17.28.18:867][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/lambert12] ([1] browsable assets)...
+[2015.04.10-17.28.18:867][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert12]
+[2015.04.10-17.28.19:045][809]LogSavePackage: Save=110.632507ms
+[2015.04.10-17.28.19:045][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert12_Auto5480716874C093B8A2DE7818876E455D5.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert12_Auto5.uasset'
+[2015.04.10-17.28.19:095][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/lambert13] ([1] browsable assets)...
+[2015.04.10-17.28.19:095][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert13]
+[2015.04.10-17.28.19:302][809]LogSavePackage: Save=151.610825ms
+[2015.04.10-17.28.19:303][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert13_Auto50D9B1E214785FC25E49088A9E685B33C.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert13_Auto5.uasset'
+[2015.04.10-17.28.19:348][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/lambert16] ([1] browsable assets)...
+[2015.04.10-17.28.19:348][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert16]
+[2015.04.10-17.28.19:551][809]LogSavePackage: Save=136.458359ms
+[2015.04.10-17.28.19:552][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert16_Auto5EB61B7F846BA121B296728B9FC5EF97C.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert16_Auto5.uasset'
+[2015.04.10-17.28.19:607][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/lambert17] ([1] browsable assets)...
+[2015.04.10-17.28.19:607][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert17]
+[2015.04.10-17.28.19:830][809]LogSavePackage: Save=121.227898ms
+[2015.04.10-17.28.19:831][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert17_Auto5F7643D164EF10D56ACA91590E1CCF566.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert17_Auto5.uasset'
+[2015.04.10-17.28.19:880][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/lambert18] ([1] browsable assets)...
+[2015.04.10-17.28.19:880][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert18]
+[2015.04.10-17.28.20:061][809]LogSavePackage: Save=113.629089ms
+[2015.04.10-17.28.20:061][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert18_Auto597DAFD7243C0C7FBC05986BA7E819992.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert18_Auto5.uasset'
+[2015.04.10-17.28.20:109][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/moquette4] ([1] browsable assets)...
+[2015.04.10-17.28.20:109][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/moquette4]
+[2015.04.10-17.28.20:325][809]LogSavePackage: Save=119.138214ms
+[2015.04.10-17.28.20:326][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/moquette4_Auto5357974C94C2844E4A31741BF709D6241.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/moquette4_Auto5.uasset'
+[2015.04.10-17.28.20:374][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/Default_Material2] ([1] browsable assets)...
+[2015.04.10-17.28.20:374][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/Default_Material2]
+[2015.04.10-17.28.20:559][809]LogSavePackage: Save=109.029732ms
+[2015.04.10-17.28.20:560][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Default_Material2_Auto5CCD9A07642D588E1237EFE88AC3149BB.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/Default_Material2_Auto5.uasset'
+[2015.04.10-17.28.20:609][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/lambert21] ([1] browsable assets)...
+[2015.04.10-17.28.20:609][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert21]
+[2015.04.10-17.28.20:790][809]LogSavePackage: Save=108.757126ms
+[2015.04.10-17.28.20:791][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert21_Auto585840A2E46165CC261F7AF8C62A45EE6.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert21_Auto5.uasset'
+[2015.04.10-17.28.20:838][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Test/lambert22] ([1] browsable assets)...
+[2015.04.10-17.28.20:838][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Test/lambert22]
+[2015.04.10-17.28.21:034][809]LogSavePackage: Save=118.111435ms
+[2015.04.10-17.28.21:034][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert22_Auto53BCB1DE84090C0061F85FCB824AB92BB.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Meshes/Test/lambert22_Auto5.uasset'
+[2015.04.10-17.28.21:043][809]LogFileHelpers: Auto-saving content packages took 5.808
+[2015.04.10-18.02.28:915][203]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.10-18.02.29:128][203]LogPlayLevel: [PIE] Compiling Player_BP before PIE...
+[2015.04.10-18.02.29:443][203]LogPlayLevel: PIE:  Blueprint regeneration took 528 ms (1 blueprints)
+[2015.04.10-18.02.29:443][203]PIE: New page: PIE session: Test_Level (Apr 10, 2015, 8:02:29 PM)
+[2015.04.10-18.02.29:619][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.175444s)
+[2015.04.10-18.02.29:660][203]LogPlayLevel: PIE: World Init took: (0.041116s)
+[2015.04.10-18.02.29:660][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test_Level.Test_Level to /Game/Level/UEDPIE_0_Test_Level.Test_Level (0.216901s)
+[2015.04.10-18.02.29:735][203]LogWorld: Game class is 'GameMode_BP_C'
+[2015.04.10-18.02.29:743][203]LogAIModule: Creating AISystem for world Test_Level
+[2015.04.10-18.02.29:752][203]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test_Level.Test_Level up for play (max tick rate 60) at 2015.04.10-19.02.29
+[2015.04.10-18.02.29:754][203]LogWorld: Bringing up level for play took: 0.009941
+[2015.04.10-18.02.29:798][203]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_Test_Level 1.224
+[2015.04.10-18.02.31:902][304]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B35ED0AE0
+[2015.04.10-18.02.35:022][437]MapCheck: New page: Map Check
+[2015.04.10-18.02.35:181][437]LightingResults: New page: Lighting Build - Apr 10, 2015, 8:02:35 PM
+[2015.04.10-18.02.39:913][437]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.04.10-18.02.39:936][437]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.04.10-18.02.39:936][437]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.04.10-18.02.39:936][437]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.04.10-18.02.39:936][437]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.04.10-18.02.39:936][437]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.04.10-18.02.40:542][437]LogEditorBuildUtils: Build time 0:00:05
+[2015.04.10-18.02.42:140][441]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2015.04.10-18.02.54:652][ 65]LightingResults:Error: Error Etage105 Object has overlapping UVs.
+[2015.04.10-18.02.54:652][ 65]LightingResults: Info Etage105 Lightmap UV are overlapping by 90.0%. Please adjust content - Enable Error Coloring to visualize.
+[2015.04.10-18.02.54:669][ 66]Job is a success!
+[2015.04.10-18.02.55:388][ 68]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.04.10-18.02.55:466][ 68]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.04.10-18.02.55:642][ 68]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.04.10-18.02.55:655][ 68]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.04.10-18.02.55:656][ 68]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.04.10-18.02.55:761][ 68]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.04.10-18.02.55:901][ 68]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.04.10-18.02.56:059][ 68]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.04.10-18.02.56:121][ 68]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.04.10-18.02.56:170][ 68]Lightmass on AXEL: 12.5 sec total, 1.83 sec importing, 637 ms setup, 1.25 sec photons, 8.76 sec processing, 0 ms extra exporting [8/8 mappings]. Threads: 1:01 min total, 13.1 sec processing.
+[2015.04.10-18.02.56:399][ 68]LogStaticLightingSystem: Illumination: 21.1 sec (830 ms encoding lightmaps)
+[2015.04.10-18.02.56:399][ 68]LogStaticLightingSystem: Lightmap texture memory:  1.4 MB (0.0 MB streaming, 1.3 MB non-streaming), 6 textures
+[2015.04.10-18.02.56:399][ 68]LogStaticLightingSystem: Shadowmap texture memory: 5.4 MB (0.1 MB streaming, 5.3 MB non-streaming), 6 textures
+[2015.04.10-18.02.56:907][ 69]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.04.10-18.02.56:908][ 69]MapCheck: New page: Test_Level - Apr 10, 2015, 8:02:56 PM
+[2015.04.10-18.03.01:168][ 69]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 4,260.624ms to complete.
+[2015.04.10-18.03.04:193][187]LogSavePackage: Save=64.429977ms
+[2015.04.10-18.03.04:193][187]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Test_Level_Auto646A43F6849316F45165723BF94FB2F68.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Autosaves/Game/Level/Test_Level_Auto6.umap'
+[2015.04.10-18.03.04:201][187]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/Test_Level' took 0.429
+[2015.04.10-18.03.04:201][187]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.429
+[2015.04.10-18.03.05:515][256]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.10-18.03.05:570][256]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Test'
+[2015.04.10-18.03.15:117][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Etage105)
+[2015.04.10-18.04.49:269][670]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Etage105)
+[2015.04.10-18.04.51:469][786]Cmd: DELETE
+[2015.04.10-18.04.51:469][786]Cmd: ACTOR DELETE
+[2015.04.10-18.04.51:566][786]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.10-18.04.51:604][786]LogEditorActor: Deleted 1 Actors (0.092 secs)
+[2015.04.10-18.04.53:354][876]LogActorFactory: Actor Factory created Etage105
+[2015.04.10-18.04.54:178][923]LogActorFactory: Actor Factory created Etage105
+[2015.04.10-18.05.17:147][154]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-18.05.17:147][154]PIE: New page: PIE session: Test_Level (Apr 10, 2015, 8:05:17 PM)
+[2015.04.10-18.05.17:153][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005907s)
+[2015.04.10-18.05.17:154][154]LogPlayLevel: PIE: World Init took: (0.000818s)
+[2015.04.10-18.05.17:154][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test_Level.Test_Level to /Game/Level/UEDPIE_0_Test_Level.Test_Level (0.006931s)
+[2015.04.10-18.05.17:193][154]LogWorld: Game class is 'GameMode_BP_C'
+[2015.04.10-18.05.17:195][154]LogAIModule: Creating AISystem for world Test_Level
+[2015.04.10-18.05.17:197][154]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test_Level.Test_Level up for play (max tick rate 60) at 2015.04.10-19.05.17
+[2015.04.10-18.05.17:198][154]LogWorld: Bringing up level for play took: 0.002296
+[2015.04.10-18.05.17:200][154]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_Test_Level 0.626
+[2015.04.10-18.05.20:243][327]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B4D1C4F40
+[2015.04.10-18.05.44:440][637]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Etage105)
+[2015.04.10-18.06.27:750][914]LogSavePackage: Save=23.799807ms
+[2015.04.10-18.06.27:750][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Test_LevelBC7D7AF84BD2E749B5BE259638C98AF7.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/Test_Level.umap'
+[2015.04.10-18.06.27:793][914]LogFileHelpers: Saving map 'Test_Level' took 0.197
+[2015.04.10-18.06.27:798][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert4" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert4.uasset" SILENT=true
+[2015.04.10-18.06.27:839][914]LogSavePackage: Save=5.614227ms
+[2015.04.10-18.06.27:839][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert4B365C16E419310B1A1F7DE9525084F41.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert4.uasset'
+[2015.04.10-18.06.27:851][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert7" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert7.uasset" SILENT=true
+[2015.04.10-18.06.27:880][914]LogSavePackage: Save=5.745192ms
+[2015.04.10-18.06.27:880][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert7FD5C550C41EDD9FCE5DD1F96A2B16402.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert7.uasset'
+[2015.04.10-18.06.27:893][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert8" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert8.uasset" SILENT=true
+[2015.04.10-18.06.27:936][914]LogSavePackage: Save=5.854808ms
+[2015.04.10-18.06.27:936][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert84FE6F5D441DBA28825CC07992C3D2690.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert8.uasset'
+[2015.04.10-18.06.27:958][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert9" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert9.uasset" SILENT=true
+[2015.04.10-18.06.28:001][914]LogSavePackage: Save=19.832283ms
+[2015.04.10-18.06.28:001][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert90472078F4B189FC683A58CBB5D563397.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert9.uasset'
+[2015.04.10-18.06.28:011][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/moquette" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/moquette.uasset" SILENT=true
+[2015.04.10-18.06.28:056][914]LogSavePackage: Save=5.461504ms
+[2015.04.10-18.06.28:056][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/moquette2130C3C84417D4EAFB4B01BE82E4B7CD.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/moquette.uasset'
+[2015.04.10-18.06.28:068][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert6" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert6.uasset" SILENT=true
+[2015.04.10-18.06.28:097][914]LogSavePackage: Save=5.801436ms
+[2015.04.10-18.06.28:097][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert6A35AC7E047B652FFC0C22D9DA3F9F710.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert6.uasset'
+[2015.04.10-18.06.28:109][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert20" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert20.uasset" SILENT=true
+[2015.04.10-18.06.28:138][914]LogSavePackage: Save=5.682378ms
+[2015.04.10-18.06.28:138][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert20B544E40D48AD60E131B52DA7956648C3.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert20.uasset'
+[2015.04.10-18.06.28:149][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert5" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert5.uasset" SILENT=true
+[2015.04.10-18.06.28:187][914]LogSavePackage: Save=5.690178ms
+[2015.04.10-18.06.28:187][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert506205A944DBD65C9BB526DAA208AC87B.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert5.uasset'
+[2015.04.10-18.06.28:198][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/moquette3" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/moquette3.uasset" SILENT=true
+[2015.04.10-18.06.28:241][914]LogSavePackage: Save=5.580152ms
+[2015.04.10-18.06.28:242][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/moquette38F35244547D1CE74ACC28784FFC137F4.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/moquette3.uasset'
+[2015.04.10-18.06.28:282][914]LogSavePackage: Save=5.427018ms
+[2015.04.10-18.06.28:282][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Default_Material11AA414574F5A8793E077C8A63C3768D1.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/Default_Material1.uasset'
+[2015.04.10-18.06.28:293][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert19" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert19.uasset" SILENT=true
+[2015.04.10-18.06.28:324][914]LogSavePackage: Save=6.265765ms
+[2015.04.10-18.06.28:324][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert19983E12104FAA0F9805F11F8171126C42.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert19.uasset'
+[2015.04.10-18.06.28:336][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/moquette1" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/moquette1.uasset" SILENT=true
+[2015.04.10-18.06.28:375][914]LogSavePackage: Save=5.675399ms
+[2015.04.10-18.06.28:375][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/moquette1DE577F2E45367A7E77039F92F1E0F977.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/moquette1.uasset'
+[2015.04.10-18.06.28:385][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert10" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert10.uasset" SILENT=true
+[2015.04.10-18.06.28:416][914]LogSavePackage: Save=6.640594ms
+[2015.04.10-18.06.28:416][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert108A7C00C24D8DA92F407D2C82EAEB7F88.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert10.uasset'
+[2015.04.10-18.06.28:428][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert11" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert11.uasset" SILENT=true
+[2015.04.10-18.06.28:458][914]LogSavePackage: Save=5.564551ms
+[2015.04.10-18.06.28:458][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert11B7B7E932458942BE6E4C368C4D3FFCBB.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert11.uasset'
+[2015.04.10-18.06.28:467][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert12" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert12.uasset" SILENT=true
+[2015.04.10-18.06.28:499][914]LogSavePackage: Save=6.590508ms
+[2015.04.10-18.06.28:499][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert12D1E60F374960E0D1007CECA1DAACF75C.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert12.uasset'
+[2015.04.10-18.06.28:509][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert13" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert13.uasset" SILENT=true
+[2015.04.10-18.06.28:563][914]LogSavePackage: Save=28.770708ms
+[2015.04.10-18.06.28:563][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert1397D716FD47792D06FFE5C1AC25113157.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert13.uasset'
+[2015.04.10-18.06.28:576][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert16" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert16.uasset" SILENT=true
+[2015.04.10-18.06.28:608][914]LogSavePackage: Save=6.168876ms
+[2015.04.10-18.06.28:608][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert168B09758B4AA71D251C86D1B3A6316A6F.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert16.uasset'
+[2015.04.10-18.06.28:618][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert17" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert17.uasset" SILENT=true
+[2015.04.10-18.06.28:650][914]LogSavePackage: Save=6.393034ms
+[2015.04.10-18.06.28:650][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert177536E6A9467F870EE17022A24C866FA0.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert17.uasset'
+[2015.04.10-18.06.28:660][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert18" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert18.uasset" SILENT=true
+[2015.04.10-18.06.28:705][914]LogSavePackage: Save=19.921371ms
+[2015.04.10-18.06.28:705][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert18A9B588CB4F38AE2A834A38A9DC562D06.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert18.uasset'
+[2015.04.10-18.06.28:715][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/moquette4" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/moquette4.uasset" SILENT=true
+[2015.04.10-18.06.28:781][914]LogSavePackage: Save=26.553345ms
+[2015.04.10-18.06.28:781][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/moquette4DD514440497C7E7984FE04B0626747E4.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/moquette4.uasset'
+[2015.04.10-18.06.28:843][914]LogSavePackage: Save=5.797331ms
+[2015.04.10-18.06.28:843][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Default_Material23EC70B224950582F9C61A48D606EB780.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/Default_Material2.uasset'
+[2015.04.10-18.06.28:909][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert21" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert21.uasset" SILENT=true
+[2015.04.10-18.06.28:940][914]LogSavePackage: Save=5.231187ms
+[2015.04.10-18.06.28:940][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert2148B5471544572C1F61FE38B75CD1A923.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert21.uasset'
+[2015.04.10-18.06.28:950][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test/lambert22" FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert22.uasset" SILENT=true
+[2015.04.10-18.06.28:982][914]LogSavePackage: Save=5.712759ms
+[2015.04.10-18.06.28:982][914]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/lambert222C09EDF74FA06BE8EBBFCFA41B8FF0B7.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Meshes/Test/lambert22.uasset'
+[2015.04.10-18.06.29:501][940]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-18.06.29:501][940]PIE: New page: PIE session: Test_Level (Apr 10, 2015, 8:06:29 PM)
+[2015.04.10-18.06.29:535][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005733s)
+[2015.04.10-18.06.29:536][940]LogPlayLevel: PIE: World Init took: (0.001068s)
+[2015.04.10-18.06.29:536][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test_Level.Test_Level to /Game/Level/UEDPIE_0_Test_Level.Test_Level (0.006965s)
+[2015.04.10-18.06.29:568][940]LogWorld: Game class is 'GameMode_BP_C'
+[2015.04.10-18.06.29:570][940]LogAIModule: Creating AISystem for world Test_Level
+[2015.04.10-18.06.29:572][940]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test_Level.Test_Level up for play (max tick rate 60) at 2015.04.10-19.06.29
+[2015.04.10-18.06.29:572][940]LogWorld: Bringing up level for play took: 0.002210
+[2015.04.10-18.06.29:575][940]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_Test_Level 1.001
+[2015.04.10-18.06.33:461][167]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B4BA3AA20
+[2015.04.10-18.06.35:809][288]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-18.06.35:809][288]PIE: New page: PIE session: Test_Level (Apr 10, 2015, 8:06:35 PM)
+[2015.04.10-18.06.35:854][288]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004684s)
+[2015.04.10-18.06.35:854][288]LogPlayLevel: PIE: World Init took: (0.000888s)
+[2015.04.10-18.06.35:855][288]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test_Level.Test_Level to /Game/Level/UEDPIE_0_Test_Level.Test_Level (0.005737s)
+[2015.04.10-18.06.35:888][288]LogWorld: Game class is 'GameMode_BP_C'
+[2015.04.10-18.06.35:890][288]LogAIModule: Creating AISystem for world Test_Level
+[2015.04.10-18.06.35:892][288]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test_Level.Test_Level up for play (max tick rate 60) at 2015.04.10-19.06.35
+[2015.04.10-18.06.35:893][288]LogWorld: Bringing up level for play took: 0.002242
+[2015.04.10-18.06.35:895][288]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_Test_Level -0.679
+[2015.04.10-18.06.38:171][412]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B480A0900
+[2015.04.10-18.06.39:580][483]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Etage105)
+[2015.04.10-18.06.50:319][ 29]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-18.06.50:320][ 29]PIE: New page: PIE session: Test_Level (Apr 10, 2015, 8:06:50 PM)
+[2015.04.10-18.06.50:326][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005795s)
+[2015.04.10-18.06.50:327][ 29]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2015.04.10-18.06.50:327][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test_Level.Test_Level to /Game/Level/UEDPIE_0_Test_Level.Test_Level (0.006548s)
+[2015.04.10-18.06.50:362][ 29]LogWorld: Game class is 'GameMode_BP_C'
+[2015.04.10-18.06.50:364][ 29]LogAIModule: Creating AISystem for world Test_Level
+[2015.04.10-18.06.50:367][ 29]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test_Level.Test_Level up for play (max tick rate 60) at 2015.04.10-19.06.50
+[2015.04.10-18.06.50:367][ 29]LogWorld: Bringing up level for play took: 0.002401
+[2015.04.10-18.06.50:369][ 29]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_Test_Level -0.205
+[2015.04.10-18.06.53:790][221]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000BE35028E0
+[2015.04.10-18.06.59:839][540]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-18.06.59:840][540]PIE: New page: PIE session: Test_Level (Apr 10, 2015, 8:06:59 PM)
+[2015.04.10-18.06.59:845][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005354s)
+[2015.04.10-18.06.59:846][540]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2015.04.10-18.06.59:846][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test_Level.Test_Level to /Game/Level/UEDPIE_0_Test_Level.Test_Level (0.006183s)
+[2015.04.10-18.06.59:883][540]LogWorld: Game class is 'GameMode_BP_C'
+[2015.04.10-18.06.59:885][540]LogAIModule: Creating AISystem for world Test_Level
+[2015.04.10-18.06.59:887][540]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test_Level.Test_Level up for play (max tick rate 60) at 2015.04.10-19.06.59
+[2015.04.10-18.06.59:888][540]LogWorld: Bringing up level for play took: 0.002471
+[2015.04.10-18.06.59:890][540]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_Test_Level -0.684
+[2015.04.10-18.07.20:458][754]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000BE1AE27A0
+[2015.04.10-18.07.21:482][789]LogActorFactory: Actor Factory created wtcDustbin
+[2015.04.10-18.07.22:472][839]LogActorFactory: Actor Factory created wtcDustbin
+[2015.04.10-18.07.22:879][859]LogActorFactory: Actor Factory created wtcDustbin
+[2015.04.10-18.07.30:133][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Etage105)
+[2015.04.10-18.07.31:164][285]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-18.07.31:164][285]PIE: New page: PIE session: Test_Level (Apr 10, 2015, 8:07:31 PM)
+[2015.04.10-18.07.31:170][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005443s)
+[2015.04.10-18.07.31:171][285]LogPlayLevel: PIE: World Init took: (0.000787s)
+[2015.04.10-18.07.31:171][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Test_Level.Test_Level to /Game/Level/UEDPIE_0_Test_Level.Test_Level (0.006409s)
+[2015.04.10-18.07.31:204][285]LogWorld: Game class is 'GameMode_BP_C'
+[2015.04.10-18.07.31:205][285]LogAIModule: Creating AISystem for world Test_Level
+[2015.04.10-18.07.31:208][285]LogWorld: Bringing World /Game/Level/UEDPIE_0_Test_Level.Test_Level up for play (max tick rate 60) at 2015.04.10-19.07.31
+[2015.04.10-18.07.31:208][285]LogWorld: Bringing up level for play took: 0.002325
+[2015.04.10-18.07.31:211][285]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_Test_Level 0.637
+[2015.04.10-18.08.01:026][ 45]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000BD8D3CE00
+[2015.04.10-18.08.01:615][ 73]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wtcDustbin)
+[2015.04.10-18.08.07:499][386]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-18.08.07:499][386]PIE: New page: PIE session: Test_Level (Apr 10, 2015, 8:08:07 PM)
+[2015.04.
