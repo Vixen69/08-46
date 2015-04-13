@@ -1,0 +1,1388 @@
+﻿Log file open, 04/13/15 10:35:22
+LogInit:Display: Running engine for game: Project_8_46
+LogInit: Version: 4.7.5-2503383+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr  6 2015 23:21:51
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.13-09.35.22:917][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.13-09.35.22:978][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.13-09.35.22:995][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.13-09.35.23:004][  0]LogInit: Object subsystem initialized
+[2015.04.13-09.35.23:006][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.13-09.35.23:006][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.13-09.35.23:006][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.13-09.35.23:006][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.13-09.35.23:006][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.13-09.35.23:006][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.13-09.35.23:006][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.13-09.35.23:006][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.13-09.35.23:031][  0]LogInit: Computer: AXEL
+[2015.04.13-09.35.23:031][  0]LogInit: User: Axel
+[2015.04.13-09.35.23:031][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.13-09.35.23:031][  0]LogInit: High frequency timer resolution =2.435779 MHz
+[2015.04.13-09.35.23:031][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.04.13-09.35.23:031][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.13-09.35.23:031][  0]LogMemory: Process Physical Memory: 46.20 MB used, 46.20 MB peak
+[2015.04.13-09.35.23:031][  0]LogMemory: Process Virtual Memory: 26.49 MB used, 26.50 MB peak
+[2015.04.13-09.35.23:031][  0]LogMemory: Physical Memory: 4210.59 MB used, 8111.20 MB total
+[2015.04.13-09.35.23:031][  0]LogMemory: Virtual Memory: 287.62 MB used, 134217728.00 MB total
+[2015.04.13-09.35.23:062][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 850M        (Feature Level 11_0)
+[2015.04.13-09.35.23:062][  0]LogD3D11RHI: Adapter has 1972MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.04.13-09.35.23:070][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.04.13-09.35.23:070][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 0 output[s]
+[2015.04.13-09.35.23:071][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.13-09.35.23:071][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.13-09.35.23:071][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.13-09.35.23:075][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.13-09.35.23:084][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.13-09.35.23:154][  0]LogTextLocalizationManager: The requested culture ('fr_FR') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.04.13-09.35.23:239][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.13-09.35.23:239][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.13-09.35.23:339][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.13-09.35.25:705][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.13-09.35.26:258][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.13-09.35.26:325][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.13-09.35.26:387][  0]LogDerivedDataCache: Loaded boot cache 0.06s 39MB C:/Users/Axel/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.13-09.35.26:387][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Axel/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.13-09.35.26:387][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.13-09.35.26:387][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.13-09.35.26:501][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.13-09.35.26:513][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Axel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.13-09.35.26:826][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.13-09.35.26:826][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.13-09.35.27:249][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.13-09.35.27:327][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.13-09.35.28:124][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.13-09.35.28:342][  0]SourceControl: Info Source control is disabled
+[2015.04.13-09.35.28:342][  0]SourceControl: Info Source control is disabled
+[2015.04.13-09.35.28:342][  0]SourceControl: Info Source control is disabled
+[2015.04.13-09.35.28:342][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.13-09.35.28:342][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.13-09.35.28:351][  0]SourceControl: Info Source control is disabled
+[2015.04.13-09.35.28:558][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.13-09.35.28:558][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.04.13-09.35.28:654][  0]LogEngine: Initializing Engine...
+[2015.04.13-09.35.32:863][  0]OCULUS: 
+[2015.04.13-09.35.32:991][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.13-09.35.33:016][  0]LogInit: FAudioDevice initialized.
+[2015.04.13-09.35.33:047][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.13-09.35.33:072][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Axel/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.13-09.35.33:078][  0]LogInit: Texture streaming: Enabled
+[2015.04.13-09.35.33:163][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.13-09.35.33:163][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.13-09.35.33:163][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.13-09.35.33:164][  0]LogAnalytics: SetUserId e88c5383477aca45f485feae05ecce95|055f838899cf4f808bea9037a5bce58a|a41b6706-46c7-4e3e-8712-6c4db12eddd9
+[2015.04.13-09.35.33:164][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.13-09.35.33:194][  0]LogInit: Transaction tracking system initialized
+[2015.04.13-09.35.33:375][  0]BlueprintLog: New page: Editor Load
+[2015.04.13-09.35.33:412][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.04.13-09.35.33:412][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.13-09.35.33:932][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.13-09.35.34:361][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.13-09.35.34:667][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.13-09.35.34:667][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.13-09.35.34:674][  0]LogConsoleResponse:Display: 
+[2015.04.13-09.35.34:859][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.13-09.35.35:039][  0]SourceControl: Info Source control is disabled
+[2015.04.13-09.35.35:039][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.13-09.35.35:039][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-09.35.35:039][  0]Cmd: MAP CHECKDEP
+[2015.04.13-09.35.35:040][  0]MapCheck: New page: Untitled_0 - Apr 13, 2015, 11:35:35 AM
+[2015.04.13-09.35.35:111][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.059ms to complete.
+[2015.04.13-09.35.35:111][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.071
+[2015.04.13-09.35.35:329][  0]LogCollectionManager: Loaded 0 collections in 0.001680 seconds
+[2015.04.13-09.35.35:342][  0]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 1696 classes and 261 folders.
+[2015.04.13-09.35.35:377][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2015.04.13-09.35.35:547][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.13-09.35.35:549][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.13-09.35.35:559][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.13-09.35.35:585][  0]LogLoad: Full Startup: 13.84 seconds (BP compile: 0.00 seconds)
+[2015.04.13-09.35.35:614][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/Player'
+[2015.04.13-09.35.35:978][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x560 (Frame:2).
+[2015.04.13-09.35.36:373][  4]LogAssetRegistry: Asset discovery search completed in 2.9725 seconds
+[2015.04.13-09.35.38:884][130]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Level'
+[2015.04.13-09.35.41:115][181]Cmd: MAP LOAD FILE="../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.13-09.35.41:115][181]LightingResults: New page: Lighting Build
+[2015.04.13-09.35.41:132][181]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0035 seconds. Added 5 classes and 0 folders.
+[2015.04.13-09.35.41:170][181]LoadErrors: New page: Loading map: MainTest_Level.umap
+[2015.04.13-09.35.41:171][181]MapCheck: New page: Map Check
+[2015.04.13-09.35.41:171][181]LightingResults: New page: Lighting Build
+[2015.04.13-09.35.41:179][181]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000094042C6980
+[2015.04.13-09.35.41:203][181]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.13-09.35.41:206][181]LogAIModule: Creating AISystem for world MainTest_Level
+[2015.04.13-09.35.41:255][181]Cmd: MAP CHECKDEP
+[2015.04.13-09.35.41:255][181]MapCheck: New page: MainTest_Level - Apr 13, 2015, 11:35:41 AM
+[2015.04.13-09.35.41:336][181]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 81.315ms to complete.
+[2015.04.13-09.35.41:337][181]LogFileHelpers: Loading map 'MainTest_Level' took 0.227
+[2015.04.13-09.35.44:238][314]LogEditorViewport: Clicking on Actor (LMB): TakeableActor_BP_C (TakeableActor_BP)
+[2015.04.13-09.35.46:528][434]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/Props'
+[2015.04.13-09.35.47:033][460]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/Player'
+[2015.04.13-09.35.47:608][488]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/GameState'
+[2015.04.13-09.35.51:542][708]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts'
+[2015.04.13-09.35.52:698][757]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/NewFolder'
+[2015.04.13-09.35.59:909][172]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/LevelScripting'
+[2015.04.13-09.37.52:843][242]LogEditorTransaction: Undo Move Node
+[2015.04.13-09.37.59:223][590]BlueprintLog: New page: Compile MainTest_Level
+[2015.04.13-09.37.59:280][590]BlueprintEditorCompileResults: Info [0157.53] Compile of MainTest_Level successful! [in 56 ms]
+[2015.04.13-09.38.08:235][116]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/Player'
+[2015.04.13-09.38.08:504][132]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/Props'
+[2015.04.13-09.38.44:380][211]LogSavePackage: Save=69.516983ms
+[2015.04.13-09.38.44:380][211]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level3E17975349045C78B8D4E985D5B7A70F.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.38.44:422][211]LogFileHelpers: Saving map 'MainTest_Level' took 0.265
+[2015.04.13-09.38.44:487][211]LogSavePackage: Save=31.125154ms
+[2015.04.13-09.38.44:487][211]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/FocusableActor_BPA2C1393E435E5E0A8DDCDCA05E60E29F.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Props/FocusableActor_BP.uasset'
+[2015.04.13-09.39.01:379][173]LogSavePackage: Save=33.936985ms
+[2015.04.13-09.39.01:379][173]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/FocusableActor_BP0D95CE9B4840837B4B2AAB965D36A5EB.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Props/FocusableActor_BP.uasset'
+[2015.04.13-09.39.16:031][ 36]LogSavePackage: Save=33.542862ms
+[2015.04.13-09.39.16:031][ 36]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/FocusableActor_BPFF6A7F7243C8AA549E0512BD18C64FE6.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Props/FocusableActor_BP.uasset'
+[2015.04.13-09.39.19:588][248]LogRenderer:Warning: Reallocating scene render targets to support 1208x712 (Frame:148).
+[2015.04.13-09.39.50:069][970]LogSavePackage: Save=33.525620ms
+[2015.04.13-09.39.50:069][970]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/FocusableActor_BP6068554D43805040010E30B63256252C.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Props/FocusableActor_BP.uasset'
+[2015.04.13-09.39.55:811][289]LogSavePackage: Save=34.008831ms
+[2015.04.13-09.39.55:811][289]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/FocusableActor_BPD84AD06540B08EBEA9B750B6F443C4CE.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Props/FocusableActor_BP.uasset'
+[2015.04.13-09.40.06:584][902]LogSavePackage: Save=37.372849ms
+[2015.04.13-09.40.06:584][902]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/FocusableActor_BP1C477AB64D08453FF100C78EB3BF85EF.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Props/FocusableActor_BP.uasset'
+[2015.04.13-09.40.19:926][646]LogSavePackage: Save=36.716797ms
+[2015.04.13-09.40.19:926][646]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/FocusableActor_BP66D6F16C47D38420B188E7A1E40CF6D8.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Props/FocusableActor_BP.uasset'
+[2015.04.13-09.40.30:262][239]LogSavePackage: Save=38.972748ms
+[2015.04.13-09.40.30:262][239]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/FocusableActor_BP46EB878648BDCFD12C47508E016F6E89.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Props/FocusableActor_BP.uasset'
+[2015.04.13-09.40.47:022][208]LogSavePackage: Save=40.330425ms
+[2015.04.13-09.40.47:022][208]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/FocusableActor_BP3DC93FD045DDE06B5FB2818BC50D6D56.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Props/FocusableActor_BP.uasset'
+[2015.04.13-09.40.49:659][355]LogSavePackage: Save=41.783348ms
+[2015.04.13-09.40.49:659][355]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/FocusableActor_BPC61BD8CC46BF99805BCAF38F0EA01899.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Props/FocusableActor_BP.uasset'
+[2015.04.13-09.40.50:671][406]LogSavePackage: Save=40.963078ms
+[2015.04.13-09.40.50:671][406]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/FocusableActor_BP07C165BB4EDD60A3A913E88A09319939.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Props/FocusableActor_BP.uasset'
+[2015.04.13-09.40.51:493][443]LogSavePackage: Save=40.721676ms
+[2015.04.13-09.40.51:493][443]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/FocusableActor_BPF1764F9B4EF2C10304511E83114596C9.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/Props/FocusableActor_BP.uasset'
+[2015.04.13-09.40.54:800][641]BlueprintLog: New page: Compile FocusableActor_BP
+[2015.04.13-09.40.54:939][641]BlueprintEditorCompileResults: Info [0333.19] Compile of FocusableActor_BP successful! [in 138 ms]
+[2015.04.13-09.40.57:205][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009404239DA0
+[2015.04.13-09.40.57:505][772]LogSavePackage: Save=69.647125ms
+[2015.04.13-09.40.57:506][772]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelBD7652C847F5FC6A82AC9C84E57E0552.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.40.57:546][772]LogFileHelpers: Saving map 'MainTest_Level' took 0.253
+[2015.04.13-09.41.13:995][523]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.13-09.41.15:964][634]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/LevelScripting'
+[2015.04.13-09.41.16:442][662]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/Player'
+[2015.04.13-09.41.16:959][693]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/Props'
+[2015.04.13-09.41.19:443][835]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/LevelScripting'
+[2015.04.13-09.42.03:727][228]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/LevelScripting'
+[2015.04.13-09.42.22:268][319]LogSavePackage: Save=70.747391ms
+[2015.04.13-09.42.22:268][319]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level114312D446BA0C706B3519B1B2972ABF.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.42.22:318][319]LogFileHelpers: Saving map 'MainTest_Level' took 0.243
+[2015.04.13-09.42.22:326][319]LogSavePackage: Save=3.173933ms
+[2015.04.13-09.42.22:326][319]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/CurrentLevelStyle6FE1117D4C976DA4AFD323A68730FA42.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/LevelScripting/CurrentLevelStyle.uasset'
+[2015.04.13-09.42.24:629][452]LogEnum:Warning: Enum Text CurrentLevelStyle::NewEnumerator0 for Enum CurrentLevelStyle failed to resolve to any value
+[2015.04.13-09.43.05:236][870]LogSavePackage: Save=3.734740ms
+[2015.04.13-09.43.05:236][870]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/CurrentLevelStyle993CF86D41B5D885CB5E1BB6E01A0463.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/LevelScripting/CurrentLevelStyle.uasset'
+[2015.04.13-09.43.22:465][885]LogSavePackage: Save=72.695839ms
+[2015.04.13-09.43.22:465][885]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelFC6D9B20494C398DDCFB77B4E7AA6B4B.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.43.22:509][885]LogFileHelpers: Saving map 'MainTest_Level' took 0.241
+[2015.04.13-09.43.29:763][293]LogSavePackage: Save=72.267639ms
+[2015.04.13-09.43.29:763][293]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelCC58BC854C8AB3B47243D49D08F85DBC.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.43.29:804][293]LogFileHelpers: Saving map 'MainTest_Level' took 0.231
+[2015.04.13-09.43.38:717][809]LogMetaData: Removing '/Game/Scripts/LevelScripting/CurrentLevelSection.CurrentLevelSection' ref from Metadata '/Game/Scripts/LevelScripting/CurrentLevelStyle.PackageMetaData'
+[2015.04.13-09.43.38:869][809]LogSavePackage: Save=9.283683ms
+[2015.04.13-09.43.38:869][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/CurrentLevelSection3309677748AE4E303F63CFBE7414DD81.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/LevelScripting/CurrentLevelSection.uasset'
+[2015.04.13-09.43.38:938][809]LogSavePackage: Save=3.647704ms
+[2015.04.13-09.43.38:938][809]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/CurrentLevelStyleF0266A764AE9A584087EC88FD70D42FC.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Scripts/LevelScripting/CurrentLevelStyle.uasset'
+[2015.04.13-09.44.16:966][ 11]LogSavePackage: Save=79.996170ms
+[2015.04.13-09.44.16:966][ 11]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level8D3C9D0E44C2531EEA7E22B44DD71671.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.44.17:006][ 11]LogFileHelpers: Saving map 'MainTest_Level' took 0.246
+[2015.04.13-09.44.42:375][498]LogSavePackage: Save=83.183655ms
+[2015.04.13-09.44.42:375][498]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level1A638B724933A169522D189070EDBBA5.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.44.42:415][498]LogFileHelpers: Saving map 'MainTest_Level' took 0.263
+[2015.04.13-09.45.09:133][ 44]LogSavePackage: Save=82.493935ms
+[2015.04.13-09.45.09:133][ 44]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelA473840545CA92AF15E305B138B87B54.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.45.09:174][ 44]LogFileHelpers: Saving map 'MainTest_Level' took 0.247
+[2015.04.13-09.45.38:681][782]LogSavePackage: Save=90.064003ms
+[2015.04.13-09.45.38:681][782]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level54CE1E32438D22E539E5BE985B93C3C9.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.45.38:721][782]LogFileHelpers: Saving map 'MainTest_Level' took 0.253
+[2015.04.13-09.45.46:784][245]LogSavePackage: Save=90.775887ms
+[2015.04.13-09.45.46:784][245]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level8EE820154269F1FAEEA573AC3894466F.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.45.46:825][245]LogFileHelpers: Saving map 'MainTest_Level' took 0.268
+[2015.04.13-09.46.24:620][420]LogSavePackage: Save=93.305672ms
+[2015.04.13-09.46.24:620][420]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level98E1946D413470FB330B908F7FD31A97.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.46.24:661][420]LogFileHelpers: Saving map 'MainTest_Level' took 0.257
+[2015.04.13-09.46.35:270][ 35]LogSavePackage: Save=97.980156ms
+[2015.04.13-09.46.35:270][ 35]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level79333B8149DDAF1B4B4988BD3C160E4A.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.46.35:311][ 35]LogFileHelpers: Saving map 'MainTest_Level' took 0.260
+[2015.04.13-09.46.45:118][599]LogSavePackage: Save=94.475319ms
+[2015.04.13-09.46.45:118][599]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelB13B31184C44F51D88EB45A1711BB550.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.46.45:159][599]LogFileHelpers: Saving map 'MainTest_Level' took 0.261
+[2015.04.13-09.46.57:291][309]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.04.13-09.46.57:517][309]LogSavePackage: Save=104.893753ms
+[2015.04.13-09.46.57:518][309]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level99C661844558912BDA8036BE562AE10D.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.46.57:556][309]LogFileHelpers: Saving map 'MainTest_Level' took 0.265
+[2015.04.13-09.47.16:627][399]LogSavePackage: Save=98.289703ms
+[2015.04.13-09.47.16:628][399]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level1BF7FCD24C2CB8D9426D5FB1FD98062E.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.47.16:673][399]LogFileHelpers: Saving map 'MainTest_Level' took 0.265
+[2015.04.13-09.47.57:456][790]LogSavePackage: Save=100.931572ms
+[2015.04.13-09.47.57:457][790]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level2D9A4DB34D70003F921CC79515B34040.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.47.57:496][790]LogFileHelpers: Saving map 'MainTest_Level' took 0.284
+[2015.04.13-09.48.06:244][290]LogSavePackage: Save=98.840660ms
+[2015.04.13-09.48.06:244][290]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelBF1339E147A0F9EC3F16F98D70C1D39B.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.48.06:285][290]LogFileHelpers: Saving map 'MainTest_Level' took 0.259
+[2015.04.13-09.48.41:740][354]LogSavePackage: Save=102.066734ms
+[2015.04.13-09.48.41:740][354]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelD6079BAF40800A70FCF02EA56395AF67.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.48.41:781][354]LogFileHelpers: Saving map 'MainTest_Level' took 0.266
+[2015.04.13-09.48.44:083][470]LogSavePackage: Save=99.536537ms
+[2015.04.13-09.48.44:083][470]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelF65793F6437BDF9B75449FA510A44819.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.48.44:122][470]LogFileHelpers: Saving map 'MainTest_Level' took 0.257
+[2015.04.13-09.49.08:319][880]LogSavePackage: Save=104.358398ms
+[2015.04.13-09.49.08:319][880]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level5AC6B0DC47658D7B59AAB4956A1D205B.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.49.08:359][880]LogFileHelpers: Saving map 'MainTest_Level' took 0.285
+[2015.04.13-09.49.18:481][448]LogSavePackage: Save=99.877701ms
+[2015.04.13-09.49.18:481][448]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelF3A0BAE945B3748CF1FD318A22AA629A.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.49.18:521][448]LogFileHelpers: Saving map 'MainTest_Level' took 0.269
+[2015.04.13-09.50.28:834][163]LogSavePackage: Save=106.217354ms
+[2015.04.13-09.50.28:835][163]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level9E13C4D24B2EC580B3FCBD9A2FA2DDFE.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.50.28:874][163]LogFileHelpers: Saving map 'MainTest_Level' took 0.272
+[2015.04.13-09.50.49:218][324]LogSavePackage: Save=109.134697ms
+[2015.04.13-09.50.49:218][324]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelA8DF0F9043341A83E3BD4ABEA3A73B8C.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.50.49:257][324]LogFileHelpers: Saving map 'MainTest_Level' took 0.276
+[2015.04.13-09.50.56:446][719]LogSavePackage: Save=106.107330ms
+[2015.04.13-09.50.56:446][719]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level51006585491CCD214E2309B306C55F32.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.50.56:487][719]LogFileHelpers: Saving map 'MainTest_Level' took 0.273
+[2015.04.13-09.51.26:393][442]LogSavePackage: Save=113.082916ms
+[2015.04.13-09.51.26:393][442]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level58F964424869E5CBA6918BBC90C87DA7.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.51.26:435][442]LogFileHelpers: Saving map 'MainTest_Level' took 0.281
+[2015.04.13-09.51.55:272][ 69]LogSavePackage: Save=116.667397ms
+[2015.04.13-09.51.55:272][ 69]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level4519700844DE6F70EADA59819146FC5D.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.51.55:312][ 69]LogFileHelpers: Saving map 'MainTest_Level' took 0.285
+[2015.04.13-09.52.19:381][446]LogSavePackage: Save=119.032967ms
+[2015.04.13-09.52.19:381][446]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level5F2D5970488B7C142ECD6F8A75A0D2FD.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.52.19:423][446]LogFileHelpers: Saving map 'MainTest_Level' took 0.287
+[2015.04.13-09.52.25:497][789]LogSavePackage: Save=123.456192ms
+[2015.04.13-09.52.25:497][789]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level8DCFD7794C4D1F268583A89AAE6539C1.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.52.25:538][789]LogFileHelpers: Saving map 'MainTest_Level' took 0.287
+[2015.04.13-09.52.33:380][223]LogSavePackage: Save=118.436440ms
+[2015.04.13-09.52.33:381][223]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelBADBA37148093852A382FFA8B6B72517.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.52.33:421][223]LogFileHelpers: Saving map 'MainTest_Level' took 0.288
+[2015.04.13-09.52.45:934][924]LogSavePackage: Save=116.532326ms
+[2015.04.13-09.52.45:934][924]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level36467EBF4CF66E6C02ABD3B8AECC5981.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.52.45:974][924]LogFileHelpers: Saving map 'MainTest_Level' took 0.279
+[2015.04.13-09.53.44:649][255]LogSavePackage: Save=126.448250ms
+[2015.04.13-09.53.44:649][255]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level992B3C614AF067D9118C51BEAD68A634.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.53.44:721][255]LogFileHelpers: Saving map 'MainTest_Level' took 0.327
+[2015.04.13-09.53.48:956][488]LogSavePackage: Save=125.409164ms
+[2015.04.13-09.53.48:956][488]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelDFA80101443A97F129698B9BCBECA0F4.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.53.49:010][488]LogFileHelpers: Saving map 'MainTest_Level' took 0.301
+[2015.04.13-09.54.23:090][498]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.13-09.55.30:701][ 83]LogSavePackage: Save=138.429642ms
+[2015.04.13-09.55.30:701][ 83]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level36C4A64E4837927FE2A0599A2E4DDF27.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.55.30:760][ 83]LogFileHelpers: Saving map 'MainTest_Level' took 0.329
+[2015.04.13-09.55.37:414][451]LogSavePackage: Save=137.329788ms
+[2015.04.13-09.55.37:414][451]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelA142A85744AB640B0B966AA9C4966B3D.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.55.37:454][451]LogFileHelpers: Saving map 'MainTest_Level' took 0.305
+[2015.04.13-09.56.01:288][775]LogBlueprint:Error: [compiler] Error  Tutorial Focus Box  of type Focusable Actor BP Reference doesn't match the property Tutorial_FocusBox of type Takeable Actor BP Reference
+[2015.04.13-09.56.01:385][775]LogBlueprint:Warning: [compiler] Warning [1239.64] Compile of MainTest_Level failed. 1 Fatal Issue(s) 0 Warning(s) [in 128 ms]
+[2015.04.13-09.56.01:386][775]LogBlueprint:Warning: [compiler] Warning [1239.64] Compile of MainTest_Level failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.04.13-09.56.01:387][775]LogBlueprint:Warning: [compiler] Warning [1239.64] Compile of MainTest_Level failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.04.13-09.56.01:393][775]LogBlueprint:Warning: [compiler] Warning [1239.64] Compile of MainTest_Level failed. 1 Fatal Issue(s) 3 Warning(s) [in 5 ms]
+[2015.04.13-09.56.01:393][775]LogBlueprint:Warning: [compiler] Warning [1239.64] Compile of MainTest_Level failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.04.13-09.56.01:393][775]LogBlueprint:Warning: [compiler] Warning [1239.64] Compile of MainTest_Level failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.04.13-09.56.02:897][838]LogSavePackage: Save=133.085144ms
+[2015.04.13-09.56.02:897][838]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelA400566A4CE8F7909E1618AE7F2E2C60.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.56.02:937][838]LogFileHelpers: Saving map 'MainTest_Level' took 0.307
+[2015.04.13-09.56.09:361][222]BlueprintLog: New page: Compile MainTest_Level
+[2015.04.13-09.56.09:444][222]BlueprintEditorCompileResults: Info [1247.70] Compile of MainTest_Level successful! [in 82 ms]
+[2015.04.13-09.56.54:673][854]LogSavePackage: Save=141.745621ms
+[2015.04.13-09.56.54:673][854]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelD274E1A44E37FB1DA31B28A4FE27A3C9.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-09.56.54:714][854]LogFileHelpers: Saving map 'MainTest_Level' took 0.307
+[2015.04.13-10.18.24:484][363]LogBlueprint:Error: [compiler] Error  Tutorial Text  of type Text Reference doesn't match the property Tutorial_Text of type Text Render Actor Reference
+[2015.04.13-10.18.24:484][363]LogBlueprint:Error: [compiler] Error  Tutorial Text  of type Text Reference doesn't match the property Tutorial_Text of type Text Render Actor Reference
+[2015.04.13-10.18.24:555][363]LogBlueprint:Warning: [compiler] Warning [2582.81] Compile of MainTest_Level failed. 2 Fatal Issue(s) 0 Warning(s) [in 93 ms]
+[2015.04.13-10.18.24:556][363]LogBlueprint:Warning: [compiler] Warning [2582.81] Compile of MainTest_Level failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.04.13-10.18.24:556][363]LogBlueprint:Warning: [compiler] Warning [2582.81] Compile of MainTest_Level failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.04.13-10.18.24:563][363]LogBlueprint:Warning: [compiler] Warning [2582.81] Compile of MainTest_Level failed. 2 Fatal Issue(s) 3 Warning(s) [in 6 ms]
+[2015.04.13-10.18.24:563][363]LogBlueprint:Warning: [compiler] Warning [2582.81] Compile of MainTest_Level failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.04.13-10.18.24:563][363]LogBlueprint:Warning: [compiler] Warning [2582.81] Compile of MainTest_Level failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.04.13-10.18.25:869][422]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a TextBlock, therefore ' Target ' must have a connection.
+[2015.04.13-10.18.25:929][422]LogBlueprint:Warning: [compiler] Warning [2584.18] Compile of MainTest_Level failed. 1 Fatal Issue(s) 0 Warning(s) [in 74 ms]
+[2015.04.13-10.18.25:931][422]LogBlueprint:Warning: [compiler] Warning [2584.18] Compile of MainTest_Level failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.04.13-10.18.25:931][422]LogBlueprint:Warning: [compiler] Warning [2584.18] Compile of MainTest_Level failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.04.13-10.18.25:937][422]LogBlueprint:Warning: [compiler] Warning [2584.19] Compile of MainTest_Level failed. 1 Fatal Issue(s) 3 Warning(s) [in 5 ms]
+[2015.04.13-10.18.25:937][422]LogBlueprint:Warning: [compiler] Warning [2584.19] Compile of MainTest_Level failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.04.13-10.18.25:937][422]LogBlueprint:Warning: [compiler] Warning [2584.19] Compile of MainTest_Level failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.04.13-10.18.26:022][422]LogSavePackage: Save=173.127365ms
+[2015.04.13-10.18.26:022][422]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelAD325BCD499FB03862C21A8ABE077371.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-10.18.26:064][422]LogFileHelpers: Saving map 'MainTest_Level' took 0.345
+[2015.04.13-10.18.51:385][847]LogSavePackage: Save=140.479904ms
+[2015.04.13-10.18.51:385][847]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelF12D195B4B0A1703CEB3ECA4B9D472D7.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-10.18.51:425][847]LogFileHelpers: Saving map 'MainTest_Level' took 0.313
+[2015.04.13-10.18.57:007][160]LogSavePackage: Save=143.180481ms
+[2015.04.13-10.18.57:007][160]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level44434F4445E55BEDF1F755A9E67D9E2E.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-10.18.57:048][160]LogFileHelpers: Saving map 'MainTest_Level' took 0.305
+[2015.04.13-10.19.21:010][555]Cmd: DELETE
+[2015.04.13-10.19.21:010][555]Cmd: ACTOR DELETE
+[2015.04.13-10.19.21:187][555]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.13-10.19.21:236][555]LogEditorActor: Deleted 1 Actors (0.075 secs)
+[2015.04.13-10.19.29:849][ 43]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.04.13-10.19.41:999][720]Cmd: DELETE
+[2015.04.13-10.19.41:999][720]Cmd: ACTOR DELETE
+[2015.04.13-10.19.42:000][720]LogEditorActor: Deleted Actor: Brush
+[2015.04.13-10.19.42:035][720]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2015.04.13-10.20.17:217][697]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.13-10.20.17:227][697]LogPlayLevel: [PIE] Compiling MainTest_Level before PIE...
+[2015.04.13-10.20.17:306][697]LogPlayLevel: PIE:  Blueprint regeneration took 89 ms (1 blueprints)
+[2015.04.13-10.20.17:306][697]PIE: New page: PIE session: MainTest_Level (Apr 13, 2015, 12:20:17 PM)
+[2015.04.13-10.20.17:346][697]LogBlueprint:Warning: FMemberReference::ResolveMember (ManageLevel) bSelfContext == true, but no scope supplied!
+[2015.04.13-10.20.17:346][697]LogBlueprint:Warning: FMemberReference::ResolveMember (ManageLevel) bSelfContext == true, but no scope supplied!
+[2015.04.13-10.20.17:347][697]LogBlueprint:Warning: FMemberReference::ResolveMember (InitLevel) bSelfContext == true, but no scope supplied!
+[2015.04.13-10.20.17:347][697]LogBlueprint:Warning: FMemberReference::ResolveMember (InitLevel) bSelfContext == true, but no scope supplied!
+[2015.04.13-10.20.17:348][697]LogBlueprint:Warning: FMemberReference::ResolveMember (Tutorial) bSelfContext == true, but no scope supplied!
+[2015.04.13-10.20.17:348][697]LogBlueprint:Warning: FMemberReference::ResolveMember (Tutorial) bSelfContext == true, but no scope supplied!
+[2015.04.13-10.20.17:356][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049732s)
+[2015.04.13-10.20.17:357][697]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2015.04.13-10.20.17:358][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MainTest_Level.MainTest_Level to /Game/Level/UEDPIE_0_MainTest_Level.MainTest_Level (0.051092s)
+[2015.04.13-10.20.17:779][697]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.13-10.20.18:857][697]LogWorld: Game class is 'GameMode_BP_C'
+[2015.04.13-10.20.18:860][697]LogAIModule: Creating AISystem for world MainTest_Level
+[2015.04.13-10.20.18:862][697]LogWorld: Bringing World /Game/Level/UEDPIE_0_MainTest_Level.MainTest_Level up for play (max tick rate 60) at 2015.04.13-11.20.18
+[2015.04.13-10.20.18:863][697]LogWorld: Bringing up level for play took: 0.002632
+[2015.04.13-10.20.18:890][697]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MainTest_Level 2.249
+[2015.04.13-10.20.18:890][697]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:116][698]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:156][699]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:171][700]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:189][701]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:208][702]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:232][703]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:245][704]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:262][705]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:278][706]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:295][707]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:312][708]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:335][709]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:352][710]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:368][711]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:385][712]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:402][713]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:418][714]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:435][715]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:452][716]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:468][717]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:485][718]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:504][719]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:519][720]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:536][721]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:554][722]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:570][723]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:587][724]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:604][725]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:621][726]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:638][727]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:654][728]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:670][729]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:687][730]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:704][731]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:720][732]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:738][733]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:754][734]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:770][735]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:787][736]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:804][737]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:820][738]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:837][739]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:854][740]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:870][741]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:887][742]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:904][743]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:921][744]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:937][745]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:954][746]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:971][747]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.19:987][748]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:004][749]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:021][750]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:038][751]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:054][752]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:071][753]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:087][754]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:104][755]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:121][756]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:137][757]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:154][758]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:171][759]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:187][760]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:205][761]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:221][762]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:238][763]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:254][764]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:271][765]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:290][766]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:305][767]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:322][768]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:339][769]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:359][770]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:376][771]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:392][772]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:409][773]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:425][774]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:442][775]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:458][776]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:475][777]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:492][778]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:508][779]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:525][780]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:542][781]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:559][782]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:575][783]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:592][784]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:608][785]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:625][786]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:642][787]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:659][788]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:675][789]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:693][790]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:708][791]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:727][792]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:746][793]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:761][794]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:779][795]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:795][796]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:814][797]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:828][798]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:846][799]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:863][800]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:878][801]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:895][802]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:913][803]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:929][804]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:946][805]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:965][806]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:981][807]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.20:996][808]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:015][809]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:031][810]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:047][811]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:064][812]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:080][813]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:095][814]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:114][815]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:132][816]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:147][817]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:165][818]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:180][819]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:197][820]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:213][821]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:230][822]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:246][823]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:265][824]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:282][825]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:297][826]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:313][827]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:330][828]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:347][829]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:363][830]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:381][831]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:396][832]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:414][833]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:430][834]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:447][835]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:464][836]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:480][837]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:497][838]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:514][839]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:530][840]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:548][841]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:566][842]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:580][843]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:597][844]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:613][845]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:631][846]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:648][847]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:664][848]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:680][849]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:697][850]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:714][851]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:731][852]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:748][853]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:764][854]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:782][855]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:798][856]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:814][857]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:830][858]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:847][859]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:863][860]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:880][861]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:896][862]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:913][863]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:930][864]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:947][865]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:964][866]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:981][867]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.21:997][868]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:015][869]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:032][870]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:048][871]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:064][872]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:081][873]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:098][874]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:115][875]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:131][876]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:148][877]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:164][878]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:181][879]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:197][880]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:214][881]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:231][882]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:248][883]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:265][884]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:282][885]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:298][886]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:315][887]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:331][888]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:348][889]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:365][890]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:381][891]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:399][892]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:415][893]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:431][894]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:432][894]LogBlueprintUserMessages: Begin Focus : TakeableActor_BP
+[2015.04.13-10.20.22:450][895]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:464][896]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:482][897]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:499][898]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:515][899]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:532][900]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:550][901]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:565][902]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:583][903]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:599][904]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:599][904]PIE:Warning: Warning Invalid Simulate Options: Body (TakeableActor_BP_C_1.StaticMeshComponent0 CubeMesh) is set to simulate physics but Collision Enabled is set to No Collision
+[2015.04.13-10.20.22:599][904]PIE:Warning: Warning Invalid Simulate Options: Body (TakeableActor_BP_C_1.StaticMeshComponent0 CubeMesh) is set to simulate physics but Collision Enabled is set to No Collision
+[2015.04.13-10.20.22:599][904]LogBlueprintUserMessages: Take Actor :  
+[2015.04.13-10.20.22:599][904]LogBlueprintUserMessages: End Focus : TakeableActor_BP
+[2015.04.13-10.20.22:615][905]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:632][906]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:648][907]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:665][908]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:682][909]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:699][910]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:715][911]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:732][912]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:748][913]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:765][914]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:782][915]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:798][916]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:815][917]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:831][918]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:848][919]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:865][920]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:881][921]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:899][922]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:915][923]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:931][924]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:947][925]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:964][926]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:981][927]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.22:998][928]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:015][929]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:031][930]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:047][931]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:064][932]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:081][933]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:097][934]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:114][935]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:132][936]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:148][937]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:165][938]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:182][939]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:198][940]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:219][941]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:235][942]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:252][943]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:269][944]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:285][945]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:302][946]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:319][947]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:335][948]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:352][949]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:368][950]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:385][951]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:402][952]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:418][953]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:435][954]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:452][955]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:468][956]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:485][957]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:502][958]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:518][959]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:535][960]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:551][961]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:568][962]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:585][963]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:602][964]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:618][965]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:635][966]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:651][967]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:668][968]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:685][969]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:701][970]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:718][971]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:735][972]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:751][973]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:768][974]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:785][975]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:801][976]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:818][977]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:835][978]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:852][979]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:868][980]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:885][981]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:901][982]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:918][983]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:935][984]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:952][985]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:969][986]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.23:985][987]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:002][988]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:019][989]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:035][990]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:052][991]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:069][992]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:069][992]LogBlueprintUserMessages: Release object
+[2015.04.13-10.20.24:086][993]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:102][994]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:119][995]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:135][996]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:152][997]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:168][998]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:185][999]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:202][  0]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:218][  1]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:235][  2]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:252][  3]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:268][  4]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:285][  5]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:302][  6]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:318][  7]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:335][  8]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:352][  9]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:368][ 10]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:385][ 11]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:402][ 12]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:418][ 13]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:435][ 14]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:452][ 15]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:468][ 16]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:485][ 17]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:501][ 18]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:519][ 19]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:535][ 20]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:552][ 21]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:568][ 22]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:585][ 23]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:602][ 24]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:618][ 25]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:635][ 26]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:652][ 27]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:668][ 28]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:685][ 29]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:702][ 30]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:719][ 31]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:735][ 32]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:752][ 33]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:768][ 34]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:785][ 35]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:803][ 36]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:819][ 37]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:836][ 38]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:852][ 39]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:869][ 40]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:885][ 41]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:902][ 42]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:919][ 43]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:935][ 44]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:952][ 45]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:969][ 46]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.24:985][ 47]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:002][ 48]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:019][ 49]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:035][ 50]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:052][ 51]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:069][ 52]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:085][ 53]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:102][ 54]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:119][ 55]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:135][ 56]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:152][ 57]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:168][ 58]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:185][ 59]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:202][ 60]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:219][ 61]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:236][ 62]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:252][ 63]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:268][ 64]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:285][ 65]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:302][ 66]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:302][ 66]LogBlueprintUserMessages: Begin Focus : TakeableActor_BP
+[2015.04.13-10.20.25:318][ 67]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:335][ 68]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:352][ 69]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:368][ 70]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:385][ 71]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:402][ 72]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:418][ 73]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:435][ 74]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:452][ 75]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:468][ 76]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:485][ 77]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:502][ 78]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:519][ 79]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:535][ 80]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:552][ 81]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:552][ 81]PIE:Warning: Warning Invalid Simulate Options: Body (TakeableActor_BP_C_1.StaticMeshComponent0 CubeMesh) is set to simulate physics but Collision Enabled is set to No Collision
+[2015.04.13-10.20.25:552][ 81]PIE:Warning: Warning Invalid Simulate Options: Body (TakeableActor_BP_C_1.StaticMeshComponent0 CubeMesh) is set to simulate physics but Collision Enabled is set to No Collision
+[2015.04.13-10.20.25:552][ 81]LogBlueprintUserMessages: Take Actor :  
+[2015.04.13-10.20.25:552][ 81]LogBlueprintUserMessages: End Focus : TakeableActor_BP
+[2015.04.13-10.20.25:568][ 82]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:585][ 83]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:602][ 84]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:619][ 85]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:635][ 86]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:652][ 87]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:668][ 88]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:685][ 89]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:702][ 90]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:719][ 91]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:735][ 92]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:752][ 93]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:768][ 94]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:785][ 95]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:802][ 96]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:819][ 97]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:835][ 98]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:852][ 99]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:868][100]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:885][101]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:902][102]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:919][103]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:935][104]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:952][105]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:969][106]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.25:985][107]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:002][108]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:019][109]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:035][110]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:052][111]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:069][112]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:085][113]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:102][114]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:119][115]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:135][116]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:152][117]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:168][118]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:185][119]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:202][120]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:220][121]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:237][122]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:254][123]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:270][124]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:287][125]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:304][126]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:320][127]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:337][128]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:354][129]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:370][130]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:387][131]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:404][132]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:420][133]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:437][134]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:453][135]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:471][136]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:487][137]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:504][138]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:525][139]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:541][140]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:558][141]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:575][142]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:576][142]LogBlueprintUserMessages: Release object
+[2015.04.13-10.20.26:591][143]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:607][144]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:623][145]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:641][146]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:657][147]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:674][148]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:690][149]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:707][150]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:724][151]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:740][152]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:757][153]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:774][154]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:790][155]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:807][156]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:824][157]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:841][158]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:857][159]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:874][160]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:892][161]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:908][162]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:925][163]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:941][164]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:958][165]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:975][166]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.26:992][167]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:008][168]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:025][169]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:041][170]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:058][171]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:074][172]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:091][173]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:107][174]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:124][175]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:141][176]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:158][177]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:175][178]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:192][179]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:210][180]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:225][181]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:242][182]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:259][183]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:275][184]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:291][185]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:308][186]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:325][187]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:341][188]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:358][189]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:375][190]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:391][191]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:408][192]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:425][193]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:441][194]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:458][195]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:475][196]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:492][197]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:508][198]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:525][199]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:542][200]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:558][201]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:575][202]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:591][203]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:608][204]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:625][205]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:641][206]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:658][207]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:675][208]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:692][209]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:708][210]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:725][211]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:741][212]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:758][213]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:774][214]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:791][215]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:808][216]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:825][217]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:841][218]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:858][219]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:875][220]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:894][221]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:909][222]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:926][223]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:942][224]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:960][225]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:975][226]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.27:992][227]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:009][228]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:025][229]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:025][229]LogBlueprintUserMessages: Begin Focus : TakeableActor_BP
+[2015.04.13-10.20.28:042][230]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:059][231]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:076][232]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:097][233]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:098][233]LogBlueprintUserMessages: End Focus : TakeableActor_BP
+[2015.04.13-10.20.28:109][234]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:126][235]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:145][236]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:160][237]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:176][238]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:192][239]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:210][240]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:226][241]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:243][242]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:261][243]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:276][244]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:295][245]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:312][246]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:326][247]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:345][248]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:360][249]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:376][250]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:393][251]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:410][252]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:426][253]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:445][254]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:460][255]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:476][256]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:493][257]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:510][258]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:527][259]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:543][260]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:561][261]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:577][262]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:594][263]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:610][264]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:626][265]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:647][266]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:660][267]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:676][268]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:676][268]LogBlueprintUserMessages: Begin Focus : TakeableActor_BP
+[2015.04.13-10.20.28:695][269]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:713][270]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:713][270]PIE:Warning: Warning Invalid Simulate Options: Body (TakeableActor_BP_C_1.StaticMeshComponent0 CubeMesh) is set to simulate physics but Collision Enabled is set to No Collision
+[2015.04.13-10.20.28:714][270]PIE:Warning: Warning Invalid Simulate Options: Body (TakeableActor_BP_C_1.StaticMeshComponent0 CubeMesh) is set to simulate physics but Collision Enabled is set to No Collision
+[2015.04.13-10.20.28:714][270]LogBlueprintUserMessages: Take Actor :  
+[2015.04.13-10.20.28:714][270]LogBlueprintUserMessages: End Focus : TakeableActor_BP
+[2015.04.13-10.20.28:729][271]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:743][272]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:762][273]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:777][274]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:793][275]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:812][276]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:828][277]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:845][278]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:860][279]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:877][280]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:894][281]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:912][282]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:928][283]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:946][284]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:961][285]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:980][286]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.28:995][287]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:014][288]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:028][289]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:046][290]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:064][291]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:079][292]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:095][293]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:111][294]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:128][295]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:145][296]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:160][297]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:179][298]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:195][299]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:214][300]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:231][301]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:247][302]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:264][303]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:280][304]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:296][305]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:313][306]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:330][307]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:347][308]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:363][309]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:381][310]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:398][311]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:414][312]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:431][313]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:447][314]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:463][315]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:480][316]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:497][317]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:513][318]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:530][319]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:547][320]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:563][321]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:580][322]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:597][323]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:613][324]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:630][325]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:647][326]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:664][327]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:681][328]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:696][329]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:713][330]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:730][331]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:747][332]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:764][333]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:780][334]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:797][335]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:798][335]LogBlueprintUserMessages: Release object
+[2015.04.13-10.20.29:814][336]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:830][337]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:847][338]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:863][339]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:880][340]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:897][341]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:913][342]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:930][343]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:946][344]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:964][345]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:981][346]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.29:997][347]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:014][348]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:031][349]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:047][350]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:064][351]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:081][352]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:097][353]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:114][354]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:131][355]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:147][356]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:164][357]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:181][358]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:198][359]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:214][360]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:231][361]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:247][362]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:263][363]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:280][364]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:297][365]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:313][366]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:330][367]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:347][368]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:364][369]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:380][370]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:397][371]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:413][372]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:430][373]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:447][374]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:464][375]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:480][376]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:497][377]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:513][378]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:530][379]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:547][380]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:563][381]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:580][382]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:597][383]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:614][384]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:630][385]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:648][386]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:665][387]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:680][388]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:697][389]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:714][390]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:730][391]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:748][392]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:765][393]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:781][394]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:797][395]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:814][396]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:831][397]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:847][398]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:865][399]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:888][400]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:904][401]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:922][402]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:938][403]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:955][404]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.30:971][405]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.31:129][406]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000094143B0680
+[2015.04.13-10.20.33:131][482]LogSavePackage: Save=144.249954ms
+[2015.04.13-10.20.33:131][482]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level7429187F4695E997B9881DB5D577D4EA.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-10.20.33:177][482]LogFileHelpers: Saving map 'MainTest_Level' took 0.328
+[2015.04.13-10.20.40:770][816]LogSavePackage: Save=149.296799ms
+[2015.04.13-10.20.40:770][816]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelB260713247C1DE040F86379E10229609.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-10.20.40:812][816]LogFileHelpers: Saving map 'MainTest_Level' took 0.328
+[2015.04.13-10.20.42:427][911]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.13-10.20.42:435][911]LogPlayLevel: [PIE] Compiling MainTest_Level before PIE...
+[2015.04.13-10.20.42:520][911]LogPlayLevel: PIE:  Blueprint regeneration took 93 ms (1 blueprints)
+[2015.04.13-10.20.42:521][911]PIE: New page: PIE session: MainTest_Level (Apr 13, 2015, 12:20:42 PM)
+[2015.04.13-10.20.42:531][911]LogBlueprint:Warning: FMemberReference::ResolveMember (ManageLevel) bSelfContext == true, but no scope supplied!
+[2015.04.13-10.20.42:531][911]LogBlueprint:Warning: FMemberReference::ResolveMember (ManageLevel) bSelfContext == true, but no scope supplied!
+[2015.04.13-10.20.42:531][911]LogBlueprint:Warning: FMemberReference::ResolveMember (InitLevel) bSelfContext == true, but no scope supplied!
+[2015.04.13-10.20.42:531][911]LogBlueprint:Warning: FMemberReference::ResolveMember (InitLevel) bSelfContext == true, but no scope supplied!
+[2015.04.13-10.20.42:532][911]LogBlueprint:Warning: FMemberReference::ResolveMember (Tutorial) bSelfContext == true, but no scope supplied!
+[2015.04.13-10.20.42:532][911]LogBlueprint:Warning: FMemberReference::ResolveMember (Tutorial) bSelfContext == true, but no scope supplied!
+[2015.04.13-10.20.42:536][911]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014872s)
+[2015.04.13-10.20.42:536][911]LogPlayLevel: PIE: World Init took: (0.000477s)
+[2015.04.13-10.20.42:536][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MainTest_Level.MainTest_Level to /Game/Level/UEDPIE_0_MainTest_Level.MainTest_Level (0.015489s)
+[2015.04.13-10.20.42:570][911]LogWorld: Game class is 'GameMode_BP_C'
+[2015.04.13-10.20.42:572][911]LogAIModule: Creating AISystem for world MainTest_Level
+[2015.04.13-10.20.42:574][911]LogWorld: Bringing World /Game/Level/UEDPIE_0_MainTest_Level.MainTest_Level up for play (max tick rate 60) at 2015.04.13-11.20.42
+[2015.04.13-10.20.42:575][911]LogWorld: Bringing up level for play took: 0.002465
+[2015.04.13-10.20.42:587][911]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_MainTest_Level -0.054
+[2015.04.13-10.20.42:587][911]LogBlueprintUserMessages: Error : Components in tutorial not initialized
+[2015.04.13-10.20.42:624][911]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:2176).
+[2015.04.13-10.20.44:204][992]LogBlueprintUserMessages: Begin Focus : TakeableActor_BP
+[2015.04.13-10.20.44:371][  2]PIE:Warning: Warning Invalid Simulate Options: Body (TakeableActor_BP_C_1.StaticMeshComponent0 CubeMesh) is set to simulate physics but Collision Enabled is set to No Collision
+[2015.04.13-10.20.44:371][  2]PIE:Warning: Warning Invalid Simulate Options: Body (TakeableActor_BP_C_1.StaticMeshComponent0 CubeMesh) is set to simulate physics but Collision Enabled is set to No Collision
+[2015.04.13-10.20.44:371][  2]LogBlueprintUserMessages: Take Actor :  
+[2015.04.13-10.20.44:372][  2]LogBlueprintUserMessages: End Focus : TakeableActor_BP
+[2015.04.13-10.20.45:683][ 76]LogBlueprintUserMessages: Release object
+[2015.04.13-10.20.46:733][129]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009408EDB880
+[2015.04.13-10.20.55:296][613]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/Player'
+[2015.04.13-10.20.58:262][772]LogEditorViewport: Clicking on Actor (context menu): TakeableActor_BP_C (TakeableActor_BP)
+[2015.04.13-10.20.59:030][799]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.04.13-10.21.48:475][608]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.13-10.21.48:864][608]LogSavePackage: Save=150.575241ms
+[2015.04.13-10.21.48:864][608]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level93455B52430DF2F1D67A9F8AEB38695B.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-10.21.48:908][608]LogFileHelpers: Saving map 'MainTest_Level' took 0.332
+[2015.04.13-10.21.53:025][852]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2015.04.13-10.22.55:697][581]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.13-10.22.56:130][581]LogSavePackage: Save=145.803452ms
+[2015.04.13-10.22.56:130][581]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level7EAF1DEF496F2E7A0A76CC81233C13D0.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-10.22.56:172][581]LogFileHelpers: Saving map 'MainTest_Level' took 0.347
+[2015.04.13-10.23.20:467][977]LogSavePackage: Save=147.624634ms
+[2015.04.13-10.23.20:467][977]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelE062A12744FDBA86A84F88B2DFD3638C.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-10.23.20:507][977]LogFileHelpers: Saving map 'MainTest_Level' took 0.322
+[2015.04.13-10.23.26:350][299]LogSavePackage: Save=150.980453ms
+[2015.04.13-10.23.26:350][299]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelC7B1F2074524ED8B269A06858CC43BF8.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-10.23.26:390][299]LogFileHelpers: Saving map 'MainTest_Level' took 0.326
+[2015.04.13-10.24.44:022][309]LogSavePackage: Save=161.420227ms
+[2015.04.13-10.24.44:022][309]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level39EBE7734209583A54E09DB2A2D9D494.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-10.24.44:077][309]LogFileHelpers: Saving map 'MainTest_Level' took 0.356
+[2015.04.13-10.24.48:079][526]LogSavePackage: Save=142.569580ms
+[2015.04.13-10.24.48:079][526]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level19DE73E049B6F5C3CE34898251E0DDFA.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-10.24.48:120][526]LogFileHelpers: Saving map 'MainTest_Level' took 0.312
+[2015.04.13-10.25.14:772][ 91]LogSavePackage: Save=150.069031ms
+[2015.04.13-10.25.14:772][ 91]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level6F0FFE6B456C6678BB948992521B98F8.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-10.25.14:812][ 91]LogFileHelpers: Saving map 'MainTest_Level' took 0.344
+[2015.04.13-10.25.28:485][873]LogEditorTransaction: Undo Move Node
+[2015.04.13-10.25.33:720][164]LogEditorTransaction: Undo Move Node
+[2015.04.13-10.25.40:101][485]LogEditorTransaction: Undo Add Node
+[2015.04.13-10.25.42:358][574]LogSavePackage: Save=147.319199ms
+[2015.04.13-10.25.42:358][574]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level4855CFEB427DF2C6992E49A1D62E0AFE.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-10.25.42:403][574]LogFileHelpers: Saving map 'MainTest_Level' took 0.326
+[2015.04.13-10.26.02:394][729]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.04.13-10.26.02:672][729]LogSavePackage: Save=145.475021ms
+[2015.04.13-10.26.02:672][729]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level410457714115EA8FB6965EAFDDD5D24F.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-10.26.02:711][729]LogFileHelpers: Saving map 'MainTest_Level' took 0.318
+[2015.04.13-10.27.23:581][679]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.04.13-10.29.00:161][601]LogSavePackage: Save=164.724716ms
+[2015.04.13-10.29.00:162][601]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_Level937F30A94ECF455000EDC3BE6C6C3C65.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-10.29.00:215][601]LogFileHelpers: Saving map 'MainTest_Level' took 0.430
+[2015.04.13-10.29.04:746][846]LogSavePackage: Save=166.747070ms
+[2015.04.13-10.29.04:747][846]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelB518E08E4A751C5C24524D8F351F8782.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-10.29.04:787][846]LogFileHelpers: Saving map 'MainTest_Level' took 0.365
+[2015.04.13-10.29.11:862][ 60]LogEditorViewport: Clicking on Actor (LMB): TakeableActor_BP_C (TakeableActor_BP)
+[2015.04.13-10.29.14:364][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.04.13-10.29.14:756][220]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OverlapCube)
+[2015.04.13-10.29.22:359][643]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/Player'
+[2015.04.13-10.29.29:133][ 28]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/Player/NewFolder'
+[2015.04.13-10.29.30:121][ 87]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Shader'
+[2015.04.13-10.29.30:576][114]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scripts/Player/NewFolder'
+[2015.04.13-10.29.33:163][252]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.13-10.29.33:164][252]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
+[2015.04.13-10.29.34:274][319]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
+[2015.04.13-10.29.36:762][468]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.04.13-10.29.39:252][600]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.04.13-10.29.42:892][818]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/Tutorial'
+[2015.04.13-10.29.43:398][848]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.13-10.29.53:697][391]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/Tutorial'
+[2015.04.13-10.30.31:391][399]LogSavePackage: Save=294.744720ms
+[2015.04.13-10.30.31:391][399]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/Transparent_MaterialB36B28F54EF5293F5A3F0385F100EB30.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Materials/Tutorial/Transparent_Material.uasset'
+[2015.04.13-10.30.32:131][429]LogSavePackage: Save=3.901011ms
+[2015.04.13-10.30.32:131][429]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/NewMaterial0EDBE7D741D7C839A27265B41BA98A69.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Materials/Tutorial/NewMaterial.uasset'
+[2015.04.13-10.30.32:815][457]LogMaterial: Missing cached shader map for material Transparent_Material, compiling. 
+[2015.04.13-10.30.32:995][457]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.13-10.30.33:106][457]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.13-10.30.33:106][457]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.04.13-10.30.33:106][457]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.13-10.30.33:106][457]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.04.13-10.30.33:120][457]LogMaterial: Missing cached shader map for material Transparent_Material, compiling. 
+[2015.04.13-10.30.33:124][457]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.13-10.30.36:680][637]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.04.13-10.30.36:680][637]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.13-10.30.36:680][637]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.13-10.32.36:563][ 54]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000941E613420
+[2015.04.13-10.32.37:019][ 54]LogSavePackage: Save=206.029770ms
+[2015.04.13-10.32.37:019][ 54]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelC609C5EC457AC25620E8DCB5B17E82CE.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-10.32.37:120][ 54]LogFileHelpers: Saving map 'MainTest_Level' took 0.470
+[2015.04.13-10.33.00:933][420]BlueprintLog: New page: Compile MainTest_Level
+[2015.04.13-10.33.01:026][420]BlueprintEditorCompileResults: Info [3459.28] Compile of MainTest_Level successful! [in 92 ms]
+[2015.04.13-10.33.33:661][300]LogSavePackage: Save=192.655411ms
+[2015.04.13-10.33.33:661][300]LogSavePackage: Moving '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Saved/MainTest_LevelAD693B43428DD461533CB482E24182CC.tmp' to '../../../../../../Users/Axel/Documents/GitHub/08-46/UE4-Project/Project_8_46/Content/Level/MainTest_Level.umap'
+[2015.04.13-10.33.33:702][300]LogFileHelpers: Saving map 'MainTest_Level' took 0.413
+[2015.04.13-10.33.35:036][343]Cmd: QUIT_EDITOR
+[2015.04.13-10.33.35:249][343]LogExit: Preparing to exit.
+[2015.04.13-10.33.35:982][343]LogExit: Editor shut down
+[2015.04.13-10.33.35:983][343]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000947AF52A20
+[2015.04.13-10.33.35:983][343]LogExit: Transaction tracking system shut down
+[2015.04.13-10.33.35:983][343]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000947AE57A60
+[2015.04.13-10.33.35:984][343]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009409634CC0
+[2015.04.13-10.33.35:984][343]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000947AF50400
+[2015.04.13-10.33.35:984][343]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000947D365760
+[2015.04.13-10.33.35:984][343]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000947B4B6200
+[2015.04.13-10.33.36:077][343]LogExit: Object subsystem successfully closed.
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module MaterialEditor (178)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module StatsViewer (177)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module CrashTracker (176)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module SuperSearch (175)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module SceneOutliner (174)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module EditorWidgets (173)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module CollectionManager (172)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.13-10.33.36:128][343]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.13-10.33.36:365][343]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.13-10.33.36:365][343]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.13-10.33.36:365][343]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.13-10.33.36:365][343]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.13-10.33.36:365][343]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.13-10.33.36:366][343]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.13-10.33.36:366][343]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.13-10.33.36:366][343]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.13-10.33.36:366][343]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.13-10.33.36:366][343]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.13-10.33.36:366][343]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.13-10.33.36:366][343]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.13-10.33.36:366][343]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.13-10.33.36:366][343]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.13-10.33.36:366][343]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.13-10.33.36:366][343]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.13-10.33.36:366][343]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.13-10.33.36:366][343]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.13-10.33.36:366][343]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.13-10.33.36:482][343]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.13-10.33.36:482][343]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.13-10.33.36:482][343]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.13-10.33.36:483][343]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.13-10.33.36:483][343]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.13-10.33.36:483][343]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.13-10.33.36:483][343]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.13-10.33.36:483][343]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.13-10.33.36:483][343]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.13-10.33.36:483][343]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.13-10.33.36:483][343]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.13-10.33.36:483][343]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.13-10.33.36:483][343]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.13-10.33.36:483][343]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.13-10.33.36:483][343]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.13-10.33.36:483][343]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.13-10.33.36:483][343]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.13-10.33.36:483][343]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.13-10.33.36:483][343]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.13-10.33.36:483][343]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.13-10.33.36:483][343]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.13-10.33.36:500][343]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.13-10.33.36:500][343]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.13-10.33.36:500][343]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.13-10.33.36:500][343]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.13-10.33.36:500][343]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.13-10.33.36:500][343]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.13-10.33.36:500][343]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.13-10.33.36:500][343]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.13-10.33.36:500][343]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.13-10.33.36:500][343]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.13-10.33.36:500][343]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.13-10.33.36:500][343]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.13-10.33.36:500][343]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.13-10.33.36:501][343]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.13-10.33.36:501][343]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.13-10.33.36:501][343]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.13-10.33.36:501][343]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.13-10.33.36:501][343]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.13-10.33.36:501][343]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.13-10.33.36:501][343]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.13-10.33.36:501][343]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.13-10.33.36:501][343]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.13-10.33.36:501][343]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.13-10.33.36:501][343]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.13-10.33.36:502][343]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.13-10.33.36:502][343]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.13-10.33.36:502][343]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.13-10.33.36:602][343]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.13-10.33.36:602][343]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.13-10.33.36:604][343]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.13-10.33.36:604][343]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.13-10.33.36:604][343]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.13-10.33.36:604][343]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.13-10.33.36:604][343]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.13-10.33.36:604][343]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.13-10.33.36:604][343]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.13-10.33.36:604][343]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.13-10.33.36:604][343]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.13-10.33.36:604][343]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.13-10.33.36:604][343]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.13-10.33.36:604][343]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.13-10.33.36:604][343]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.13-10.33.36:604][343]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.13-10.33.36:605][343]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.13-10.33.36:608][343]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.13-10.33.36:608][343]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.13-10.33.36:608][343]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.13-10.33.36:608][343]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.13-10.33.36:608][343]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.13-10.33.36:608][343]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.13-10.33.36:608][343]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.13-10.33.36:608][343]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.13-10.33.36:608][343]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.13-10.33.36:608][343]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.13-10.33.36:674][343]LogDerivedDataCache: Shutdown
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.13-10.33.36:674][343]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.13-10.33.36:682][343]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.13-10.33.36:682][343]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.13-10.33.36:682][343]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.13-10.33.36:682][343]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.13-10.33.36:682][343]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.13-10.33.36:682][343]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.13-10.33.36:682][343]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.13-10.33.36:682][343]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.13-10.33.36:682][343]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.13-10.33.36:683][343]LogExit: Exiting.
+[2015.04.13-10.33.36:709][343]Log file closed, 04/13/15 11:33:36
